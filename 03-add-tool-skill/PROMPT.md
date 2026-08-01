@@ -1,0 +1,1 @@
+Build a small command-line tool that tests whether our LLM API key works for a customer support use case. Given a short description of the support scenario, send a representative prompt to the LLM and return the model's output.
