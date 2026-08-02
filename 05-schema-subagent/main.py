@@ -4,6 +4,7 @@
     python main.py --scenario order_status_check
 """
 import argparse
+import sys
 
 from agent.loop import run_agent
 from prompts.registry import get_scenario, list_scenarios
@@ -30,7 +31,11 @@ def main() -> None:
 
     user_prompt = get_scenario(args.scenario)
     print(f"--- scenario: {args.scenario} ---\n{user_prompt}\n")
-    answer = run_agent(SYSTEM_PROMPT, user_prompt)
+    try:
+        answer = run_agent(SYSTEM_PROMPT, user_prompt)
+    except Exception as exc:
+        print(f"agent run failed: {exc}", file=sys.stderr)
+        sys.exit(1)
     print(f"--- agent response ---\n{answer}")
 
 
