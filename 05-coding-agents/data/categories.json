@@ -1,0 +1,34 @@
+[
+  {
+    "category_id": "CAT-01",
+    "name": "income"
+  },
+  {
+    "category_id": "CAT-02",
+    "name": "transfer"
+  },
+  {
+    "category_id": "CAT-03",
+    "name": "subscriptions"
+  },
+  {
+    "category_id": "CAT-04",
+    "name": "groceries"
+  },
+  {
+    "category_id": "CAT-05",
+    "name": "dining"
+  },
+  {
+    "category_id": "CAT-06",
+    "name": "rent"
+  },
+  {
+    "category_id": "CAT-07",
+    "name": "utilities"
+  },
+  {
+    "category_id": "CAT-08",
+    "name": "transport"
+  }
+]

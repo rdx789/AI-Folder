@@ -1,0 +1,3944 @@
+[
+  {
+    "transaction_id": "TXN-000001",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-05",
+    "date": "2025-02-24",
+    "amount": -17.82,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000002",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-04-12",
+    "amount": -36.56,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000003",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-09-29",
+    "amount": -48.47,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000004",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-07-05",
+    "amount": -141.69,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000005",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-05",
+    "date": "2025-10-18",
+    "amount": -24.62,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000006",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-09-30",
+    "amount": -33.92,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000007",
+    "account_id": "ACC-00001",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-03-26",
+    "amount": 2113.24,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000008",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-08-05",
+    "amount": -29.4,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000009",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-12-10",
+    "amount": -14.22,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000010",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-05-07",
+    "amount": -68.7,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000011",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0011",
+    "category_id": "CAT-06",
+    "date": "2025-10-29",
+    "amount": -1279.81,
+    "description": "Parkview Apartments purchase"
+  },
+  {
+    "transaction_id": "TXN-000012",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-02-04",
+    "amount": -168.66,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000013",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-12-09",
+    "amount": -158.83,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000014",
+    "account_id": "ACC-00001",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-10-20",
+    "amount": 3420.09,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000015",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-08-31",
+    "amount": -64.15,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000016",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-07-01",
+    "amount": -68.59,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000017",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-12-01",
+    "amount": -170.3,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000018",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-02-25",
+    "amount": -44.42,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000019",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-04-04",
+    "amount": -40.08,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000020",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-10-09",
+    "amount": -46.24,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000021",
+    "account_id": "ACC-00001",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-05-02",
+    "amount": 997.0,
+    "description": "Transfer between accounts"
+  },
+  {
+    "transaction_id": "TXN-000022",
+    "account_id": "ACC-00001",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-07-25",
+    "amount": -119.36,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000023",
+    "account_id": "ACC-00001",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-05-16",
+    "amount": -1581.0,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000024",
+    "account_id": "ACC-00002",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-05",
+    "date": "2025-12-23",
+    "amount": -28.96,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000025",
+    "account_id": "ACC-00002",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-04-08",
+    "amount": -34.09,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000026",
+    "account_id": "ACC-00002",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-06-10",
+    "amount": -1580.17,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000027",
+    "account_id": "ACC-00002",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-09-29",
+    "amount": 1661.22,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000028",
+    "account_id": "ACC-00003",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-02-11",
+    "amount": -183.62,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000029",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-05-01",
+    "amount": -140.61,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000030",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-11-14",
+    "amount": -127.43,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000031",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-05-14",
+    "amount": -1791.56,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000032",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-03-09",
+    "amount": -41.65,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000033",
+    "account_id": "ACC-00003",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-02-07",
+    "amount": 1039.12,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000034",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-10-16",
+    "amount": -137.1,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000035",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-05",
+    "date": "2025-03-09",
+    "amount": -15.49,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000036",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-03-22",
+    "amount": -26.38,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000037",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-12-01",
+    "amount": -78.41,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000038",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-12-06",
+    "amount": -53.6,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000039",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-10-11",
+    "amount": -38.59,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000040",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-04-15",
+    "amount": -47.04,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000041",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-01-27",
+    "amount": -18.58,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000042",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-06-20",
+    "amount": -154.15,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000043",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-12-28",
+    "amount": -63.06,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000044",
+    "account_id": "ACC-00003",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-12-20",
+    "amount": 4796.5,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000045",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0011",
+    "category_id": "CAT-06",
+    "date": "2025-07-09",
+    "amount": -1641.28,
+    "description": "Parkview Apartments purchase"
+  },
+  {
+    "transaction_id": "TXN-000046",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-07-06",
+    "amount": -36.17,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000047",
+    "account_id": "ACC-00003",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-05-08",
+    "amount": -55.18,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000048",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-01-14",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000049",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-02-20",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000050",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-03-24",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000051",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-04-05",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000052",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-05-08",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000053",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-06-06",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000054",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-07-26",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000055",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-08-26",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000056",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-09-06",
+    "amount": -15.77,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000057",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-10-14",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000058",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-11-01",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000059",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-12-06",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000060",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-06-06",
+    "amount": -56.18,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000061",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-07-24",
+    "amount": -46.95,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000062",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-11-25",
+    "amount": -49.47,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000063",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-05-14",
+    "amount": -173.88,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000064",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-06-26",
+    "amount": -158.36,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000065",
+    "account_id": "ACC-00004",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-03-01",
+    "amount": 1174.35,
+    "description": "Transfer between accounts"
+  },
+  {
+    "transaction_id": "TXN-000066",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-12-29",
+    "amount": -12.61,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000067",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-12-10",
+    "amount": -2109.03,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000068",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-06-19",
+    "amount": -71.92,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000069",
+    "account_id": "ACC-00004",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-06-03",
+    "amount": -62.27,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000070",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-01-23",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000071",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-02-10",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000072",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-03-18",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000073",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-04-05",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000074",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-05-07",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000075",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-06-14",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000076",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-07-22",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000077",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-08-13",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000078",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-09-22",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000079",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-10-24",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000080",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-11-06",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000081",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0022",
+    "category_id": "CAT-03",
+    "date": "2025-12-20",
+    "amount": -10.99,
+    "description": "Spotify subscription"
+  },
+  {
+    "transaction_id": "TXN-000082",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-01-26",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000083",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-02-24",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000084",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-03-06",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000085",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-04-22",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000086",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-05-03",
+    "amount": -25.28,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000087",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-06-10",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000088",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-07-17",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000089",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-08-22",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000090",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-09-21",
+    "amount": -25.04,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000091",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-10-20",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000092",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-11-11",
+    "amount": -24.87,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000093",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-12-03",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000094",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-12-02",
+    "amount": -21.74,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000095",
+    "account_id": "ACC-00005",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-12-23",
+    "amount": -90.82,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000096",
+    "account_id": "ACC-00005",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-03-04",
+    "amount": 2917.14,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000097",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-01-26",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000098",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-02-15",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000099",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-03-22",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000100",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-04-17",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000101",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-05-18",
+    "amount": -2.77,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000102",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-06-20",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000103",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-07-11",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000104",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-08-25",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000105",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-09-15",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000106",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-10-20",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000107",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-11-27",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000108",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-12-24",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000109",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-05-27",
+    "amount": -50.18,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000110",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-03-12",
+    "amount": -1297.87,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000111",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-02-02",
+    "amount": -43.88,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000112",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-04-16",
+    "amount": -13.9,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000113",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-12-23",
+    "amount": -170.12,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000114",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-06-30",
+    "amount": -43.45,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000115",
+    "account_id": "ACC-00006",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-08-03",
+    "amount": 3260.53,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000116",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-11-05",
+    "amount": -71.35,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000117",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-01-15",
+    "amount": -25.1,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000118",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-03-07",
+    "amount": -12.91,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000119",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-12-06",
+    "amount": -159.99,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000120",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-04-04",
+    "amount": -62.18,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000121",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-06-22",
+    "amount": -52.75,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000122",
+    "account_id": "ACC-00006",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-08-04",
+    "amount": 2059.54,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000123",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-01-10",
+    "amount": -20.01,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000124",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-11-29",
+    "amount": -23.24,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000125",
+    "account_id": "ACC-00006",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-04-13",
+    "amount": 4524.76,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000126",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-05-03",
+    "amount": -225.98,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000127",
+    "account_id": "ACC-00006",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-08-27",
+    "amount": 3937.75,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000128",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-08",
+    "date": "2025-03-27",
+    "amount": -23.89,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000129",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-06-09",
+    "amount": -31.38,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000130",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-07-12",
+    "amount": -1942.17,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000131",
+    "account_id": "ACC-00006",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-11-18",
+    "amount": -87.78,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000132",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-01-22",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000133",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-02-20",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000134",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-03-26",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000135",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-04-04",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000136",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-05-26",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000137",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-06-19",
+    "amount": -2.71,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000138",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-07-26",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000139",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-08-02",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000140",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-09-12",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000141",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-10-18",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000142",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-11-14",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000143",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-12-22",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000144",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-10-03",
+    "amount": -42.99,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000145",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-05-18",
+    "amount": -19.39,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000146",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-08-19",
+    "amount": -88.82,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000147",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-06-22",
+    "amount": -211.81,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000148",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-05-13",
+    "amount": -67.81,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000149",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-01-06",
+    "amount": -64.69,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000150",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-09-08",
+    "amount": -31.3,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000151",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-09-09",
+    "amount": -230.46,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000152",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-12-21",
+    "amount": -120.96,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000153",
+    "account_id": "ACC-00007",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-06-26",
+    "amount": -1484.49,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000154",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-08-21",
+    "amount": -55.71,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000155",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-06-11",
+    "amount": -73.72,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000156",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-05-22",
+    "amount": -6.66,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000157",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-06-01",
+    "amount": -64.31,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000158",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-08",
+    "date": "2025-03-06",
+    "amount": -42.96,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000159",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-03-06",
+    "amount": -228.46,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000160",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-05-26",
+    "amount": -125.49,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000161",
+    "account_id": "ACC-00008",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-05-10",
+    "amount": -981.57,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000162",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-08",
+    "date": "2025-07-25",
+    "amount": -77.1,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000163",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-06-05",
+    "amount": -79.93,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000164",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-11-07",
+    "amount": -24.07,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000165",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-08-15",
+    "amount": -8.62,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000166",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-11-14",
+    "amount": -11.25,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000167",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-04-19",
+    "amount": -154.87,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000168",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-02-08",
+    "amount": -107.92,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000169",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-05-30",
+    "amount": -101.54,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000170",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-08-21",
+    "amount": -11.47,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000171",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-11-17",
+    "amount": -53.86,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000172",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-11-28",
+    "amount": -1125.38,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000173",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-03-26",
+    "amount": -60.17,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000174",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-05-28",
+    "amount": -1304.72,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000175",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-05-20",
+    "amount": -158.07,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000176",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-08-10",
+    "amount": -197.42,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000177",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-12-12",
+    "amount": -86.06,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000178",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-12-11",
+    "amount": -173.56,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000179",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-08-29",
+    "amount": -12.13,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000180",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-10-27",
+    "amount": -24.95,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000181",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-07-29",
+    "amount": -16.82,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000182",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-12-22",
+    "amount": -19.56,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000183",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-08-21",
+    "amount": -1779.74,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000184",
+    "account_id": "ACC-00008",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-07-26",
+    "amount": -1658.61,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000185",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-10-05",
+    "amount": -149.99,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000186",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-09-13",
+    "amount": -57.38,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000187",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-05-28",
+    "amount": -1569.87,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000188",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-11-19",
+    "amount": -66.43,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000189",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-01-08",
+    "amount": -56.07,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000190",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-08",
+    "date": "2025-02-28",
+    "amount": -34.94,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000191",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-05-30",
+    "amount": -113.52,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000192",
+    "account_id": "ACC-00008",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-08-30",
+    "amount": -61.03,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000193",
+    "account_id": "ACC-00009",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-11-03",
+    "amount": -41.76,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000194",
+    "account_id": "ACC-00009",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-08-01",
+    "amount": -53.44,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000195",
+    "account_id": "ACC-00009",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-06-02",
+    "amount": -20.18,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000196",
+    "account_id": "ACC-00009",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-03-18",
+    "amount": -48.6,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000197",
+    "account_id": "ACC-00009",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-10-06",
+    "amount": -1069.52,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000198",
+    "account_id": "ACC-00009",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-05-03",
+    "amount": -505.45,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000199",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-01-23",
+    "amount": -30.06,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000200",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-07-17",
+    "amount": -47.9,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000201",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-09-15",
+    "amount": -40.85,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000202",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-08-14",
+    "amount": -88.7,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000203",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-12-02",
+    "amount": -104.88,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000204",
+    "account_id": "ACC-00010",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-06-23",
+    "amount": -825.09,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000205",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-06-18",
+    "amount": -27.34,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000206",
+    "account_id": "ACC-00010",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-09-07",
+    "amount": -120.33,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000207",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-01-08",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000208",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-02-21",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000209",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-03-22",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000210",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-04-10",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000211",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-05-08",
+    "amount": -15.81,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000212",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-06-24",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000213",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-07-03",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000214",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-08-14",
+    "amount": -15.97,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000215",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-09-04",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000216",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-10-25",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000217",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-11-21",
+    "amount": -16.24,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000218",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0021",
+    "category_id": "CAT-03",
+    "date": "2025-12-23",
+    "amount": -15.99,
+    "description": "Netflix subscription"
+  },
+  {
+    "transaction_id": "TXN-000219",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-01-20",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000220",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-02-22",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000221",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-03-08",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000222",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-04-16",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000223",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-05-19",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000224",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-06-05",
+    "amount": -24.72,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000225",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-07-08",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000226",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-08-15",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000227",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-09-21",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000228",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-10-09",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000229",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-11-15",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000230",
+    "account_id": "ACC-00011",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-12-09",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000231",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-01-13",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000232",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-02-16",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000233",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-03-04",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000234",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-04-08",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000235",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-05-13",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000236",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-06-19",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000237",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-07-12",
+    "amount": -24.93,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000238",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-08-19",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000239",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-09-10",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000240",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-10-23",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000241",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-11-10",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000242",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0025",
+    "category_id": "CAT-03",
+    "date": "2025-12-01",
+    "amount": -24.99,
+    "description": "Planet Fitness Membership subscription"
+  },
+  {
+    "transaction_id": "TXN-000243",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-11-22",
+    "amount": -27.98,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000244",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-12-04",
+    "amount": -36.6,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000245",
+    "account_id": "ACC-00012",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-11-27",
+    "amount": 1165.57,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000246",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-01-18",
+    "amount": -82.34,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000247",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-08-01",
+    "amount": -21.24,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000248",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-07-07",
+    "amount": -19.41,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000249",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-05",
+    "date": "2025-09-04",
+    "amount": -23.71,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000250",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-02-28",
+    "amount": -61.27,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000251",
+    "account_id": "ACC-00012",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-12-13",
+    "amount": -1960.89,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000252",
+    "account_id": "ACC-00012",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-10-13",
+    "amount": 1591.83,
+    "description": "Transfer between accounts"
+  },
+  {
+    "transaction_id": "TXN-000253",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-10-02",
+    "amount": -72.35,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000254",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-10-27",
+    "amount": -52.54,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000255",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-04-30",
+    "amount": -38.52,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000256",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0011",
+    "category_id": "CAT-06",
+    "date": "2025-11-09",
+    "amount": -1373.97,
+    "description": "Parkview Apartments purchase"
+  },
+  {
+    "transaction_id": "TXN-000257",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-12-25",
+    "amount": -62.77,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000258",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-01-20",
+    "amount": -161.42,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000259",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-10-03",
+    "amount": -120.64,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000260",
+    "account_id": "ACC-00012",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-12-23",
+    "amount": 4973.09,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000261",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-05",
+    "date": "2025-03-21",
+    "amount": -63.86,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000262",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-05",
+    "date": "2025-07-28",
+    "amount": -67.97,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000263",
+    "account_id": "ACC-00012",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-08-16",
+    "amount": -16.96,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000264",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-12-18",
+    "amount": -170.31,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000265",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-05",
+    "date": "2025-03-04",
+    "amount": -64.32,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000266",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-11-24",
+    "amount": -171.91,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000267",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-03-06",
+    "amount": -65.75,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000268",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-04-17",
+    "amount": -62.07,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000269",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-11-02",
+    "amount": -22.0,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000270",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0011",
+    "category_id": "CAT-06",
+    "date": "2025-03-31",
+    "amount": -2028.66,
+    "description": "Parkview Apartments purchase"
+  },
+  {
+    "transaction_id": "TXN-000271",
+    "account_id": "ACC-00013",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-05-02",
+    "amount": -59.2,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000272",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-01-02",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000273",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-02-05",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000274",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-03-24",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000275",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-04-14",
+    "amount": -14.82,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000276",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-05-17",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000277",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-06-04",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000278",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-07-24",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000279",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-08-03",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000280",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-09-16",
+    "amount": -15.0,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000281",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-10-15",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000282",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-11-25",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000283",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-12-12",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000284",
+    "account_id": "ACC-00014",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-02-07",
+    "amount": 4776.92,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000285",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-03-17",
+    "amount": -31.29,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000286",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-12-31",
+    "amount": -138.58,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000287",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-11-06",
+    "amount": -17.13,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000288",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-10-10",
+    "amount": -159.69,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000289",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-07-31",
+    "amount": -56.11,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000290",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-06-10",
+    "amount": -58.18,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000291",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-08-31",
+    "amount": -165.08,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000292",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-07-10",
+    "amount": -170.4,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000293",
+    "account_id": "ACC-00014",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-10-15",
+    "amount": 2384.51,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000294",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-07-01",
+    "amount": -41.11,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000295",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-05-28",
+    "amount": -81.19,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000296",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-03-21",
+    "amount": -17.47,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000297",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-10-12",
+    "amount": -34.41,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000298",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-10-15",
+    "amount": -38.24,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000299",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-12-22",
+    "amount": -192.61,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000300",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-06-23",
+    "amount": -16.06,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000301",
+    "account_id": "ACC-00014",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-07-25",
+    "amount": -1376.88,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000302",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-09-29",
+    "amount": -107.42,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000303",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-06-09",
+    "amount": -84.6,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000304",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-08",
+    "date": "2025-03-21",
+    "amount": -32.71,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000305",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-12-05",
+    "amount": -42.59,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000306",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-09-20",
+    "amount": -63.12,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000307",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-10-31",
+    "amount": -185.23,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000308",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-11-03",
+    "amount": -131.77,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000309",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-03-12",
+    "amount": -127.5,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000310",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-08-09",
+    "amount": -94.79,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000311",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-10-14",
+    "amount": -168.47,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000312",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-01-22",
+    "amount": -11.7,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000313",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-10-22",
+    "amount": -29.69,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000314",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-02-28",
+    "amount": -59.34,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000315",
+    "account_id": "ACC-00015",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-08-24",
+    "amount": 4494.51,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000316",
+    "account_id": "ACC-00015",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-02-15",
+    "amount": 2834.19,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000317",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-08-12",
+    "amount": -167.42,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000318",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-06-23",
+    "amount": -83.51,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000319",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-09-29",
+    "amount": -176.27,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000320",
+    "account_id": "ACC-00015",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-11-27",
+    "amount": 4423.16,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000321",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-03-16",
+    "amount": -83.62,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000322",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-12-02",
+    "amount": -50.56,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000323",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-10-24",
+    "amount": -1364.11,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000324",
+    "account_id": "ACC-00015",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-06-15",
+    "amount": -1273.07,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000325",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-02-04",
+    "amount": -52.59,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000326",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-06-30",
+    "amount": -153.03,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000327",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-07-08",
+    "amount": -76.85,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000328",
+    "account_id": "ACC-00015",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-02-16",
+    "amount": -1038.78,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000329",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-05",
+    "date": "2025-10-11",
+    "amount": -14.46,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000330",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-10-20",
+    "amount": -32.49,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000331",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-02-01",
+    "amount": -9.09,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000332",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-11-27",
+    "amount": -66.78,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000333",
+    "account_id": "ACC-00015",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-09-26",
+    "amount": -359.56,
+    "description": "Transfer to another account"
+  },
+  {
+    "transaction_id": "TXN-000334",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-05-25",
+    "amount": -27.91,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000335",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-11-20",
+    "amount": -127.25,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000336",
+    "account_id": "ACC-00015",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-07-17",
+    "amount": -1092.96,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000337",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-01-20",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000338",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-02-05",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000339",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-03-11",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000340",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-04-03",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000341",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-05-19",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000342",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-06-22",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000343",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-07-05",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000344",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-08-12",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000345",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-09-10",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000346",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-10-21",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000347",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-11-23",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000348",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0024",
+    "category_id": "CAT-03",
+    "date": "2025-12-22",
+    "amount": -2.99,
+    "description": "iCloud+ subscription"
+  },
+  {
+    "transaction_id": "TXN-000349",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-08-05",
+    "amount": -173.85,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000350",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-04-20",
+    "amount": -149.28,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000351",
+    "account_id": "ACC-00016",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-03-21",
+    "amount": 1696.64,
+    "description": "Transfer between accounts"
+  },
+  {
+    "transaction_id": "TXN-000352",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-10-04",
+    "amount": -173.96,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000353",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-11-13",
+    "amount": -60.44,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000354",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-12-21",
+    "amount": -64.61,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000355",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-07-06",
+    "amount": -24.87,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000356",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-08-18",
+    "amount": -185.01,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000357",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-08",
+    "date": "2025-08-29",
+    "amount": -58.73,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000358",
+    "account_id": "ACC-00016",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-08-14",
+    "amount": 2939.06,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000359",
+    "account_id": "ACC-00016",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-07-15",
+    "amount": -10.09,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000360",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-11-06",
+    "amount": -85.56,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000361",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-07-10",
+    "amount": -25.89,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000362",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-03-05",
+    "amount": -53.09,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000363",
+    "account_id": "ACC-00017",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-03-17",
+    "amount": 4490.4,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000364",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-04-24",
+    "amount": -31.12,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000365",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-07-22",
+    "amount": -46.06,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000366",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0001",
+    "category_id": "CAT-04",
+    "date": "2025-04-25",
+    "amount": -45.73,
+    "description": "Trader Joe's purchase"
+  },
+  {
+    "transaction_id": "TXN-000367",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-03-16",
+    "amount": -57.35,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000368",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-03-13",
+    "amount": -42.19,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000369",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-02-10",
+    "amount": -46.41,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000370",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0011",
+    "category_id": "CAT-06",
+    "date": "2025-11-08",
+    "amount": -1190.98,
+    "description": "Parkview Apartments purchase"
+  },
+  {
+    "transaction_id": "TXN-000371",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-03-04",
+    "amount": -77.77,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000372",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-02-02",
+    "amount": -124.68,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000373",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0002",
+    "category_id": "CAT-04",
+    "date": "2025-09-21",
+    "amount": -133.4,
+    "description": "Whole Foods purchase"
+  },
+  {
+    "transaction_id": "TXN-000374",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-06-30",
+    "amount": -150.03,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000375",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-09-26",
+    "amount": -49.79,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000376",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0012",
+    "category_id": "CAT-06",
+    "date": "2025-09-17",
+    "amount": -1064.67,
+    "description": "Maple Street Realty purchase"
+  },
+  {
+    "transaction_id": "TXN-000377",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-07-18",
+    "amount": -60.43,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000378",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-02-04",
+    "amount": -22.17,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000379",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-06-20",
+    "amount": -43.59,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000380",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-03-31",
+    "amount": -6.63,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000381",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-04-04",
+    "amount": -25.61,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000382",
+    "account_id": "ACC-00017",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-01-19",
+    "amount": 2232.46,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000383",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-04-13",
+    "amount": -30.66,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000384",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-10-06",
+    "amount": -23.3,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000385",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-07-02",
+    "amount": -41.47,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000386",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0009",
+    "category_id": "CAT-05",
+    "date": "2025-03-05",
+    "amount": -14.85,
+    "description": "Local Diner purchase"
+  },
+  {
+    "transaction_id": "TXN-000387",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-07-17",
+    "amount": -47.82,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000388",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-09-23",
+    "amount": -24.92,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000389",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-11-05",
+    "amount": -92.72,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000390",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-02-10",
+    "amount": -51.0,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000391",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-08-07",
+    "amount": -176.18,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000392",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-06-30",
+    "amount": -136.07,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000393",
+    "account_id": "ACC-00017",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-01-30",
+    "amount": 1293.15,
+    "description": "Transfer between accounts"
+  },
+  {
+    "transaction_id": "TXN-000394",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0006",
+    "category_id": "CAT-05",
+    "date": "2025-12-14",
+    "amount": -61.15,
+    "description": "Chipotle purchase"
+  },
+  {
+    "transaction_id": "TXN-000395",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0014",
+    "category_id": "CAT-07",
+    "date": "2025-08-13",
+    "amount": -200.44,
+    "description": "City Power & Light purchase"
+  },
+  {
+    "transaction_id": "TXN-000396",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-07-05",
+    "amount": -243.2,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000397",
+    "account_id": "ACC-00017",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-08-19",
+    "amount": -108.97,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000398",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-01-03",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000399",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-02-19",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000400",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-03-05",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000401",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-04-17",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000402",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-05-12",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000403",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-06-13",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000404",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-07-11",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000405",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-08-21",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000406",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-09-09",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000407",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-10-08",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000408",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-11-04",
+    "amount": -14.99,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000409",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0023",
+    "category_id": "CAT-03",
+    "date": "2025-12-01",
+    "amount": -14.78,
+    "description": "Amazon Prime subscription"
+  },
+  {
+    "transaction_id": "TXN-000410",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-05",
+    "date": "2025-08-16",
+    "amount": -10.01,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000411",
+    "account_id": "ACC-00018",
+    "merchant_id": null,
+    "category_id": "CAT-02",
+    "date": "2025-12-08",
+    "amount": 176.63,
+    "description": "Transfer between accounts"
+  },
+  {
+    "transaction_id": "TXN-000412",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-06-03",
+    "amount": -1277.57,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000413",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-03-31",
+    "amount": -79.68,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000414",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-03-13",
+    "amount": -175.79,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000415",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-07-08",
+    "amount": -2031.3,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000416",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-02-03",
+    "amount": -45.32,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000417",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-10-22",
+    "amount": -35.4,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000418",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0007",
+    "category_id": "CAT-05",
+    "date": "2025-12-15",
+    "amount": -15.57,
+    "description": "Olive Garden purchase"
+  },
+  {
+    "transaction_id": "TXN-000419",
+    "account_id": "ACC-00018",
+    "merchant_id": "MER-0018",
+    "category_id": "CAT-08",
+    "date": "2025-11-24",
+    "amount": -53.23,
+    "description": "Lyft purchase"
+  },
+  {
+    "transaction_id": "TXN-000420",
+    "account_id": "ACC-00018",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-01-29",
+    "amount": 4491.84,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000421",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0008",
+    "category_id": "CAT-05",
+    "date": "2025-06-05",
+    "amount": -12.05,
+    "description": "Starbucks purchase"
+  },
+  {
+    "transaction_id": "TXN-000422",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-09-23",
+    "amount": -139.9,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000423",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0016",
+    "category_id": "CAT-07",
+    "date": "2025-10-10",
+    "amount": -186.41,
+    "description": "MetroGas Utility purchase"
+  },
+  {
+    "transaction_id": "TXN-000424",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0013",
+    "category_id": "CAT-06",
+    "date": "2025-09-15",
+    "amount": -975.91,
+    "description": "Downtown Lofts purchase"
+  },
+  {
+    "transaction_id": "TXN-000425",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-12-04",
+    "amount": -125.98,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000426",
+    "account_id": "ACC-00019",
+    "merchant_id": null,
+    "category_id": "CAT-01",
+    "date": "2025-01-22",
+    "amount": 4465.99,
+    "description": "Payroll deposit"
+  },
+  {
+    "transaction_id": "TXN-000427",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-04",
+    "date": "2025-01-24",
+    "amount": -75.82,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000428",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0017",
+    "category_id": "CAT-08",
+    "date": "2025-08-02",
+    "amount": -47.67,
+    "description": "Uber purchase"
+  },
+  {
+    "transaction_id": "TXN-000429",
+    "account_id": "ACC-00019",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-05-29",
+    "amount": -148.58,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000430",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-12-17",
+    "amount": -83.8,
+    "description": "Shell Gas Station purchase"
+  },
+  {
+    "transaction_id": "TXN-000431",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-08-14",
+    "amount": -147.36,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000432",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0015",
+    "category_id": "CAT-07",
+    "date": "2025-06-10",
+    "amount": -95.82,
+    "description": "AquaFlow Water Co purchase"
+  },
+  {
+    "transaction_id": "TXN-000433",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0019",
+    "category_id": "CAT-08",
+    "date": "2025-07-24",
+    "amount": -46.23,
+    "description": "Metro Transit Authority purchase"
+  },
+  {
+    "transaction_id": "TXN-000434",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0003",
+    "category_id": "CAT-04",
+    "date": "2025-05-04",
+    "amount": -108.06,
+    "description": "Safeway purchase"
+  },
+  {
+    "transaction_id": "TXN-000435",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0004",
+    "category_id": "CAT-04",
+    "date": "2025-01-26",
+    "amount": -41.73,
+    "description": "Kroger purchase"
+  },
+  {
+    "transaction_id": "TXN-000436",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0010",
+    "category_id": "CAT-05",
+    "date": "2025-03-23",
+    "amount": -25.29,
+    "description": "Sushi House purchase"
+  },
+  {
+    "transaction_id": "TXN-000437",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0005",
+    "category_id": "CAT-04",
+    "date": "2025-03-23",
+    "amount": -105.31,
+    "description": "Costco Wholesale purchase"
+  },
+  {
+    "transaction_id": "TXN-000438",
+    "account_id": "ACC-00020",
+    "merchant_id": "MER-0020",
+    "category_id": "CAT-08",
+    "date": "2025-09-12",
+    "amount": -47.04,
+    "description": "Shell Gas Station purchase"
+  }
+]

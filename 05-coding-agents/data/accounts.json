@@ -1,0 +1,142 @@
+[
+  {
+    "account_id": "ACC-00001",
+    "owner_name": "Alice Nguyen",
+    "account_type": "savings",
+    "opened_at": "2015-04-13",
+    "balance": 13386.68
+  },
+  {
+    "account_id": "ACC-00002",
+    "owner_name": "Brian Ortiz",
+    "account_type": "checking",
+    "opened_at": "2016-07-25",
+    "balance": 13296.01
+  },
+  {
+    "account_id": "ACC-00003",
+    "owner_name": "Carla Ibrahim",
+    "account_type": "savings",
+    "opened_at": "2021-02-11",
+    "balance": 1701.86
+  },
+  {
+    "account_id": "ACC-00004",
+    "owner_name": "David Kim",
+    "account_type": "checking",
+    "opened_at": "2015-05-03",
+    "balance": 1822.46
+  },
+  {
+    "account_id": "ACC-00005",
+    "owner_name": "Elena Petrova",
+    "account_type": "checking",
+    "opened_at": "2021-10-01",
+    "balance": 623.67
+  },
+  {
+    "account_id": "ACC-00006",
+    "owner_name": "Felix Muller",
+    "account_type": "checking",
+    "opened_at": "2022-04-15",
+    "balance": 12668.65
+  },
+  {
+    "account_id": "ACC-00007",
+    "owner_name": "Grace Chen",
+    "account_type": "checking",
+    "opened_at": "2020-01-14",
+    "balance": 10668.39
+  },
+  {
+    "account_id": "ACC-00008",
+    "owner_name": "Hassan Ali",
+    "account_type": "credit_card",
+    "opened_at": "2015-01-27",
+    "balance": -468.29
+  },
+  {
+    "account_id": "ACC-00009",
+    "owner_name": "Isabel Rossi",
+    "account_type": "checking",
+    "opened_at": "2019-09-28",
+    "balance": 6223.47
+  },
+  {
+    "account_id": "ACC-00010",
+    "owner_name": "Jamal Carter",
+    "account_type": "checking",
+    "opened_at": "2023-07-25",
+    "balance": 6158.21
+  },
+  {
+    "account_id": "ACC-00011",
+    "owner_name": "Katarina Novak",
+    "account_type": "checking",
+    "opened_at": "2016-02-01",
+    "balance": 6557.78
+  },
+  {
+    "account_id": "ACC-00012",
+    "owner_name": "Liam O'Brien",
+    "account_type": "checking",
+    "opened_at": "2017-12-19",
+    "balance": 14557.24
+  },
+  {
+    "account_id": "ACC-00013",
+    "owner_name": "Maya Patel",
+    "account_type": "savings",
+    "opened_at": "2021-01-05",
+    "balance": 2378.15
+  },
+  {
+    "account_id": "ACC-00014",
+    "owner_name": "Noah Levi",
+    "account_type": "credit_card",
+    "opened_at": "2015-11-19",
+    "balance": -1212.65
+  },
+  {
+    "account_id": "ACC-00015",
+    "owner_name": "Olivia Ferreira",
+    "account_type": "credit_card",
+    "opened_at": "2021-12-08",
+    "balance": -12.37
+  },
+  {
+    "account_id": "ACC-00016",
+    "owner_name": "Priya Sharma",
+    "account_type": "checking",
+    "opened_at": "2017-02-26",
+    "balance": 12726.61
+  },
+  {
+    "account_id": "ACC-00017",
+    "owner_name": "Quinn Sullivan",
+    "account_type": "checking",
+    "opened_at": "2017-07-22",
+    "balance": 13949.27
+  },
+  {
+    "account_id": "ACC-00018",
+    "owner_name": "Rosa Delgado",
+    "account_type": "credit_card",
+    "opened_at": "2024-08-04",
+    "balance": -2361.95
+  },
+  {
+    "account_id": "ACC-00019",
+    "owner_name": "Samuel Osei",
+    "account_type": "checking",
+    "opened_at": "2018-02-12",
+    "balance": 8243.37
+  },
+  {
+    "account_id": "ACC-00020",
+    "owner_name": "Tara Whitfield",
+    "account_type": "credit_card",
+    "opened_at": "2016-10-28",
+    "balance": -1867.35
+  }
+]

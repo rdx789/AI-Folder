@@ -1,0 +1,127 @@
+[
+  {
+    "merchant_id": "MER-0001",
+    "name": "Trader Joe's",
+    "default_category_id": "CAT-04"
+  },
+  {
+    "merchant_id": "MER-0002",
+    "name": "Whole Foods",
+    "default_category_id": "CAT-04"
+  },
+  {
+    "merchant_id": "MER-0003",
+    "name": "Safeway",
+    "default_category_id": "CAT-04"
+  },
+  {
+    "merchant_id": "MER-0004",
+    "name": "Kroger",
+    "default_category_id": "CAT-04"
+  },
+  {
+    "merchant_id": "MER-0005",
+    "name": "Costco Wholesale",
+    "default_category_id": "CAT-04"
+  },
+  {
+    "merchant_id": "MER-0006",
+    "name": "Chipotle",
+    "default_category_id": "CAT-05"
+  },
+  {
+    "merchant_id": "MER-0007",
+    "name": "Olive Garden",
+    "default_category_id": "CAT-05"
+  },
+  {
+    "merchant_id": "MER-0008",
+    "name": "Starbucks",
+    "default_category_id": "CAT-05"
+  },
+  {
+    "merchant_id": "MER-0009",
+    "name": "Local Diner",
+    "default_category_id": "CAT-05"
+  },
+  {
+    "merchant_id": "MER-0010",
+    "name": "Sushi House",
+    "default_category_id": "CAT-05"
+  },
+  {
+    "merchant_id": "MER-0011",
+    "name": "Parkview Apartments",
+    "default_category_id": "CAT-06"
+  },
+  {
+    "merchant_id": "MER-0012",
+    "name": "Maple Street Realty",
+    "default_category_id": "CAT-06"
+  },
+  {
+    "merchant_id": "MER-0013",
+    "name": "Downtown Lofts",
+    "default_category_id": "CAT-06"
+  },
+  {
+    "merchant_id": "MER-0014",
+    "name": "City Power & Light",
+    "default_category_id": "CAT-07"
+  },
+  {
+    "merchant_id": "MER-0015",
+    "name": "AquaFlow Water Co",
+    "default_category_id": "CAT-07"
+  },
+  {
+    "merchant_id": "MER-0016",
+    "name": "MetroGas Utility",
+    "default_category_id": "CAT-07"
+  },
+  {
+    "merchant_id": "MER-0017",
+    "name": "Uber",
+    "default_category_id": "CAT-08"
+  },
+  {
+    "merchant_id": "MER-0018",
+    "name": "Lyft",
+    "default_category_id": "CAT-08"
+  },
+  {
+    "merchant_id": "MER-0019",
+    "name": "Metro Transit Authority",
+    "default_category_id": "CAT-08"
+  },
+  {
+    "merchant_id": "MER-0020",
+    "name": "Shell Gas Station",
+    "default_category_id": "CAT-08"
+  },
+  {
+    "merchant_id": "MER-0021",
+    "name": "Netflix",
+    "default_category_id": "CAT-03"
+  },
+  {
+    "merchant_id": "MER-0022",
+    "name": "Spotify",
+    "default_category_id": "CAT-03"
+  },
+  {
+    "merchant_id": "MER-0023",
+    "name": "Amazon Prime",
+    "default_category_id": "CAT-03"
+  },
+  {
+    "merchant_id": "MER-0024",
+    "name": "iCloud+",
+    "default_category_id": "CAT-03"
+  },
+  {
+    "merchant_id": "MER-0025",
+    "name": "Planet Fitness Membership",
+    "default_category_id": "CAT-03"
+  }
+]
