@@ -1,0 +1,3138 @@
+[
+  {
+    "strategy": "fixed_300w_50ov",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 12,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 1,
+            "score": 0.39438796043395996,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.29790037870407104,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 62,
+            "score": 0.24855439364910126,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 65,
+            "score": 0.23743769526481628,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year** (benefits-and-perks.md).\n\nUnused vacation days roll over year to year, but the vacation bank is capped at 27 days at any time (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 27,
+            "score": 0.3934326171875,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 64,
+            "score": 0.20036329329013824,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 65,
+            "score": 0.19288505613803864,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.18790148198604584,
+            "source": "benefits-and-perks.md"
+          }
+        ],
+        "answer": "NovaOps allows employees to have outside interests, volunteer commitments, creative projects, and occasional paid side work, provided there are no conflicts of interest, confidentiality issues, or impacts on customer trust. However, there are specific restrictions and disclosure requirements:\n\n### General Rules:\n- **Conflicts of Interest**: You may not work full-time or part-time for another company in the industry of workflow automation, enterprise SaaS operations, customer support automation, or products that would reasonably compete with NovaOps. The concern is a conflict of interest, not just the number of hours worked\u200b\u200b[moonlighting.md]\u200b.\n- **Disclosure Requirements**: If outside paid work is recurring, expected to exceed eight hours in a week, or likely to pay more than USD 500 in a month, you must disclose it to your manager and People Operations before committing\u200b\u200b[moonlighting.md]\u200b.\n- **Specific Disclosure Triggers**: You must also disclose side work before accepting it if any of the following are true:\n  - The organization is a NovaOps customer, prospect, vendor, reseller, implementation partner, investor, or competitor\u200b\u200b[moonlighting.md]\u200b.\n  - The work involves workflow automation, enterprise SaaS operations, customer support automation, CRM data, source control, observability, identity, payroll, e-signature, or cloud infrastructure\u200b\u200b[moonlighting.md]\u200b.\n  - You would use your NovaOps title, mention NovaOps in marketing, sign an outside NDA, receive equity, access nonpublic business information, meet during normal NovaOps hours, or be on call\u200b\u200b[moonlighting.md]\u200b.\n\n### Disclosure Process:\n- Send the disclosure to your manager and **people-ops@novaops.example**. Include the outside organization, kind of work, expected hours, compensation or payment method, and any other details that might relate to NovaOps\u200b\u200b[moonlighting.md]\u200b.\n\n### Prohibited Activities:\n- Working for competitors in the same industry as NovaOps is strictly prohibited\u200b\u200b[moonlighting.md]\u200b.\n\nIn summary, while NovaOps is flexible about outside work, there are clear guidelines to ensure there are no conflicts of interest or breaches of confidentiality. Always disclose any significant outside work to your manager and People Operations\u200b\u200b[moonlighting.md]\u200b.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 26,
+            "score": 0.5464982986450195,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 22,
+            "score": 0.5205714702606201,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 23,
+            "score": 0.4425104260444641,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.3554450273513794,
+            "source": "getting-started.md"
+          }
+        ],
+        "answer": "When you leave the company, you must return your company-owned laptop and all accessories within five business days of your last working day, unless People Operations approves a different local process\u200b\u200b (managing-work-devices.md). \n\nBefore returning the laptop:\n\n- **Save personal files elsewhere** \u2014 make sure any personal data is backed up to a personal drive or cloud service\u200b\u200b (managing-work-devices.md).\n- **Do not delete company records** \u2014 ensure all NovaOps work, including source code, customer notes, Jira tickets, Slack messages, and shared files, remains intact on the device\u200b\u200b (managing-work-devices.md).\n- **Do not factory reset the device** \u2014 return it as-is, with all company data and software intact\u200b\u200b (managing-work-devices.md).\n\nIT will send you return instructions and a prepaid shipping label where available\u200b\u200b (managing-work-devices.md). \n\nFor a normal planned departure, IT will disable your Okta access on the agreed schedule, often at the end of your last working day. For involuntary, security-sensitive, or no-transition departures, access may be disabled earlier\u200b\u200b (managing-work-devices.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 57,
+            "score": 0.3612566888332367,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 60,
+            "score": 0.2859076261520386,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 58,
+            "score": 0.26711297035217285,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 59,
+            "score": 0.24326984584331512,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "If you\u2019re terminated without cause, you\u2019ll get severance based on your years of service at NovaOps. Here\u2019s how it works:\n\n- **Base amount:** Everyone gets 4 weeks of regular base pay, no matter how long they\u2019ve been here. (severance.md)  \n- **Additional weeks:** For each full year you\u2019ve worked here, you get another 2 weeks of base pay. (severance.md)  \n- **Cap:** The most you can get is 16 weeks of pay, no matter how long you\u2019ve been around. (severance.md)  \n\n**Examples**  \n- Less than 1 year \u2192 4 weeks  \n- 2 years \u2192 8 weeks (4 + 2 weeks per year)  \n- 3 years \u2192 10 weeks  \n- 8 years \u2192 still 16 weeks, because that\u2019s the cap. (severance.md)\n\n**What counts as a year?**  \nWe count completed years of continuous full\u2011time service from your most recent start date to your last paid day. Partial years don\u2019t count, and contractor time doesn\u2019t count unless your conversion agreement says otherwise. If you transferred countries, People Operations will check whether local records treat the service as continuous. (severance.md)\n\n**What \u201cregular base pay\u201d means**  \nThat\u2019s your normal salary or wages before any bonuses, commissions, spot awards, equity, expense reimbursements, or allowances. For sales folks, we don\u2019t use pipeline value or expected commissions. If you got a recent comp change, Finance and People Operations will decide whether to use the new or old rate based on the effective date. (severance.md)\n\n**If local law says more**  \nIf the law in your country requires a bigger severance, we follow the law \u2014 that amount wins. (severance.md)",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 46,
+            "score": 0.2626986503601074,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 16,
+            "score": 0.2597481906414032,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 49,
+            "score": 0.22896288335323334,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 47,
+            "score": 0.2235991656780243,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "Performance reviews happen twice a year, in February and August (making-a-career.md). \n\nThey are recorded in BambooHR, which is the source of record for completed written reviews (making-a-career.md). Supporting examples may live in other tools like Jira, GitHub, Salesforce, etc., but the official record is in BambooHR.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 70,
+            "score": 0.5462862849235535,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 67,
+            "score": 0.5237431526184082,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 74,
+            "score": 0.48321467638015747,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 139,
+            "score": 0.4727086126804352,
+            "source": "titles-for-programmers.md"
+          }
+        ],
+        "answer": "The QA title levels at NovaOps are as follows, based on the complexity of systems you can evaluate, the independence of your test strategy, and the influence you have on how teams build reliable workflow automation software\u200b(titles-for-QA.md)\u200b:\n\n### QA1, Associate QA Analyst\n- Learns the product area\n- Executes defined test plans\n- Writes clear reproduction steps\n- Asks for help early\n- Expected to become dependable in a bounded area before taking on broader release ownership\n- Works from a defined plan, which may be written by a QA2 or QA3, or by a senior engineer with QA review\n- Expected to understand what they are testing, follow the plan carefully, report uncertainty, and avoid hiding gaps\n- Typical expectations include executing smoke, regression, and feature test cases in a bounded product area, verifying bug fixes, recording results in Jira, writing reproduction steps, asking for help when needed, noticing customer-impact concerns, and running existing automated checks or test scripts when instructed\u200b\u200b(titles-for-QA.md)\u200b.\n\n### QA2, QA Engineer\n- Owns quality strategy for moderately complex features\n- Balances manual and automated coverage\n- Mentors QA1s\n- Helps Product and Engineering identify risk before implementation is complete\n- Trusted to say when a release is not ready and explain why\n- Operates independently within a bounded area\n- Expected to own the QA portion of a small project board, link defects to the feature or release, keep fix verification current, and make blocked tests obvious\n- May read pull request descriptions, confirm that automated tests match changed behavior, check CI failures before release, and comment on missing tests or migration risks\n- Should provide specific customer-impact judgment, identifying which customer workflow is affected, visibility, workarounds, data repair, and Support's ability to explain the behavior safely\u200b\u200b(titles-for-QA.md)\u200b.\n\n### QA3, Senior QA Engineer\n- Builds test strategy for complex features\n- Balances manual and automated coverage\n- Mentors others\n- Helps Product and Engineering identify risk before implementation is complete\n- Trusted to say when a release is not ready and explain why\n- Owns quality strategy for complex work, including features with multiple services, connectors, permissions, migrations, customer-visible automation behavior, or release sequencing risk\n- Expected to operate independently and influence release decisions with clear risk analysis\u200b\u200b(titles-for-QA.md)\u200b.\n\nThese levels reflect the progression in judgment, independence, and impact that QA engineers demonstrate as they advance in their careers at NovaOps.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 34,
+            "score": 0.35402023792266846,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.3529311418533325,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 36,
+            "score": 0.3263978660106659,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 118,
+            "score": 0.3107072412967682,
+            "source": "titles-for-ops.md"
+          }
+        ],
+        "answer": "NovaOps uses the following tools and systems for HR records and access:\n\n### HR Records\n- **BambooHR**: This is the primary system used for HR records. It allows employees to view and update their own details, request time off, and see HR tasks assigned to them. Sensitive employment records are viewable only by People Operations roles (such as Sara Ben-David, Sara Cohen, and Maya Rosen) (source: our-internal-systems.md).\n\n### Access Management\n- **Okta**: Used for login to various systems whenever available. It is part of the access path for many tools and systems (source: our-internal-systems.md).\n- **IT Request Portal**: Used for requesting access to various systems and equipment. Contractors must use this portal for requests, specifying the manager sponsor, business purpose, and end date (source: getting-started.md).\n- **Jira**: Used for project management and delivery status. Access is restricted, and project administrator rights are limited (source: our-internal-systems.md).\n- **GitHub**: Used for code review and engineering decisions. Access is sensitive, especially for contractors, who need additional approvals (source: our-internal-systems.md).\n- **Salesforce**: Used for customer and revenue workflows. Access is limited to specific roles such as Account Executives, Sales Operations, Customer Success Managers, and Customer Success Specialists (source: our-internal-systems.md).\n- **AWS**: Access is managed with least privilege and requires approvals for admin roles. Production break-glass access is time-boxed (source: our-internal-systems.md).\n\n### Additional Systems\n- **Webex**: Used for meetings and communications. Access reviews are conducted by IT leads (source: our-internal-systems.md).\n- **Slack**: Used for team communications. Access reviews are also conducted by IT leads (source: our-internal-systems.md).\n\nThese systems are integral to managing HR records and access within NovaOps, ensuring security and proper oversight of sensitive information and tools.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 38,
+            "score": 0.5066028237342834,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 55,
+            "score": 0.4835274815559387,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 56,
+            "score": 0.48074448108673096,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 41,
+            "score": 0.44006621837615967,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps runs several recurring rituals and meetings to maintain alignment and productivity across its distributed teams. Here\u2019s a summary of the key recurring rituals based on the handbook:\n\n### **1. Weekly Company Update**\n- **Cadence:** Every Monday\n- **Owner:** Emma Wilson\n- **Purpose:** To share company-wide updates, decisions, and priorities. It ensures everyone is informed about what\u2019s happening across the organization.\n- **Format:** Posted in a company channel (likely Slack or a similar platform). It includes decisions made, owners of next actions, due dates, links to artifacts, and open questions.\n\n### **2. Every-Second-Thursday Demo**\n- **Cadence:** Every second Thursday\n- **Owners:** Product and Engineering\n- **Purpose:** To showcase recent work, demos, and progress to stakeholders. It helps align Product and Engineering teams and provides visibility into what\u2019s being built.\n- **Format:** Likely a live meeting (possibly Webex) with notes captured afterward.\n\n### **3. Monthly Spending Review**\n- **Cadence:** Monthly\n- **Owner:** Tom Baker\n- **Purpose:** To review spending, budgets, and financial performance. It ensures financial decisions are made and tracked.\n- **Format:** Likely a live meeting with notes captured afterward.\n\n### **4. Customer Success Customer-Story Review**\n- **Cadence:** Monthly\n- **Owner:** Yael Romano\n- **Purpose:** To review customer stories, success metrics, and feedback. It helps align Customer Success with customer needs and outcomes.\n- **Format:** Likely a live meeting with notes captured afterward.\n\n### **5. Team Standups**\n- **Cadence:** Daily or as needed depending on the team\n- **Purpose:** To synchronize team members on daily work, blockers, and progress. They are especially important during launch weeks or high-intensity periods.\n- **Format:** Typically live meetings (Webex), but can also be async updates depending on the team\u2019s needs.\n\n### **6. Async Updates**\n- **Purpose:** To share updates, decisions, and progress in a written format. This is especially important for remote-first work, where not everyone can attend live meetings.\n- **Format:** Posted in Slack, Jira, GitHub, Salesforce, SupportDesk, BambooHR, team boards, or the wiki. The goal is to ensure that anyone can catch up on what happened even if they missed the live discussion.\n\n### **Meeting Hygiene**\n- **Owner:** Each ritual has a designated owner who is responsible for its execution.\n- **Purpose:** Every meeting should have a clear purpose, expected outcomes, and decisions made should be recorded.\n- **Duration:** Meetings should be kept to 25 or 50 minutes to allow time for note-taking and context switching.\n- **Attendance:** Only required participants should be invited. Optional participants can join if they benefit from the context.\n- **Notes:** Meeting notes should be concise, capturing decisions, owners, due dates, links to artifacts",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 15,
+            "score": 0.33060896396636963,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 19,
+            "score": 0.16227883100509644,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 120,
+            "score": 0.15190982818603516,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 48,
+            "score": 0.14362061023712158,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 16,
+            "score": 0.33214902877807617,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 15,
+            "score": 0.2729335427284241,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 19,
+            "score": 0.27031347155570984,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 48,
+            "score": 0.2523401081562042,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 19,
+            "score": 0.565170168876648,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 17,
+            "score": 0.5121567845344543,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 134,
+            "score": 0.47128820419311523,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 153,
+            "score": 0.4557349979877472,
+            "source": "titles-for-programmers.md"
+          }
+        ],
+        "answer": "The three conversations each happen on a different schedule:\n\n- Quarterly growth conversations happen **at least quarterly** (making-a-career.md). Managers and employees should discuss growth at least quarterly, and these conversations do not have to wait for the formal review window.\n- Formal performance reviews happen **twice per year**, in February and August (making-a-career.md).\n- Promotion cycles also happen **twice per year**. March proposals take effect April 1, and September proposals take effect October 1 (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.24973289668560028,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 4,
+            "score": 0.1864394247531891,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.1818997710943222,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 63,
+            "score": 0.13827913999557495,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.4502493739128113,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.3024061620235443,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 62,
+            "score": 0.25783616304397583,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 65,
+            "score": 0.25449976325035095,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "NovaOps benefits are designed for full-time employees and are available from the first day of employment, based on the employee's country (Israel, Germany, the United Kingdom, or the United States), unless a local plan document specifies otherwise (benefits-and-perks.md). Contractors do not receive employee insurance, retirement, or leave benefits, but they do receive the equipment and access needed for their engagement (benefits-and-perks.md). \n\nFull-time employees earn 20 paid vacation and personal days per calendar year, plus 11 local public holidays based on their work location (benefits-and-perks.md). Unused vacation days roll over year to year, but the vacation bank is capped at 27 days at any time. Once an employee reaches 27 days, additional accrual pauses until they take time off (benefits-and-perks.md). Managers are expected to help employees schedule vacation before they hit the cap (benefits-and-perks.md). \n\nIt is important to note that if a local law provides a stronger benefit than what is outlined in the handbook, NovaOps follows the local law (benefits-and-perks.md). In case of any conflict between a signed employment agreement, local plan document, or statutory rule and the handbook, People Operations will confirm which rule controls before payroll or reimbursement is processed (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I don't have access to real-time financial data or stock prices. For the current stock price of NovaOps, I recommend checking reliable financial news websites, stock market platforms (like Yahoo Finance, Bloomberg, or Google Finance), or your brokerage account for the most up-to-date information.\n\nIf you're looking for company policies, benefits, or other employee-related information from the NovaOps employee handbook, I can help with that instead\u2014just let me know what you'd like to learn about!",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information like a CEO's cell phone number. This would be a violation of privacy policies and could lead to serious legal consequences. If you need to contact the CEO for official business, please use the appropriate corporate communication channels or contact the executive assistant's office. \n\nIf you have any other questions about company policies, benefits, or operations that don't involve personal private information, I'd be happy to help.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "fixed_600w_100ov",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 12,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.3039921522140503,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 32,
+            "score": 0.24625560641288757,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 34,
+            "score": 0.2452518492937088,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 35,
+            "score": 0.2226818948984146,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Full-time employees receive 20 paid vacation and personal days per calendar year, plus 11 local public holidays based on their work location (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 15,
+            "score": 0.36215412616729736,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 35,
+            "score": 0.20569908618927002,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 34,
+            "score": 0.18880072236061096,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.18633143603801727,
+            "source": "benefits-and-perks.md"
+          }
+        ],
+        "answer": "NovaOps's moonlighting policy allows employees to have outside interests and occasional paid side work, provided there are no conflicts of interest, confidentiality issues, or impacts on customer trust or performance. Here are the key points:\n\n### General Rules\n- **Allowed Activities**: Employees may have outside interests, volunteer commitments, creative projects, and occasional paid side work. The company does not control employees' evenings.\n- **Prohibited Activities**: Employees cannot work full-time or part-time for another company in the same industry as NovaOps. This includes competitors in workflow automation, enterprise SaaS operations, customer support automation, or products that would reasonably compete with NovaOps. The concern is a conflict of interest, not the number of hours alone.\n\n### Disclosure Requirements\nEmployees must disclose outside paid work to their manager and People Operations before committing if any of the following conditions are met:\n- The outside work is recurring, expected to exceed eight hours in a week, or likely to pay more than USD 500 in a month.\n- The organization is a NovaOps customer, prospect, vendor, reseller, implementation partner, investor, or competitor.\n- The work involves workflow automation, enterprise SaaS operations, customer support automation, CRM data, source control, observability, identity, payroll, e-signature, or cloud infrastructure.\n- The employee would use their NovaOps title, mention NovaOps in marketing, sign an outside NDA, receive equity, access nonpublic business information, meet during normal NovaOps hours, or be on call.\n\n### Acceptable Side Work\nOccasional side gigs outside NovaOps's industry can be acceptable if they:\n- Happen outside NovaOps working time.\n- Do not use NovaOps equipment or accounts.\n- Do not involve NovaOps customers or prospects.\n- Do not interfere with the employee's performance.\n\nExamples of usually acceptable side work after disclosure include:\n- Teaching an evening workshop on general discovery.\n- Fixing a public library bug from a personal laptop.\n- Helping a family bakery set up a simple website.\n- Serving on an unpaid nonprofit board.\n\n### Conflict Review Process\n- **Manager's Role**: Checks performance, schedule, role overlap, and whether the outside work would make NovaOps work harder to prioritize.\n- **People Operations**: Checks consistency, employee records, and any written conditions or expiration dates.\n- **IT or Security**: May review requests involving tools in internal systems, customer data, security research, source code, or personal devices.\n- **Finance or Legal**: May review vendor, customer, investor, or contract edge cases.\n\nThe company aims to respond to ordinary disclosures within five business days. Until People Operations documents approval, employees should not start work that crosses a disclosure threshold. Approvals can be limited by client, project, hours, duration, public attribution, or systems used.\n\n### Summary\nNovaOps allows employees to engage in outside paid work as long as there are no conflicts of interest, confidentiality issues, or impacts on customer trust or performance. Employees must disclose certain",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 14,
+            "score": 0.5464982986450195,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 12,
+            "score": 0.5110831260681152,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 13,
+            "score": 0.36993876099586487,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 33,
+            "score": 0.2553771734237671,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "When you leave the company, you must return your laptop, charger, security keys, and any company accessories within five business days of your last working day unless People Operations approves a different local process\u200b\u200b (managing-work-devices.md)\u200b\u200b (managing-work-devices.md). \n\nBefore returning the laptop, you should save any personal files elsewhere and ensure that all NovaOps work is stored in the correct company systems\u200b\u200b (managing-work-devices.md)\u200b\u200b (managing-work-devices.md). **Do not delete any company records, source code, customer notes, Jira tickets, Slack messages, or shared files, and do not factory reset the device\u200b\u200b (managing-work-devices.md)\u200b\u200b (managing-work-devices.md).**\n\nIT will send you return instructions and a prepaid shipping label where available\u200b\u200b (managing-work-devices.md)\u200b\u200b (managing-work-devices.md). \n\nFor involuntary, security-sensitive, or no-transition departures, your access may be disabled earlier\u200b\u200b (managing-work-devices.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 31,
+            "score": 0.3244750201702118,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 32,
+            "score": 0.2322126179933548,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 33,
+            "score": 0.21456021070480347,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 79,
+            "score": 0.11706168204545975,
+            "source": "titles-for-programmers.md"
+          }
+        ],
+        "answer": "If you are terminated without cause, you will receive severance pay according to the following formula from the NovaOps handbook (severance.md):\n\n- The base severance amount is 4 weeks of regular base pay. \n- Once you have at least one completed year of NovaOps service, NovaOps adds 2 weeks of regular base pay for each completed year of service.\n- Severance is capped at 16 weeks of pay.\n\nExamples from the handbook:\n- An employee with less than one completed year receives 4 weeks.\n- An employee with 2 completed years receives 8 weeks (4 base weeks + 2 weeks per year). \n- An employee with 3 completed years receives 10 weeks.\n- An employee with 8 completed years would normally calculate to 20 weeks, but the cap limits it to 16 weeks.\n\nThe formula uses completed years of continuous NovaOps service from your most recent full-time employee start date through your last paid day. Partial years do not round up. \n\nIf local law requires a greater severance amount, the local legal amount will control instead of the company formula. \n\nSeverance is meant to give employees a practical landing period when NovaOps ends employment for business reasons or documented underperformance that is not gross misconduct. It is not a substitute for proper performance management.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 25,
+            "score": 0.24143633246421814,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 79,
+            "score": 0.22172929346561432,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 11,
+            "score": 0.21166950464248657,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 29,
+            "score": 0.1958169788122177,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "Performance reviews at NovaOps happen twice a year, in February and August (making-a-career.md). \n\nThese written reviews are recorded and stored in BambooHR, which serves as the official source of record for all completed performance reviews (titles-for-programmers.md). \n\nThe review process includes:\n\n- February and August as formal written performance review months\n- March and September as promotion proposal months  \n- Approved March promotions effective April 1\n- Approved September promotions effective October 1\n\nManagers gather promotion evidence before the proposal month, and employees should raise promotion consideration during quarterly growth conversations before the cycle (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 37,
+            "score": 0.48960039019584656,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 38,
+            "score": 0.47654715180397034,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 40,
+            "score": 0.43699002265930176,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 39,
+            "score": 0.4368869364261627,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "The QA title levels at NovaOps are:\n\n- **QA1, Associate QA Analyst**: This is the entry-level position for QA. QA1s execute defined test plans, write clear reproduction steps, and escalate issues to senior team members. They focus on learning the product area and becoming dependable in a bounded area before taking on broader responsibilities\u200b\u200b(titles-for-QA.md)\u200b\u200b(titles-for-QA.md)\u200b\u200b(titles-for-QA.md)\u200b.\n\n- **QA2, QA Engineer**: QA2s design test cases for normal product work, verify fixes, contribute to regression coverage, and identify gaps in acceptance criteria. They own quality for small projects with support from senior teammates and can turn clear feature requests into practical test plans\u200b\u200b(titles-for-QA.md)\u200b\u200b(titles-for-QA.md)\u200b\u200b(titles-for-QA.md)\u200b.\n\n- **QA3, Senior QA Engineer**: QA3s build test strategies for complex features, balance manual and automated coverage, mentor others, and help Product and Engineering identify risk before implementation is complete. They are trusted to determine when a release is not ready and explain why\u200b\u200b(titles-for-QA.md)\u200b\u200b(titles-for-QA.md)\u200b\u200b(titles-for-QA.md)\u200b.\n\nThese levels reflect increasing responsibility and independence in risk evaluation, test strategy development, and release decision-making.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 20,
+            "score": 0.3268870413303375,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 19,
+            "score": 0.32575657963752747,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 68,
+            "score": 0.28818875551223755,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 18,
+            "score": 0.28637808561325073,
+            "source": "our-internal-systems.md"
+          }
+        ],
+        "answer": "NovaOps uses a few key systems for HR records and access management:\n\n**HR Records**\n- **BambooHR** is used for HR self-service and employee records. Employee self-service lets you see and update your own details, request time off, and view HR tasks assigned to you. HR access to sensitive employment records is limited to People Operations roles (our-internal-systems.md; titles-for-ops.md).\n\n**Access Management**\n- **Okta** is the front door for SSO and MFA across the company. It's used for logging into most systems and managing user access (our-internal-systems.md).\n- **BambooHR** also handles some HR-related access controls, particularly for HR records (our-internal-systems.md).\n- **IT conducts access reviews** for various systems:\n  - IT leads reviews for Okta, Slack, Webex, GitHub, Jira, AWS, and device tooling\n  - People Operations leads reviews for BambooHR\n  - Sales Operations and Customer Success leaders help review Salesforce\n  - Finance reviews billing-facing systems and paid license growth (our-internal-systems.md)\n\nThe process for accessing systems generally requires:\n1. **Role need justification** - Your manager confirms the business reason\n2. **IT security and license review** \n3. **Finance review** for requests creating new paid spend above certain thresholds\n4. **Submission through the IT request portal**\n\nPrivileged access (like admin rights) requires additional approvals and defined end dates or review dates (our-internal-systems.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 30,
+            "score": 0.48074448108673096,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 21,
+            "score": 0.4688171148300171,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 29,
+            "score": 0.42894864082336426,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 28,
+            "score": 0.3573223352432251,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps has several recurring rituals and meetings, including:\n\n- **Weekly Company Update**: Every Monday, Emma Wilson posts a company update in Slack covering customer wins, operational risks, hiring updates, upcoming holidays, and cross-department decisions. Department leads reply with short notes by Tuesday (our-rituals.md).\n- **Every-Second-Thursday Demo**: Owned jointly by Product and Engineering, this is a recurring ritual for showcasing product developments (our-rituals.md).\n- **Monthly Spending Review**: Tom Baker owns this ritual for reviewing company expenditures (our-rituals.md).\n- **Customer-Story Review**: Yael Romano owns this for reviewing customer success stories (our-rituals.md).\n- **Team Standups**: While not explicitly detailed, the handbook mentions that team standups can be adapted, such as becoming three written updates per week during normal work and daily check-ins only during launch week (our-rituals.md).\n- **Preboarding Rituals**: These start before the employee's first day and involve confirming start dates, roles, systems, and first-week schedules. IT receives access requests early to avoid delays (our-rituals.md).\n- **Role Change Rituals**: When employees change roles, rituals revisit access, manager context, team planning, customer workflows, and performance expectations (our-rituals.md).\n- **Contractor Rituals**: These include scoping Jira work, limiting GitHub access, managing Slack/Notion guest access, and setting clear end dates tied to agreements. Periodic checks ensure access matches the statement of work (our-rituals.md).\n\nThe handbook emphasizes that rituals should make work easier to understand, decisions easier to find, customers easier to support, and people easier to trust. They should be reviewed or retired if they no longer serve their purpose (our-rituals.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 9,
+            "score": 0.1697467863559723,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 26,
+            "score": 0.13319918513298035,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 11,
+            "score": 0.12490496039390564,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 24,
+            "score": 0.0875176340341568,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 11,
+            "score": 0.2838485836982727,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 9,
+            "score": 0.24970802664756775,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 25,
+            "score": 0.23616895079612732,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 26,
+            "score": 0.23342254757881165,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 11,
+            "score": 0.48414522409439087,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 10,
+            "score": 0.47798314690589905,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 89,
+            "score": 0.44074487686157227,
+            "source": "titles-for-support.md"
+          },
+          {
+            "chunk_id": 70,
+            "score": 0.41446220874786377,
+            "source": "titles-for-ops.md"
+          }
+        ],
+        "answer": "The three key performance and growth conversations at NovaOps happen on different schedules:\n\n**Quarterly Growth Conversation**\n- Happens: At least quarterly (every 3 months) (making-a-career.md)\n- Purpose: Managers and employees discuss growth, covering what changed in the role, evidence of readiness for more scope, gaps, and needed support (making-a-career.md)\n- Flexibility: Does not need to wait for formal review windows - can happen anytime (making-a-career.md)\n\n**Formal Performance Review**\n- Happens: Twice per year, specifically in February and August (making-a-career.md)\n- Purpose: Written reviews recorded in BambooHR that evaluate performance against expectations and standards (making-a-career.md)\n- Content: Uses examples from the review period, separates impact from style, and should identify scope for the employee if ready for more responsibility (making-a-career.md)\n\n**Promotion Cycle**\n- Happens: Twice per year (making-a-career.md)\n  - March proposals take effect April 1\n  - September proposals take effect October 1\n- Purpose: Evaluation of employees for potential title changes based on evidence of operating at the next level (making-a-career.md)\n- Requirements: Generally requires at least six months in current role, sustained performance, and evidence of next-level operation (making-a-career.md)\n- Process: Manager submits packet with evidence, peer input, and ladder mapping; goes through calibration with People Operations and department leader (making-a-career.md)\n\nThe key difference is frequency and purpose: quarterly conversations are ongoing growth discussions, semi-annual reviews are formal written evaluations, and bi-annual promotion cycles are specifically for evaluating and granting title changes.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.2245933711528778,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.20261232554912567,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.1864394247531891,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 34,
+            "score": 0.11563894152641296,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.30818289518356323,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 32,
+            "score": 0.2530372440814972,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 34,
+            "score": 0.2428111732006073,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 35,
+            "score": 0.22877615690231323,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "NovaOps benefits are designed for a remote-first company with employees in Israel, Germany, the United Kingdom, and the United States. Full-time employees are eligible for the company benefits in their country from their first day unless a local plan document says otherwise. Contractors receive the equipment and access needed for the engagement, but do not receive employee insurance, retirement, or leave benefits (benefits-and-perks.md).\n\nNovaOps provides 20 paid vacation and personal days per calendar year for full-time employees, plus 11 local public holidays based on your work location. Unused vacation rolls over year to year, but your vacation bank is capped at 27 days at any time. Once you reach 27 days, additional accrual pauses until you take time off. Managers should help employees schedule time before they hit the cap (benefits-and-perks.md).\n\nSo, full-time employees are eligible for benefits from day one, and they earn 20 vacation days per year that roll over but are capped at 27 days. Contractors do not receive these benefits.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I don't have access to live financial data or stock prices. For the current stock price of NovaOps, I recommend checking reliable financial news websites, stock market platforms (like Yahoo Finance, Bloomberg, or Google Finance), or your brokerage account. These sources will provide you with the most up-to-date and accurate stock price information.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information like the CEO's cell phone number. This type of private data is protected under company policy and privacy laws. If you need to reach the CEO for official business, please use the appropriate corporate communication channels or contact the executive assistant's office. \n\nIf you have any other questions about company policies, benefits, or operations that don't involve personal private information, I'd be happy to help.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "fixed_800w_200ov",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 10,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 24,
+            "score": 0.23851868510246277,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 26,
+            "score": 0.2270936220884323,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.1963764727115631,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 25,
+            "score": 0.1941414475440979,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year** (benefits-and-perks.md). \n\nThese days are in addition to **11 local public holidays** based on the employee's work location (benefits-and-perks.md). Unused vacation rolls over year to year, but the vacation bank is capped at 27 days at any time (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 26,
+            "score": 0.19000060856342316,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 25,
+            "score": 0.18468500673770905,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 63,
+            "score": 0.1822192370891571,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.17614737153053284,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 26,
+            "score": 0.19000060856342316,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 25,
+            "score": 0.18468500673770905,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 63,
+            "score": 0.1822192370891571,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.17614737153053284,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 63,
+            "score": 0.0862438902258873,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 55,
+            "score": 0.07975027710199356,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.06924471259117126,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 12,
+            "score": 0.06632864475250244,
+            "source": "moonlighting.md"
+          }
+        ],
+        "answer": "NovaOps's moonlighting policy restricts employees from engaging in outside paid work that conflicts with their NovaOps role or could create a conflict of interest. Key points include:\n\n- Employees cannot take outside paid work that competes with NovaOps, uses confidential information, or involves NovaOps customers, prospects, vendors, or competitors without explicit written approval from People Operations and the relevant executive owner (moonlighting.md)\n- Outside work that requires availability during normal work hours or leaves the employee too tired to perform their NovaOps role well is prohibited (moonlighting.md) \n- Engineering employees may contribute to open-source projects using personal accounts and equipment, but they cannot contribute NovaOps proprietary code, customer data, roadmap details, or security-sensitive information. They should ask their manager and IT before contributing to projects that overlap with NovaOps product areas (moonlighting.md)\n- NovaOps will reject outside work that creates a competitive conflict, confuses customers about representation, or requires use of NovaOps credentials, devices, or resources (moonlighting.md)\n\nIn summary, employees are allowed some outside work, like open-source contributions, but they must avoid conflicts of interest, protect confidential information, and get approval for work involving NovaOps customers, prospects, or vendors. The policy applies equally to all employees regardless of seniority.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 10,
+            "score": 0.38989803194999695,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 9,
+            "score": 0.38141492009162903,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 26,
+            "score": 0.2506711184978485,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 3,
+            "score": 0.24553239345550537,
+            "source": "getting-started.md"
+          }
+        ],
+        "answer": "When you leave NovaOps, you must return your company-owned laptop and all accessories within five business days of your last working day, unless People Operations approves a different local process for your location\u00a0**[managing-work-devices.md]**.\n\nBefore returning the laptop:\n\n- Save any personal files elsewhere\n- Make sure all NovaOps work is stored in the correct company systems\n- Do **not** delete company records, source code, customer notes, Jira tickets, Slack messages, or shared files\n- Do **not** factory reset the device\u00a0**[managing-work-devices.md]**\n\nFor a normal planned departure, IT will disable your Okta access on the agreed schedule, often at the end of your last working day. For involuntary, security-sensitive, or no-transition departures, access may be disabled earlier\u00a0**[managing-work-devices.md]**.\n\nIT will send you return instructions and a prepaid shipping label where available. Make sure to return the laptop, charger, security keys, and any other company accessories\u00a0**[managing-work-devices.md]**.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 23,
+            "score": 0.31454822421073914,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 24,
+            "score": 0.2655237317085266,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 62,
+            "score": 0.11840550601482391,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 61,
+            "score": 0.11055499315261841,
+            "source": "titles-for-programmers.md"
+          }
+        ],
+        "answer": "If an employee is terminated without cause by NovaOps, they are eligible for severance according to the following formula based on their completed years of service with the company^1^:\n\n- **Base Severance**: All employees receive a base severance amount of **4 weeks of regular base pay**^1^.\n- **Additional Severance**: For each **completed year of service**, employees receive an additional **2 weeks of regular base pay**^1^. \n    - Example: An employee with 2 completed years receives **8 weeks** total (4 base weeks + 2 weeks/year \u00d7 2 years)^1^.\n    - Example: An employee with 6 completed years receives **16 weeks**, which is the **maximum cap** on severance payments^1^.\n- **Regular Base Pay**: This is calculated using the employee\u2019s **normal salary or base wages**, excluding bonuses, commissions, equity, allowances, or reimbursements^1^.\n\n### Key Notes:\n- **Local Laws**: If local laws require a greater severance amount than NovaOps\u2019 policy, the **local legal amount takes precedence**^1^.\n- **Performance-Based Severance**: This formula applies only if the separation is due to role elimination, restructuring, lack of work, or documented underperformance\u2014not for voluntary resignations, misconduct, or other disqualifying reasons^1^.\n- **Notice Periods**: Any required notice periods or garden leave are **separate** from the severance calculation unless People Operations specifies otherwise^1^.\n\nFor more details, employees should contact **People Operations**. Managers should not promise specific severance packages without HR review^1^.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 62,
+            "score": 0.21873676776885986,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 7,
+            "score": 0.19967567920684814,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 19,
+            "score": 0.1957862377166748,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 71,
+            "score": 0.1827133297920227,
+            "source": "titles-for-support.md"
+          }
+        ],
+        "answer": "Performance reviews at NovaOps happen twice a year, in February and August. These are formal written performance review months (making-a-career.md). \n\nAfter each review cycle, promotion proposals are due the following months\u2014March for February reviews, and September for August reviews. Approved promotions from the March cycle take effect on April 1, and those from the September cycle take effect on October 1 (making-a-career.md).\n\nAll completed written reviews are recorded in BambooHR, which serves as the source of record for these reviews (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 29,
+            "score": 0.6106486916542053,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 31,
+            "score": 0.5416604280471802,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 27,
+            "score": 0.5198246240615845,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 28,
+            "score": 0.5161091089248657,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "The QA engineer title levels at NovaOps are as follows, based on the complexity of systems they can evaluate, their independence in test strategy, and their influence on how teams build reliable workflow automation software:\n\n### QA Titles and Levels\n\n1. **QA1, Associate QA Analyst**\n   - Learns the product area, executes defined test plans, writes clear reproduction steps, and asks for help early.\n   - Expected to become dependable in a bounded area before taking on broader release ownership.\n   - Works from a defined plan, which may be written by a QA2, QA3, or a senior engineer with QA review.\n\n2. **QA2, QA Engineer**\n   - Designs test cases for normal product work, verifies fixes, contributes to regression coverage, and spots gaps in acceptance criteria.\n   - Can own quality for a small project with support from a senior teammate.\n   - Begins to own quality for normal product work and can turn a clear feature request into a practical test plan.\n\n3. **QA3, Senior QA Engineer**\n   - Builds test strategy for complex features, balances manual and automated coverage, mentors others, and helps Product and Engineering identify risk before implementation is complete.\n   - Owns the quality plan for a complex release, makes blocker status visible, and ensures defects have useful severity and customer-impact notes.\n\n4. **QA4, Staff QA Engineer**\n   - Defines quality practices across multiple teams, improves tooling, and leads risk reviews for major launches.\n   - Makes the whole engineering organization better at preventing defects and operates across teams and systems.\n   - Focuses on making the organization better at knowing what is safe to ship rather than personally testing every important release.\n\n5. **QA5, Quality Lead or Quality Architect**\n   - Provides company-wide quality ownership and has durable strategic impact beyond a function or product area.\n   - Focuses on improving quality across the entire organization and ensuring sustainable quality practices.\n\n### Key Points:\n- **QA Work Focus**: QA work at NovaOps is about risk judgment, product understanding, and clear evidence. It is not just about finding bugs but ensuring that quality is visible before release.\n- **Tools**: Jira is used for test planning and defect tracking, while GitHub is used for source code, pull requests, and automated checks. QA engineers with approved GitHub access may read pull requests, review test files, inspect CI results, and comment when a change creates test risk.\n- **Customer Impact**: Strong QA work protects customers from defects that affect data integrity, permissions, billing, auditability, security, or critical workflow execution.\n\nThese levels reflect the progression in complexity, independence, and impact that QA engineers have as they advance in their careers at NovaOps (sources: titles-for-QA.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 14,
+            "score": 0.39653709530830383,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 48,
+            "score": 0.29582610726356506,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 3,
+            "score": 0.28316059708595276,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 52,
+            "score": 0.25775468349456787,
+            "source": "titles-for-ops.md"
+          }
+        ],
+        "answer": "NovaOps uses several key tools and systems for HR records and access management:\n\n**HR Records**\n- **BambooHR**: This is the primary system for HR records and employee self-service. It contains employment records, completed written reviews, and is used for employee self-service items such as personal details, time away, and HR acknowledgments. Access to sensitive employment records in BambooHR is limited to People Operations roles (our-internal-systems.md)(titles-for-ops.md)(getting-started.md)\n\n**Access Management**\n- **Okta**: Used for login and access management across systems. It's the primary system for managing user access and authentication (our-internal-systems.md)(getting-started.md)\n- **IT Request Portal**: Used for submitting access requests and managing equipment (getting-started.md)\n- **Manager Approval**: Required for confirming role need before access can be granted (our-internal-systems.md)(getting-started.md)(titles-for-ops.md)\n- **IT Approval**: Confirms security, least privilege, license impact, and managed-device requirements (our-internal-systems.md)(getting-started.md)(titles-for-ops.md)\n- **Finance Approval**: Required for new paid spend above USD 500 per month or USD 2,500 per year, and equipment purchases above USD 1,500 (getting-started.md)(titles-for-ops.md)\n\n**Other Systems Mentioned**\n- **Jira**: Used for planned work, delivery status, and decision tracking\n- **GitHub**: Used for code review and engineering decisions\n- **Salesforce**: Used for customer and revenue workflows\n- **Webex**: Used for customer-facing communications\n- **AWS**: Used for cloud infrastructure with strict access controls\n\nThe handbook emphasizes that access should follow the principle of least privilege, with quarterly reviews for restricted systems and twice-yearly reviews for internal systems. Managers must respond to access review questions within five business days, and stale access should be removed when roles change (our-internal-systems.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 22,
+            "score": 0.5411635637283325,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 15,
+            "score": 0.42938563227653503,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 21,
+            "score": 0.4145035147666931,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 18,
+            "score": 0.34869080781936646,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps has several recurring rituals and meetings, including:\n\n- **Weekly Company Update**: Every Monday, Emma Wilson posts a company update in Slack covering customer wins, operational risks, hiring updates, upcoming holidays, and decisions affecting more than one department. Department leads reply with short notes by Tuesday (our-rituals.md).\n- **Demos and Reviews**: \n  - Every second Thursday, Product and Engineering run a 45-minute demo over Webex to show working software, customer workflow improvements, etc. (our-rituals.md)\n  - Customer Success runs a monthly customer-story review (our-rituals.md)\n  - Sales runs a monthly win/loss review (our-rituals.md)\n  - Finance runs a monthly spending review with department leaders (our-rituals.md)\n- **Standups, Huddles, and Checkpoints**: NovaOps does not require daily standups for every team. Some teams use brief live checkpoints (usually 15 minutes or less) focused on blockers, priority changes, and handoffs, while others use written updates. During launch weeks, temporary checkpoints may be added (our-rituals.md).\n\nThe handbook emphasizes that every recurring ritual should have an owner, a clear purpose, and produce useful output. Meetings should be concise (25 or 50 minutes by default) and only include necessary participants (our-rituals.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 19,
+            "score": 0.1102195531129837,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 51,
+            "score": 0.0949498638510704,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 6,
+            "score": 0.09193728119134903,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 18,
+            "score": 0.08987811952829361,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 7,
+            "score": 0.2538727819919586,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.2240479290485382,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 62,
+            "score": 0.2216620147228241,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 19,
+            "score": 0.20716038346290588,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 7,
+            "score": 0.45350566506385803,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.41093504428863525,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 6,
+            "score": 0.38685643672943115,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 55,
+            "score": 0.3720565140247345,
+            "source": "titles-for-ops.md"
+          }
+        ],
+        "answer": "Here's how often each of the three conversations happens:\n\n**Quarterly Growth Conversation**\n- Happens at least quarterly (making-a-career.md)\n- Managers and employees should discuss growth at least quarterly (making-a-career.md)\n- These conversations cover what changed in the role, evidence of readiness for more scope, gaps, and support needed (making-a-career.md)\n\n**Formal Performance Review**\n- Happens twice per year, in February and August (making-a-career.md)\n- Formal written performance reviews happen twice per year, in February and August, and are recorded in BambooHR (making-a-career.md)\n- These reviews are recorded in BambooHR and use examples from the review period (making-a-career.md)\n\n**Promotion Cycle**\n- Runs twice per year (making-a-career.md)\n- March proposals take effect April 1, and September proposals take effect October 1 (making-a-career.md)\n- Promotion cycles run twice per year with proposals submitted in March and September (making-a-career.md)\n\nSo in summary:\n- Quarterly Growth Conversations: At least quarterly \n- Formal Performance Reviews: Twice per year (February and August)\n- Promotion Cycles: Twice per year (March and September)",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.7308536767959595,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.6426184177398682,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 64,
+            "score": 0.5230743288993835,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.4885317385196686,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 24,
+            "score": 0.24698348343372345,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 26,
+            "score": 0.2312328815460205,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 0,
+            "score": 0.22692584991455078,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 25,
+            "score": 0.21763905882835388,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "NovaOps benefits are designed for full-time employees working remotely across Israel, Germany, the United Kingdom, and the United States. These benefits are available from the first day of employment, unless a local plan document specifies otherwise. Contractors, however, do not receive employee insurance, retirement, or leave benefits; they only receive the equipment and access needed for their engagement (benefits-and-perks.md).\n\nWhen it comes to vacation days, NovaOps provides 20 paid vacation and personal days per calendar year for full-time employees, in addition to 11 local public holidays based on the employee's work location. Unlike an unlimited PTO policy, NovaOps requires employees to plan their time off, and managers are expected to ensure that teams are not overburdened. Unused vacation days roll over from year to year, but there is a cap of 27 days in the vacation bank at any given time. Once an employee reaches this cap, additional accrual pauses until they take some time off. Managers are encouraged to help employees schedule their vacation before they hit the cap (benefits-and-perks.md).\n\nIn summary, full-time employees are eligible for NovaOps benefits from day one, and these benefits include a structured vacation policy with a yearly accrual and a cap on unused days.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I can only provide information from the NovaOps employee handbook, which covers company policies, benefits, titles, and how the company operates\u2014not real-time financial data like stock prices. To check the current stock price, you\u2019d need to look at a financial service or stock market platform. \n\nIf you\u2019d like handbook info\u2014like compensation, benefits, or career levels\u2014just let me know!",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information like a CEO's cell phone number. That would be a violation of privacy policies and could lead to serious legal consequences. If you need to contact the CEO for official business, please use the official company channels or contact the executive assistant through proper corporate communication methods.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "separator",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 7,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 7,
+            "score": 0.5080695748329163,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 363,
+            "score": 0.4670533537864685,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.45568355917930603,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 6,
+            "score": 0.38218656182289124,
+            "source": "benefits-and-perks.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year**, in addition to 11 local public holidays based on their work location\u200b(benefits-and-perks.md)\u200b.\n\nUnused vacation days roll over year to year, but the vacation bank is capped at 27 days at any time. Once you reach 27 days, additional accrual pauses until you take time off. Managers are expected to help employees schedule time off before they hit the cap\u200b(benefits-and-perks.md)\u200b.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 148,
+            "score": 0.5634658336639404,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 4,
+            "score": 0.22993411123752594,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 310,
+            "score": 0.20315098762512207,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 785,
+            "score": 0.18413473665714264,
+            "source": "titles-for-programmers.md"
+          }
+        ],
+        "answer": "NovaOps has a moonlighting policy that is detailed in the handbook. According to the retrieved results, the specific policy on moonlighting is outlined in the **moonlighting.md** document, though the exact content of that policy was not included in the search results returned.\n\nTo get the full moonlighting policy, you would need to refer directly to the **moonlighting.md** section of the NovaOps employee handbook. The policy likely covers topics such as:\n\n- Permissibility of outside paid work\n- Conditions under which outside work is allowed or prohibited\n- Disclosure requirements to NovaOps\n- Potential conflicts of interest\n- Consequences for violating the policy\n\nFor the exact wording and details of NovaOps's moonlighting policy, please consult the **moonlighting.md** section of the employee handbook or reach out to People Operations for clarification. \n\nIf you need further assistance locating this document or understanding any part of it, I can help direct you to the appropriate resources or contacts within People Operations.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 145,
+            "score": 0.5896835923194885,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 125,
+            "score": 0.49939441680908203,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 123,
+            "score": 0.4436933994293213,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 130,
+            "score": 0.4426019787788391,
+            "source": "managing-work-devices.md"
+          }
+        ],
+        "answer": "When you leave the company, you must return your laptop, charger, security keys, and any company accessories within five business days of your last working day, unless People Operations approves a different local process. IT will send you return instructions and a prepaid shipping label if available <5>(managing-work-devices.md)>.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 306,
+            "score": 0.7912951707839966,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 336,
+            "score": 0.7606978416442871,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 308,
+            "score": 0.7332592010498047,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 325,
+            "score": 0.6103000640869141,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "I can give you a summary of the severance policy, but the handbook doesn't specify exact amounts or formulas for severance pay. Here's what the handbook does say about severance:\n\n- Severance is intended to be humane, consistent, and administratively clear (severance.md)\n- It's meant to give employees a practical landing period when NovaOps ends employment for business reasons or for performance reasons that are not gross misconduct (severance.md)\n- It's normally paid through payroll, with required tax withholding (severance.md)\n\nFor the specific severance amounts or formulas that apply to different situations, you'll need to check your employment agreement or speak with People Operations, as the handbook notes that local law, employment agreements, and required consultation processes may add rights or process steps that could affect the severance amount (severance.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 93,
+            "score": 0.5032446384429932,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 255,
+            "score": 0.40984201431274414,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 97,
+            "score": 0.34162020683288574,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 315,
+            "score": 0.33539167046546936,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "The handbook doesn't specify a fixed schedule for performance reviews or a designated place for recording them. It does mention that good written reviews should use examples from the review period and separate impact from style (making-a-career.md), and that performance-based severance requires documentation and approval from People Operations (severance.md). However, it doesn't state how often these reviews occur or where the records are kept.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 374,
+            "score": 0.6368761658668518,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 410,
+            "score": 0.6249847412109375,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 411,
+            "score": 0.594805121421814,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 423,
+            "score": 0.577537477016449,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "The QA ladder includes the following levels for QA engineers:\n\n- **QA3, Senior QA Engineer**: Builds test strategy for complex features, balances manual and automated coverage, mentors others, and helps Product and Engineering identify risk before implementation is complete. A QA3 is trusted to say when a release is not ready and explain why (titles-for-QA.md).\n  \n- **QA4, Staff QA Engineer**: Defines quality practices across multiple teams, improves tooling, and leads risk reviews for major launches. A QA4 makes the whole engineering organization better at preventing defects (titles-for-QA.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 194,
+            "score": 0.4392927885055542,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 610,
+            "score": 0.4294445514678955,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 628,
+            "score": 0.42309024930000305,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 49,
+            "score": 0.4066320061683655,
+            "source": "getting-started.md"
+          }
+        ],
+        "answer": "NovaOps uses several key tools and systems for HR records and access:\n\n- **BambooHR**: This is the primary system for employee records and HR self-service. Employees can use it to view and update their own details, request time off, and see HR tasks assigned to them. HR access to sensitive employment records is limited to People Operations roles (BambooHR contains employee records and HR self-service) (our-internal-systems.md)(titles-for-ops.md). \n- **Okta**: This system controls login and multi-factor authentication (MFA) for accessing various company systems, including BambooHR (Okta controls login and MFA) (titles-for-ops.md). \n- **IT request portal**: This is used for managing access requests and other IT-related tasks. It's part of the access path for getting access to systems like BambooHR (Okta and the IT request portal are for access paths) (titles-for-ops.md).\n\nIn summary, BambooHR is the core HR records system, Okta manages access control, and the IT request portal handles access requests. Employees should use BambooHR for most HR-related self-service tasks, while HR personnel have restricted access to sensitive records through BambooHR.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 302,
+            "score": 0.5528489947319031,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 215,
+            "score": 0.5474308729171753,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 232,
+            "score": 0.5392546653747559,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 212,
+            "score": 0.5379224419593811,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps runs recurring rituals to keep decisions, customer signals, delivery risk, people operations, and recognition visible across all locations. These rituals are not ceremonies for their own sake, but rather ways to make the next action easier to find and keep work moving forward efficiently  (our-rituals.md). \n\nSome examples of rituals mentioned in the handbook include:\n\n*   **Team standups**: These can be adapted based on the team's needs. For example, a team standup might become three written updates per week during normal work and daily check-ins only during launch week (our-rituals.md). \n*   **Weekly live status meetings**: These might be replaced with an async Tuesday update plus a monthly decision review (our-rituals.md).\n*   **Broad customer escalation meetings**: These might become a small incident bridge plus written updates (our-rituals.md).\n\nThe handbook emphasizes that rituals should be designed to make work easier, not create unnecessary calendar weight. If a ritual must happen outside the core window, the owner should explain why, keep the attendee list narrow, and provide notes afterward (our-rituals.md). Valid reasons for an exception include production incidents, customer incidents, security response, payroll blockers, legal deadlines, customer executive meetings, and a one-time schedule constraint with a specific decision at stake. \"This was the only open slot\" is not considered a strong reason for a recurring meeting (our-rituals.md).\n\nTo change a ritual, the owner should propose the new cadence, audience, artifact, and review date (our-rituals.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 94,
+            "score": 0.6072524785995483,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 93,
+            "score": 0.3736826181411743,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 89,
+            "score": 0.3594058156013489,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 219,
+            "score": 0.25612133741378784,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 96,
+            "score": 0.4176854193210602,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 93,
+            "score": 0.4020560383796692,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 95,
+            "score": 0.3557570278644562,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 112,
+            "score": 0.3444795608520508,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 98,
+            "score": 0.6484060287475586,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 579,
+            "score": 0.5535300970077515,
+            "source": "titles-for-designers.md"
+          },
+          {
+            "chunk_id": 112,
+            "score": 0.5447688698768616,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 578,
+            "score": 0.5401518940925598,
+            "source": "titles-for-designers.md"
+          }
+        ],
+        "answer": "The handbook outlines three key performance and growth conversations:\n\nQuarterly growth conversations happen at least quarterly (making-a-career.md). These are informal discussions between you and your manager about your growth, readiness for more scope, gaps, and support needed.\n\nFormal performance reviews happen twice a year, in February and August (making-a-career.md). These are written reviews recorded in BambooHR.\n\nThe promotion cycle has two proposal months per year: March and September (making-a-career.md). Promotions approved in March take effect April 1, and those approved in September take effect October 1. Employees should bring up promotion interest in the quarterly growth conversation before the cycle starts.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 311,
+            "score": 0.4490753412246704,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.4490753412246704,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 4,
+            "score": 0.28352710604667664,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 3,
+            "score": 0.2654857635498047,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 8,
+            "score": 0.5524491667747498,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 11,
+            "score": 0.4805062413215637,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 327,
+            "score": 0.4682330787181854,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 7,
+            "score": 0.4588939845561981,
+            "source": "benefits-and-perks.md"
+          }
+        ],
+        "answer": "NovaOps provides 20 paid vacation and personal days per calendar year for full-time employees, plus 11 local public holidays based on your work location (benefits-and-perks.md). \n\nUnused vacation rolls over year to year, but your vacation bank is capped at 27 days at any time (benefits-and-perks.md). Once you reach 27 days, additional accrual pauses until you take time off. Managers should help employees schedule time before they hit the cap (benefits-and-perks.md).\n\nNovaOps benefits are designed for a remote-first company with employees in Israel, Germany, the United Kingdom, and the United States (benefits-and-perks.md). Full-time employees are eligible for the company benefits in their country from their first day unless a local plan document says otherwise (benefits-and-perks.md). Contractors receive the equipment and access needed for the engagement, but do not receive employee insurance, retirement, or leave benefits (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I don't have access to real-time financial data or stock prices, including NovaOps's current stock price. My capabilities are focused on providing information from the NovaOps employee handbook, which covers company policies, benefits, titles, and operational procedures\u2014not live market data.\n\nFor stock prices, you might want to check financial platforms like Yahoo Finance, Bloomberg, Google Finance, or your brokerage account for the most up-to-date information.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information for any employee, including the CEO. This would be a violation of privacy policies and ethical guidelines. If you need to reach corporate leadership for official business, I recommend using the company's official contact channels instead. \n\nIf you have any other questions about company policies, benefits, or operations that don't involve personal contact details, I'd be happy to help with that information.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "sentence_3",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 9,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 3,
+            "score": 0.42546746134757996,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 7,
+            "score": 0.4220364987850189,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 286,
+            "score": 0.3804284930229187,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 287,
+            "score": 0.34029722213745117,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year** (benefits-and-perks.md). \n\nThese days are **capped at 27 days** in your vacation bank at any time, and unused days **roll over year to year** until the cap is reached (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 126,
+            "score": 0.5940092206001282,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.22993411123752594,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 301,
+            "score": 0.1904541701078415,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 132,
+            "score": 0.18936623632907867,
+            "source": "moonlighting.md"
+          }
+        ],
+        "answer": "NovaOps allows employees to have outside interests, volunteer commitments, creative projects, and occasional paid side work, provided they disclose any potential conflicts of interest, avoid actions that could compromise confidentiality or customer trust, and ensure their outside work doesn't interfere with their primary responsibilities at NovaOps\u00a0(moonlighting.md).\n\nExamples of generally acceptable outside work include teaching a weekend course, selling art, advising a local nonprofit, tutoring, repairing bicycles, performing music, or doing unrelated consulting. However, these can become conflicts if, for example, the outside work involves a client or organization that could benefit from NovaOps support or if it creates a situation where confidentiality might be compromised\u00a0(moonlighting.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 123,
+            "score": 0.5589450001716614,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 104,
+            "score": 0.5113347768783569,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 39,
+            "score": 0.4632051885128021,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 124,
+            "score": 0.45551782846450806,
+            "source": "managing-work-devices.md"
+          }
+        ],
+        "answer": "When you leave the company, you must return your laptop and all company accessories within five business days of your last working day, unless People Operations approves a different local process\u200b\u200b (managing-work-devices.md)\u200b\u200b. \n\nBefore returning the laptop, you should:\n\n- **Save personal files elsewhere** (managing-work-devices.md).\n- **Ensure NovaOps work is in the correct company systems** (managing-work-devices.md).\n- **Do not delete company records, source code, customer notes, Jira tickets, Slack messages, or shared files** (managing-work-devices.md).\n- **Do not factory reset the device** (managing-work-devices.md).\n\nFor a normal planned departure, IT will disable your Okta access on the agreed schedule, often at the end of your last working day\u200b\u200b (managing-work-devices.md). \n\nManagers confirm return plans before final invoice approval, and IT sends return instructions and a prepaid shipping label where available\u200b\u200b (managing-work-devices.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 272,
+            "score": 0.543181300163269,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 125,
+            "score": 0.5297187566757202,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 285,
+            "score": 0.4453076124191284,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 275,
+            "score": 0.44176459312438965,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "I can provide you with the general information about severance, but the handbook doesn't specify exact amounts or formulas for severance if terminated without cause \u2014 it only explains the purpose and conditions.\n\nHere's what the handbook says about severance in general:\n\n- **Purpose**: Severance is meant to give employees a practical landing period when NovaOps ends employment for business reasons or for performance reasons that are not gross misconduct. It is not a substitute for honest performance management, and it is not a promise that every separation will be identical in every country. Local law, employment agreements, and required consultation processes may add rights or process steps (source: severance.md).\n- **Eligibility**: Employees are not normally eligible for severance if they resign voluntarily, abandon their job, engage in fraud or serious misconduct, violate confidentiality obligations, or refuse reasonable transition duties during notice. Contractors are governed by their contract and are not covered by this severance policy unless their written agreement says otherwise. Employees on approved family, parental, medical, or disability leave are not excluded from severance eligibility (source: severance.md).\n- **Release requirement**: If a release is required, the severance payment will not be made until the release is signed and the revocation period, if any, has expired. If a release is not legally permitted in the employee's location, People Operations will document the alternate process. Severance is normally paid through payroll, with required tax withholding (source: severance.md).\n\nFor the specific severance amounts or formulas that apply to you, you would need to consult your local HR team or review your employment contract, as these can vary by country and role.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 78,
+            "score": 0.34047913551330566,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 77,
+            "score": 0.3298429846763611,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 75,
+            "score": 0.3247916102409363,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 94,
+            "score": 0.2928199768066406,
+            "source": "making-a-career.md"
+          }
+        ],
+        "answer": "Performance reviews happen twice per year, in February and August, and are recorded in BambooHR\u00a0(making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 318,
+            "score": 0.6411420106887817,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 351,
+            "score": 0.5971983075141907,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 330,
+            "score": 0.5558230876922607,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 340,
+            "score": 0.5527236461639404,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "The QA engineer title levels are:\n\n- **QA1, Associate QA Analyst**: Learns the product area, executes defined test plans, writes clear reproduction steps, and asks for help early. A QA1 is expected to become dependable in a bounded area before taking on broader release ownership\u00a0(titles-for-QA.md).\u00a0\n- **QA2, QA Engineer**: Designs test cases for normal product work, verifies fixes, contributes to regression coverage, and spots gaps in acceptance criteria. A QA2 can own quality for a small project with support from a senior teammate. A QA2 can turn a clear feature request into a practical test plan\u00a0(titles-for-QA.md).\u00a0\n- **QA3, Senior QA Engineer**: Builds test strategy for complex features, balances manual and automated coverage, mentors others, and helps Product and Engineering identify risk before implementation is complete. A QA3 is trusted to say when a release is not ready and explain why. A QA3 owns quality strategy for complex work\u00a0(titles-for-QA.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 159,
+            "score": 0.4858579635620117,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 531,
+            "score": 0.4499407410621643,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 146,
+            "score": 0.37069058418273926,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 40,
+            "score": 0.35389816761016846,
+            "source": "getting-started.md"
+          }
+        ],
+        "answer": "NovaOps uses the following tools/systems for HR records and access:\n\n- **BambooHR**: This is the primary system used for HR self-service and storing employee records. It allows employees to view and update their own details, request time off, and view HR tasks assigned to them. HR access to sensitive employment records is limited to People Operations roles (such as Sara Ben-David, Sara Cohen, and Maya Rosen)\u00a0[handbook chunk 531, source: titles-for-ops.md][handbook chunk 159, source: our-internal-systems.md][handbook chunk 146, source: our-internal-systems.md][handbook chunk 40, source: getting-started.md].\n- **Okta**: This system controls login and multi-factor authentication (MFA) for accessing company systems, including BambooHR. It ensures secure access to HR records and other sensitive systems\u00a0[handbook chunk 531, source: titles-for-ops.md].\n\nIn summary, **BambooHR** is the core HR system for records and self-service, while **Okta** manages access and authentication.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 194,
+            "score": 0.6453268527984619,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 178,
+            "score": 0.5608435273170471,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 268,
+            "score": 0.512322187423706,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 181,
+            "score": 0.49306535720825195,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps has a few recurring rituals and meetings that are designed to keep everyone aligned and informed across all locations. Here\u2019s what you need to know:\n\n1. **Weekly Company Update**: Every Monday, Emma Wilson posts a company update in Slack. This is a key ritual to keep everyone informed about company-wide news and priorities\u200b\u200b[source: our-rituals.md].\n\n2. **Rituals Across Functions**: When rituals cross functions, there should be one directly responsible person, even if many leaders contribute. The goal is to help employees and managers answer practical questions like what changed since the last update, who owns the next action, what decision was made, where it is recorded, what risk needs attention, and what can be handled asynchronously instead of adding another meeting\u200b\u200b[source: our-rituals.md].\n\n3. **Changing Rituals**: To change a ritual, the owner should propose the new cadence, audience, artifact, and review date. For example, a weekly live status meeting might become an async Tuesday update plus a monthly decision review\u200b\u200b[source: our-rituals.md].\n\n4. **Async Updates**: Async updates are considered a ritual, not a lack of ritual. They are recurring ways to keep decisions, customer signals, delivery risk, people operations, and recognition visible across all locations\u200b\u200b[source: our-rituals.md].\n\n5. **Handling Meetings Outside Core Windows**: If a ritual must happen outside the core window, the owner should explain why, keep the attendee list narrow, and provide notes afterward. Valid reasons include production incidents, customer incidents, security response, payroll blockers, legal deadlines, customer executive meetings, and a one-time schedule constraint with a specific decision at stake. \u201cThis was the only open slot\u201d is not a strong reason for a recurring meeting\u200b\u200b[source: our-rituals.md].\n\nThese rituals are meant to ensure that important information and decisions are visible and accessible to everyone, regardless of location, and to make the next action easier to find and execute.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 75,
+            "score": 0.5353767275810242,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 74,
+            "score": 0.4740099608898163,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 221,
+            "score": 0.22611458599567413,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 229,
+            "score": 0.2158306986093521,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 75,
+            "score": 0.45796850323677063,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 94,
+            "score": 0.4200006127357483,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 77,
+            "score": 0.4176854193210602,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 76,
+            "score": 0.3273942768573761,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 784,
+            "score": 0.528572142124176,
+            "source": "titles-for-support.md"
+          },
+          {
+            "chunk_id": 95,
+            "score": 0.5244950652122498,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 94,
+            "score": 0.5174403190612793,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 79,
+            "score": 0.5169191956520081,
+            "source": "making-a-career.md"
+          }
+        ],
+        "answer": "The handbook describes three key conversations and their timing:\n\n- **Quarterly growth conversations**: These happen at least quarterly (making-a-career.md). They're informal discussions about growth, readiness for more scope, gaps, and support needed. They don't have to align with the formal review schedule (making-a-career.md).\n- **Formal performance reviews**: These are written reviews that happen twice a year, in February and August, and are recorded in BambooHR (making-a-career.md).\n- **Promotion cycle**: Promotion proposals are submitted twice a year, in March and September. Approved March promotions take effect April 1, and approved September promotions take effect October 1 (making-a-career.md). Employees should raise promotion interest in the quarterly growth conversation before the cycle if possible (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.8266432285308838,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 11,
+            "score": 0.6857141256332397,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 64,
+            "score": 0.6461724042892456,
+            "source": "how-we-work.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.6334161758422852,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 7,
+            "score": 0.5098124742507935,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 287,
+            "score": 0.4237664043903351,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 3,
+            "score": 0.40280604362487793,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 286,
+            "score": 0.38482218980789185,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "Eligibility for NovaOps benefits is based on employment status and location. Full-time employees are eligible for company benefits from their first day, according to the local plans for their country (Israel, Germany, the United Kingdom, or the United States)\u00a0**[benefits-and-perks.md]**. Contractors receive equipment and access but do not receive employee insurance, retirement, or leave benefits\u00a0**[benefits-and-perks.md]**.\n\nVacation days are earned as follows: Full-time employees receive 20 paid vacation and personal days per calendar year, plus 11 local public holidays based on their work location\u00a0**[benefits-and-perks.md]**. Unused vacation days roll over year to year, but the vacation bank is capped at 27 days\u00a0**[benefits-and-perks.md]**. Accrual pauses once the cap is reached. After four continuous years at NovaOps, full-time employees may request a one-time 20 working day paid sabbatical\u00a0**[benefits-and-perks.md]**.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I don't have access to real-time financial data or stock prices, including NovaOps's current stock price. My capabilities are focused on providing information from the NovaOps employee handbook regarding company policies, benefits, titles, and operations.\n\nFor stock price information, you might want to:\n1. Check financial websites like Yahoo Finance, Bloomberg, or Google Finance\n2. Use your brokerage platform if you have an investment account\n3. Look at stock market apps on your phone\n\nIf you'd like information about NovaOps policies, benefits, or other employee-related topics, I'd be happy to help with that using the employee handbook!",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information for any employee, including the CEO. This would be a violation of privacy policies and could lead to legal consequences. If you need to contact the CEO for official business, please use the appropriate corporate communication channels or submit a formal request through your manager. \n\nIf you have any other questions about company policies, benefits, or procedures, I'd be happy to help with that information.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "sentence_5",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 8,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 2,
+            "score": 0.4690694808959961,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 4,
+            "score": 0.37807533144950867,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.32291409373283386,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 76,
+            "score": 0.3120890259742737,
+            "source": "managing-work-devices.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year**, in addition to 11 local public holidays based on their work location\u00a0(benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 77,
+            "score": 0.5495128631591797,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 80,
+            "score": 0.19106340408325195,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 179,
+            "score": 0.1899283528327942,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 78,
+            "score": 0.18331752717494965,
+            "source": "moonlighting.md"
+          }
+        ],
+        "answer": "Here\u2019s NovaOps\u2019s policy on outside paid work (moonlighting):\n\n- **Allowed**: Employees may have outside interests, volunteer commitments, creative projects, and occasional paid side work **as long as there\u2019s no conflict, no confidentiality breach, and no impact on performance or customer trust**. You can\u2019t use NovaOps equipment, accounts, customers, or prospects for the outside work\u00a0(moonlighting.md). \n\n- **Not allowed**: Working full-time or part-time for another company **in NovaOps\u2019s industry** (workflow automation, enterprise SaaS operations, customer support automation, or any product that would reasonably compete with NovaOps) while employed here\u00a0(moonlighting.md). \n\n- **Disclosure required**: If outside paid work is recurring, expected to exceed **eight hours in a week**, or likely to pay **more than USD 500 in a month**, you must disclose it to your manager and People Operations **before you commit**. This includes paid employment, freelance projects, consulting, advisory work, board service, compensated speaking, recurring teaching, paid content creation, equity-only startup help, and even volunteer roles where your NovaOps role or access could matter\u00a0(moonlighting.md). \n\nThe key concerns are **conflict of interest, fatigue, confidentiality, and customer trust**\u2014not simply the number of hours worked outside NovaOps\u00a0(moonlighting.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 63,
+            "score": 0.5173426866531372,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 75,
+            "score": 0.48673123121261597,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 62,
+            "score": 0.4308379292488098,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 66,
+            "score": 0.4250699281692505,
+            "source": "managing-work-devices.md"
+          }
+        ],
+        "answer": "When you leave the company, you must return your laptop, charger, security keys, and any company accessories within five business days of your last working day, unless People Operations approves a different local process\u200b\u200b (managing-work-devices.md). \n\nBefore returning the laptop:\n\n- Save any personal files elsewhere (managing-work-devices.md).\n- Make sure all NovaOps work is in the correct company systems (managing-work-devices.md).\n- Do **not** delete company records, source code, customer notes, Jira tickets, Slack messages, or shared files (managing-work-devices.md).\n- Do **not** factory reset the device (managing-work-devices.md).\n\nFor a normal planned departure, IT will disable your Okta access on the agreed schedule, often at the end of your last working day. For involuntary, security-sensitive, or no-transition departures, access may be disabled earlier\u200b\u200b (managing-work-devices.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 165,
+            "score": 0.5349892973899841,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 76,
+            "score": 0.49516725540161133,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 173,
+            "score": 0.4084864854812622,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 178,
+            "score": 0.311749666929245,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "Sorry, I don't see any details about the actual severance amount or formula in the handbook chunks returned. The handbook only explains that severance is meant to give employees a practical landing period when NovaOps ends employment for business reasons or for performance reasons that are not gross misconduct, and that People Operations owns final severance calculations. For the specific severance terms (e.g., weeks or months of pay, multipliers, etc.), you would need to consult People Operations or your manager, as managers should not promise a specific package without HR review (severance.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 46,
+            "score": 0.3408818542957306,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 45,
+            "score": 0.3029060661792755,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 47,
+            "score": 0.2827494144439697,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 134,
+            "score": 0.2825368642807007,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "Performance reviews happen twice per year, in February and August, and are recorded in BambooHR\u00a0(making-a-career.md). Managers and employees should discuss growth at least quarterly, with formal written reviews occurring in February and August and being recorded in BambooHR\u00a0(making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 213,
+            "score": 0.568239152431488,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 193,
+            "score": 0.5660136938095093,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 219,
+            "score": 0.5242671966552734,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 192,
+            "score": 0.5226423740386963,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "NovaOps has three title levels for QA engineers:\n\nQA3, Senior QA Engineer: Builds test strategy for complex features, balances manual and automated coverage, mentors others, and helps Product and Engineering identify risk before implementation is complete. A QA3 is trusted to say when a release is not ready and explain why. A QA3 owns quality strategy for complex work, including features with multiple services, connectors, permissions, migrations, customer-visible automation behavior, or release sequencing risk. A QA3 is expected to operate independently, but not in isolation (titles-for-QA.md).\n\nQA4, Staff QA Engineer: Defines quality practices across multiple teams, improves tooling, and leads risk reviews for major launches. A QA4 makes the whole engineering organization better at preventing defects. A QA4 operates across teams and systems. The work is less about personally testing every important release and more about making the organization better at knowing what is safe to ship. QA4 impact should be visible in practices, tooling, release confidence, incident reduction, and the judgment of other people (titles-for-QA.md).\n\nThe QA ladder applies to manual testing, exploratory testing, release validation, test automation, and quality leadership. A QA engineer may be embedded with one product squad, shared across several teams, or focused on release systems. The title is based on the level of judgment and impact, not on whether the person's daily work is mostly manual or mostly automated (titles-for-QA.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 97,
+            "score": 0.4562305808067322,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 24,
+            "score": 0.4149214029312134,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 332,
+            "score": 0.3966134488582611,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 106,
+            "score": 0.37946364283561707,
+            "source": "our-internal-systems.md"
+          }
+        ],
+        "answer": "NovaOps uses the following tools and systems for HR records and access:\n\n- **BambooHR**: This is the primary system for HR records and employee self-service. It allows employees to view and update their own details, request time off, and view HR tasks assigned to them. HR access to sensitive employment records is limited to People Operations roles (our-internal-systems.md, getting-started.md, titles-for-ops.md).\n- **Okta**: This is used for access management, along with the IT request portal (titles-for-ops.md). \n\nThese systems are integral to managing employee data, access control, and HR processes at NovaOps (our-internal-systems.md, getting-started.md, titles-for-ops.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 118,
+            "score": 0.6420341730117798,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 108,
+            "score": 0.4852501451969147,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 109,
+            "score": 0.46717584133148193,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 110,
+            "score": 0.46001458168029785,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps has a few recurring rituals and meetings that help keep the company aligned and moving forward. Here\u2019s what you need to know:\n\n1. **Weekly Company Update**: Every Monday, Emma Wilson posts a company update in Slack. This is meant to give everyone a high-level view of what\u2019s happening across the company (our-rituals.md).\n\n2. **Every-Second-Thursday Demo**: Product and Engineering jointly own a demo that happens every second Thursday. This is likely where teams show off recent work or developments (our-rituals.md).\n\n3. **Monthly Spending Review**: Tom Baker owns this one, which happens once a month. It\u2019s probably focused on reviewing how money is being spent (our-rituals.md).\n\n4. **Customer Success Customer-Story Review**: Yael Romano owns this monthly review, which focuses on sharing stories from Customer Success (our-rituals.md).\n\n5. **Async Updates**: These aren\u2019t meetings, but they\u2019re an important ritual. When teammates are in different locations or on different schedules, async updates keep work moving. They\u2019re meant to reduce surprises and keep everyone in the loop even if they can\u2019t attend a live discussion (our-rituals.md).\n\n6. **Manager Responsibilities Around Rituals**: Managers should watch for holiday clusters across countries and avoid assuming one region\u2019s normal week applies to everyone. If a ritual must happen outside the core window, the owner needs to explain why, keep the attendee list narrow, and provide notes afterward. Valid reasons include production incidents, customer incidents, security response, payroll blockers, legal deadlines, customer executive meetings, and one-time schedule constraints with a specific decision at stake. \u201cThis was the only open slot\u201d isn\u2019t a strong reason (our-rituals.md).\n\nThe idea behind all of this is that rituals should make work clearer, not add unnecessary meetings. Each ritual has an owner, a cadence, a place for notes, and a clear reason to exist. They\u2019re there to help answer questions like: what changed since last time, who owns the next action, what decisions were made, where are the notes, what risks need attention, and what can be handled async instead of adding another meeting (our-rituals.md).",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 45,
+            "score": 0.6190273761749268,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 134,
+            "score": 0.21211370825767517,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 139,
+            "score": 0.1897597312927246,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 111,
+            "score": 0.17272940278053284,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 46,
+            "score": 0.4427165389060974,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 45,
+            "score": 0.36007440090179443,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 56,
+            "score": 0.342678427696228,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 134,
+            "score": 0.32709646224975586,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 57,
+            "score": 0.5288045406341553,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 56,
+            "score": 0.49382254481315613,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 372,
+            "score": 0.47500014305114746,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 48,
+            "score": 0.4732118248939514,
+            "source": "making-a-career.md"
+          }
+        ],
+        "answer": "\n**Quarterly growth conversation**  \n- **Frequency**: At least quarterly (every three months)  \n- **Purpose**: Discuss growth, role changes, readiness for more scope, gaps, and support needed. These conversations do not have to wait for the formal review window.  \n- **Source**: making-a-career.md  \n\n**Formal performance review**  \n- **Frequency**: Twice per year, in February and August  \n- **Purpose**: Written performance reviews recorded in BambooHR. These are formal evaluations of performance.  \n- **Source**: making-a-career.md  \n\n**Promotion cycle**  \n- **Frequency**: Twice per year, with proposal months in March and September  \n- **Purpose**: Promotion proposals are submitted in March and September. Approved March promotions take effect April 1, and approved September promotions take effect October 1.  \n- **Source**: making-a-career.md",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.33702176809310913,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 5,
+            "score": 0.22366845607757568,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 12,
+            "score": 0.19946566224098206,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 167,
+            "score": 0.18390728533267975,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.4751816689968109,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 4,
+            "score": 0.46632683277130127,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 76,
+            "score": 0.363689124584198,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 189,
+            "score": 0.3470469117164612,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Eligibility for NovaOps benefits is based on employment status and location. Full-time employees are eligible for company benefits in their country from their first day, unless a local plan document specifies otherwise (benefits-and-perks.md). Contractors, however, do not receive employee insurance, retirement, or leave benefits; they only receive the equipment and access needed for their engagement (benefits-and-perks.md).\n\nVacation days are earned and managed as follows: Unused vacation days roll over year to year, but the vacation bank is capped at 27 days at any time (benefits-and-perks.md). Once an employee reaches 27 days of vacation, additional accrual pauses until they take time off (benefits-and-perks.md). Managers are expected to help employees schedule vacation before they hit the cap (benefits-and-perks.md). After four continuous years at NovaOps, full-time employees may request a one-time 20 working day paid sabbatical, which requires manager and People Operations approval and must be planned at least 90 days in advance (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I don't have access to real-time financial data or stock prices. For the current stock price of NovaOps, I recommend checking reliable financial news websites, stock market platforms (like Yahoo Finance, Bloomberg, or Google Finance), or your brokerage account. These sources will provide you with the most up-to-date and accurate information.\n\nIf you're looking for company policies, benefits, or internal information about NovaOps, I can help with that using the employee handbook!",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information for any employee, including the CEO. This would be a violation of privacy policies and could lead to legal consequences. If you need to contact company leadership for official business, please use the appropriate official channels provided through your internal communication tools or HR department. \n\nIf you have any other questions about company policies, benefits, or operations that don't involve personal contact information, I'd be happy to help.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "sentence_8",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 10,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 1,
+            "score": 0.4394928812980652,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.3287026286125183,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 114,
+            "score": 0.29582780599594116,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 119,
+            "score": 0.2764666676521301,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year** (benefits-and-perks.md). \n\nThese days are in addition to **11 local public holidays** based on your work location (benefits-and-perks.md). \n\nUnused vacation days **roll over year to year**, but your vacation bank is capped at **27 days** at any time (benefits-and-perks.md). Once you reach 27 days, additional accrual pauses until you take time off.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 49,
+            "score": 0.47702813148498535,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 115,
+            "score": 0.1877351701259613,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 94,
+            "score": 0.17997539043426514,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 242,
+            "score": 0.17888794839382172,
+            "source": "titles-for-ops.md"
+          }
+        ],
+        "answer": "Here's NovaOps's policy on moonlighting and outside paid work:\n\n**Allowed Activities**:\n\n- Employees may have outside interests, volunteer commitments, creative projects, and occasional paid side work (moonlighting.md)\n- You may work for another company **outside** of NovaOps's industry (moonlighting.md)\n\n**Prohibited Activities**:\n\n- **You may not work full-time or part-time for another company in our industry** while employed by NovaOps (moonlighting.md)\n- This includes competitors in workflow automation, enterprise SaaS operations, customer support automation, or products that would reasonably compete with NovaOps (moonlighting.md)\n- The concern is **conflict of interest**, not the number of hours alone (moonlighting.md)\n\n**What Must Be Disclosed**:\n\n- Outside work includes paid employment, freelance projects, consulting, advisory work, board service, compensated speaking, recurring teaching, paid content creation, equity-only startup help, and volunteer roles where your NovaOps role or access could matter (moonlighting.md)\n- Work through a personal company, family business, or online marketplace still counts as outside work that must be disclosed (moonlighting.md)\n\nThe key points are that NovaOps allows outside paid work as long as it doesn't create a conflict of interest with your work at NovaOps, and you must disclose any outside work that could potentially impact your work or access at NovaOps.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 48,
+            "score": 0.5566249489784241,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 40,
+            "score": 0.46615320444107056,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 41,
+            "score": 0.4603288173675537,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 15,
+            "score": 0.41126227378845215,
+            "source": "getting-started.md"
+          }
+        ],
+        "answer": "When you leave the company, you must return your company-owned laptop and all accessories within five business days of your last working day, unless People Operations approves a different local process\u200b\u200b(managing-work-devices.md)__:\n\n- **Return Process**: IT will send you return instructions and a prepaid shipping label\u200b\u200b(managing-work-devices.md)\u200b.\n- **Items to Return**: You must return your laptop, charger, security keys, and any other company accessories\u200b\u200b(managing-work-devices.md)\u200b.\n- **Personal Files**: Before returning the laptop, save any personal files to another location\u200b\u200b(managing-work-devices.md)\u200b.\n- **Company Data**: Do **not** delete any company records, source code, customer notes, Jira tickets, Slack messages, or shared files. Also, do not factory reset the device\u200b\u200b(managing-work-devices.md)\u200b.\n- **Access Disabled**: For a normal planned departure, IT will disable your Okta access on the agreed schedule, often at the end of your last working day. For involuntary, security-sensitive, or no-transition departures, access may be disabled earlier\u200b\u200b(managing-work-devices.md)\u200b.\n\nMake sure to follow these steps to ensure a smooth transition and avoid any issues with your departure.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 104,
+            "score": 0.48878276348114014,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 109,
+            "score": 0.3341509997844696,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 112,
+            "score": 0.3115740120410919,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 105,
+            "score": 0.2545701563358307,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "Sorry, I can't find the specific severance details for employees terminated without cause. The handbook only covers the purpose of severance, eligibility criteria, and general processes, but doesn't state the actual severance amounts or formulas. You might want to check with People Operations or your manager for the specific details that apply to your situation.",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": true
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 30,
+            "score": 0.3751867413520813,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 84,
+            "score": 0.30585744976997375,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 89,
+            "score": 0.2667001187801361,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 36,
+            "score": 0.2482612580060959,
+            "source": "making-a-career.md"
+          }
+        ],
+        "answer": "Performance reviews at NovaOps happen twice a year, in **February and August** (making-a-career.md). \n\nCompleted written reviews are recorded in **BambooHR**, which is the official source of record for these evaluations (making-a-career.md). Additional supporting evidence or examples might be stored in various tools like Jira, GitHub, Salesforce, or customer notes, but BambooHR holds the formal review records (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 121,
+            "score": 0.6212502717971802,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 130,
+            "score": 0.5233514308929443,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 126,
+            "score": 0.4609247148036957,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 137,
+            "score": 0.4593128263950348,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "The QA title levels for engineers at NovaOps are as follows, based on responsibility and impact:\n\n- **QA1, Associate QA Analyst**: Learns the product area, executes defined test plans, writes clear reproduction steps, and asks for help early. QA1s work from a defined plan and are expected to become dependable in a bounded area before taking on broader release ownership\u00a0(titles-for-QA.md). \n\n- **QA2, QA Engineer**: Designs test cases for normal product work, verifies fixes, contributes to regression coverage, and spots gaps in acceptance criteria. QA2s can own quality for a small project with support from a senior teammate and begin to own quality for normal product work\u00a0(titles-for-QA.md). \n\n- **QA3, Senior QA Engineer**: Owns the quality plan for complex releases, makes blocker status visible, ensures defects have useful severity and customer-impact notes, and connects technical details to real customer outcomes. QA3s also review test coverage in pull requests and confirm release branches match the QA plan\u00a0(titles-for-QA.md). \n\n- **QA4, Staff QA Engineer**: Defines quality practices across multiple teams, improves tooling, and leads risk reviews for major launches\u00a0(titles-for-QA.md). \n\nThese levels reflect the complexity of systems evaluated, independence of test strategy, and influence on how teams build reliable workflow automation software, not the number of bugs found.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 61,
+            "score": 0.4452853798866272,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 209,
+            "score": 0.3655574321746826,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 15,
+            "score": 0.34688687324523926,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 223,
+            "score": 0.3418985605239868,
+            "source": "titles-for-ops.md"
+          }
+        ],
+        "answer": "NovaOps uses several key tools and systems for HR records and access management:\n\n- **BambooHR**: This is the primary system for HR records and employee self-service. Employees can use it to view and update personal details, request time off, and access HR tasks assigned to them. HR access to sensitive employment records is limited to People Operations roles (our-internal-systems.md)(getting-started.md).\n- **Okta**: This is used for managing access to various systems and applications. It's part of the access path for employees and contractors (titles-for-ops.md)(getting-started.md).\n- **IT Request Portal**: This is used for requesting equipment and access, particularly for remote employees and contractors. It's linked from the handbook and is the official channel for such requests (getting-started.md)(titles-for-ops.md).\n\nThese systems work together to manage employee onboarding, access control, HR records, and offboarding processes at NovaOps (our-internal-systems.md)(getting-started.md)(titles-for-ops.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 102,
+            "score": 0.5172145962715149,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 74,
+            "score": 0.5096756219863892,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 68,
+            "score": 0.48034146428108215,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 94,
+            "score": 0.46385371685028076,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "NovaOps has several recurring rituals and meetings designed to keep work moving and maintain alignment across teams and locations. Here\u2019s a summary of the key rituals based on the handbook:\n\n### Core Principles for Rituals\n- **Purpose**: Rituals are meant to create context, reduce surprise, and help people feel the company is moving forward without filling every calendar slot. They should make the next action easier to find, not add unnecessary weight to the calendar\u200b\u200b(our-rituals.md).\n- **Flexibility**: A ritual that no longer helps should be changed or retired. They are not ceremonies for their own sake but recurring ways to keep decisions, customer signals, delivery risk, people operations, and recognition visible across all locations\u200b\u200b(our-rituals.md).\n- **Async Updates**: Async updates are considered a ritual, especially when teammates are in different locations or on different schedules. A good async update should include the current state, next step, owner, decision needed, and real deadline\u200b\u200b(our-rituals.md).\n\n### Specific Rituals Mentioned\nWhile the handbook does not list all rituals explicitly, it does mention several types of rituals and gives examples:\n\n1. **Team Standups**: The handbook mentions that a team standup might evolve into three written updates per week during normal work and daily check-ins only during launch week\u200b\u200b(our-rituals.md).\n2. **Weekly Live Status Meetings**: These might become an async Tuesday update plus a monthly decision review\u200b\u200b(our-rituals.md).\n3. **Broad Customer Escalation Meetings**: These might become a small incident bridge plus written updates\u200b\u200b(our-rituals.md).\n4. **Monthly Spending Review and IT Planning**: These rituals should address issues like Webex license shortages\u200b\u200b(our-rituals.md).\n5. **Customer-Story Review and Product Planning**: These should change if customer escalations repeatedly lack product ownership\u200b\u200b(our-rituals.md).\n6. **Access Review and Onboarding**: These rituals should become more explicit if access mistakes recur for contractors\u200b\u200b(our-rituals.md).\n7. **People Operations and Onboarding Rituals**: These help employees start, grow, change roles, and leave with fewer surprises. Specific owners are mentioned: Sara Ben-David for the People Operations lead view, Sara Cohen for contractor paperwork, and Maya Rosen for coordinating many HR tasks and employee workflows\u200b\u200b(our-rituals.md).\n8. **Monday Company Update**: This should name upcoming holidays when they affect staffing, support coverage, payroll timing, release plans, or customer-facing work. Managers should watch for holiday clusters across countries\u200b\u200b(our-rituals.md).\n\n### Changing or Retiring Rituals\n- To change a ritual, the owner should propose the new cadence, audience, artifact, and review date\u200b\u200b(our-rituals.md).\n- Retiring a ritual is healthy when the work has changed. For example, a temporary launch checkpoint should end after the launch, and an incident bridge should close after the",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 29,
+            "score": 0.5760091543197632,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 87,
+            "score": 0.17075040936470032,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 89,
+            "score": 0.14953434467315674,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 79,
+            "score": 0.14904484152793884,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 30,
+            "score": 0.41520944237709045,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 36,
+            "score": 0.34032246470451355,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 84,
+            "score": 0.28575825691223145,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 29,
+            "score": 0.28492236137390137,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 36,
+            "score": 0.602925717830658,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 37,
+            "score": 0.5415737628936768,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 32,
+            "score": 0.4977123439311981,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 31,
+            "score": 0.49490100145339966,
+            "source": "making-a-career.md"
+          }
+        ],
+        "answer": "The handbook outlines three key types of performance and growth discussions at NovaOps, each occurring on a different schedule:\n\n**Quarterly Growth Conversations** \u2014 Managers and employees should discuss growth at least quarterly (making-a-career.md). These conversations cover what changed in the role, evidence of readiness for more scope, remaining gaps, and needed support. Quarterly conversations do not need to align with the formal review schedule (making-a-career.md).\n\n**Formal Performance Reviews** \u2014 Written formal performance reviews happen twice per year, in February and August, and are recorded in BambooHR (making-a-career.md).\n\n**Promotion Cycle** \u2014 The promotion cycle runs twice per year. March is the proposal month for promotions that take effect April 1, and September is the proposal month for promotions that take effect October 1 (making-a-career.md). Managers should start gathering promotion evidence before the proposal month (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 0,
+            "score": 0.3334663510322571,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 3,
+            "score": 0.20474228262901306,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 105,
+            "score": 0.1907694935798645,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 110,
+            "score": 0.1711300164461136,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 1,
+            "score": 0.43377774953842163,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.3850972652435303,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 119,
+            "score": 0.3039137125015259,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 114,
+            "score": 0.2859324514865875,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Full-time employees are eligible for NovaOps benefits from their first day, depending on their country (Israel, Germany, the United Kingdom, or the United States) (benefits-and-perks.md). Contractors do not receive employee benefits like insurance, retirement, or leave (benefits-and-perks.md).\n\nVacation days are earned as follows: Full-time employees receive 20 paid vacation and personal days per calendar year, plus 11 local public holidays based on their work location (benefits-and-perks.md). Unused vacation days roll over year to year, but the vacation bank is capped at 27 days at any time (benefits-and-perks.md). Once you reach 27 days, additional accrual pauses until you take time off (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I can only access information from the NovaOps employee handbook, which contains company policies, benefits, titles, and operational guidelines\u2014not real-time financial data like stock prices. To check NovaOps's current stock price, you\u2019d need to look at a financial service or stock market platform. \n\nIf you\u2019d like, I can search the handbook for any policy-related topics you have in mind.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information like a CEO's cell phone number. That would be a violation of privacy and likely company policy. If you need to reach the CEO for official business, I recommend using the official company contact channels instead. \n\nIf you have any other questions about company policies, benefits, or operations that don't involve personal contact details, I'd be happy to help.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  },
+  {
+    "strategy": "semantic_llm",
+    "right_source_hits": 10,
+    "hit_eligible": 10,
+    "answers_correct": 11,
+    "total_questions": 12,
+    "per_question": [
+      {
+        "question": "How many paid vacation days do full-time employees get per year?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 2,
+            "score": 0.4703717827796936,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 82,
+            "score": 0.30885088443756104,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 77,
+            "score": 0.30114516615867615,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 88,
+            "score": 0.2950354516506195,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "Full-time employees receive **20 paid vacation and personal days per calendar year** (benefits-and-perks.md). \n\nThese days roll over year to year, but your vacation bank is capped at 27 days at any time (benefits-and-perks.md). Once you reach 27 days, additional accrual pauses until you take time off (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's policy on employees doing outside paid work (moonlighting)?",
+        "expected_source": "moonlighting.md",
+        "retrieved": [
+          {
+            "chunk_id": 38,
+            "score": 0.4952746033668518,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 73,
+            "score": 0.20315098762512207,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 41,
+            "score": 0.18988631665706635,
+            "source": "moonlighting.md"
+          },
+          {
+            "chunk_id": 80,
+            "score": 0.1857808381319046,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "NovaOps allows employees to have outside interests, volunteer commitments, creative projects, and occasional paid side work, provided they do not conflict with their work at NovaOps or compromise confidentiality and customer trust. However, there are specific restrictions to ensure these activities do not create conflicts of interest or interfere with your performance\u00a0(moonlighting.md). \n\nHere are the key points of the moonlighting policy:\n\n### **Prohibited Activities**\n- **Working for Competitors**: You may **not** work full-time or part-time for another company in the same industry as NovaOps. This includes competitors in workflow automation, enterprise SaaS operations, customer support automation, or any products that would reasonably compete with NovaOps. The concern here is a conflict of interest, not just the number of hours worked\u00a0(moonlighting.md).\n\n### **Acceptable Side Work**\n- **Outside NovaOps\u2019s Industry**: Occasional side gigs outside NovaOps\u2019s industry are acceptable if they occur outside your working hours, do not use NovaOps equipment or accounts, do not involve NovaOps customers or prospects, and do not interfere with your performance at NovaOps. Examples include:\n  - Teaching a weekend course\n  - Selling art\n  - Advising a local nonprofit\n  - Tutoring\n  - Repairing bicycles\n  - Performing music\n  - Doing unrelated consulting\u00a0(moonlighting.md)\n\n- **Disclosure**: Some side work may require disclosure to your manager or People Operations, especially if there is any potential for conflict. For example:\n  - A Product employee teaching an evening workshop on general discovery\n  - An Engineer fixing a public library bug from a personal laptop\n  - A Customer Success employee helping a family bakery set up a simple website\n  - A Finance employee serving on an unpaid nonprofit board\u00a0(moonlighting.md)\n\n  These activities can become conflicts if, for example, the bakery later asks for support automation, the workshop wants to use NovaOps screenshots, or the nonprofit becomes a NovaOps customer.\n\n### **Key Considerations**\n- **Conflicts of Interest**: Any side work that could create a conflict of interest with your responsibilities at NovaOps must be disclosed and approved in advance.\n- **Confidentiality**: You must not use any NovaOps confidential information, equipment, or accounts for outside work.\n- **Performance**: Your side work should not interfere with your performance, availability, or commitment to your role at NovaOps.\n\nIf you\u2019re considering any outside paid work, it\u2019s best to discuss it with your manager and/or People Operations to ensure it aligns with this policy.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What should I do with my laptop when I leave the company?",
+        "expected_source": "managing-work-devices.md",
+        "retrieved": [
+          {
+            "chunk_id": 33,
+            "score": 0.5422582626342773,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 32,
+            "score": 0.4706275463104248,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 36,
+            "score": 0.44815337657928467,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 9,
+            "score": 0.31467434763908386,
+            "source": "getting-started.md"
+          }
+        ],
+        "answer": "When you leave NovaOps, you must return your company-owned laptop and all accessories within five business days of your last working day, unless People Operations approves a different local process for your location. IT will send you return instructions and a prepaid shipping label where available. \n\nBefore returning the laptop:\n\n- Save any personal files elsewhere.\n- Make sure all NovaOps work is stored in the correct company systems (e.g., GitHub, Jira, Salesforce, etc.).\n- Do **not** delete company records, source code, customer notes, Jira tickets, Slack messages, or shared files.\n- Do **not** factory reset the device.\n\nFor a normal planned departure, IT will disable your Okta access on the agreed schedule, often at the end of your last working day. For involuntary, security-sensitive, or no-transition departures, access may be disabled earlier\u200b(managing-work-devices.md)\u200b.",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What severance do employees get if terminated without cause?",
+        "expected_source": "severance.md",
+        "retrieved": [
+          {
+            "chunk_id": 69,
+            "score": 0.7912951707839966,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 71,
+            "score": 0.7332592010498047,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 78,
+            "score": 0.3137948513031006,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 76,
+            "score": 0.3044286072254181,
+            "source": "severance.md"
+          }
+        ],
+        "answer": "I can provide you with the severance policy details, but the specific severance amounts or formulas aren't included in the handbook excerpt I have. The policy states that severance is meant to give employees a practical landing period when NovaOps ends employment for business reasons or for performance reasons that are not gross misconduct (severance.md).\n\nThe handbook outlines the process:\n- People Operations provides the written separation packet, release documents if applicable, final payroll timing, and benefits information\n- Managers handle the role and work transition\n- Finance confirms payment timing\n- Employees should direct severance questions to People Operations, not IT or Finance\n\nIf you have specific questions about severance calculations (e.g., based on years of service, unused vacation, etc.), you'd need to contact People Operations directly, as they handle the actual calculations and can review any disputes within 10 business days (severance.md).\n\nWould you like me to look up any other details about the severance process or related policies?",
+        "right_source_hit": true,
+        "correct": false,
+        "refusal": false
+      },
+      {
+        "question": "How often do performance reviews happen and where are they recorded?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 23,
+            "score": 0.41534700989723206,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 60,
+            "score": 0.273905873298645,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 27,
+            "score": 0.25576287508010864,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 65,
+            "score": 0.23444876074790955,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "Formal written performance reviews happen twice per year, in February and August, and are recorded in BambooHR (making-a-career.md).\n\nManagers and employees should discuss growth at least quarterly. These conversations cover what changed in the role, what evidence shows readiness for more scope, what gaps still matter, and what support is needed (making-a-career.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What are the title levels for QA engineers?",
+        "expected_source": "titles-for-QA.md",
+        "retrieved": [
+          {
+            "chunk_id": 97,
+            "score": 0.5935993194580078,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 91,
+            "score": 0.5829308032989502,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 95,
+            "score": 0.5637878179550171,
+            "source": "titles-for-QA.md"
+          },
+          {
+            "chunk_id": 94,
+            "score": 0.5471862554550171,
+            "source": "titles-for-QA.md"
+          }
+        ],
+        "answer": "The QA title levels for engineers at NovaOps are QA1, QA2, and QA3, with QA3 being the senior level. Here\u2019s a brief overview of each level:\n\n### QA1, Associate QA Analyst\n- **Responsibilities**: Executes defined test plans, verifies bug fixes, writes clear reproduction steps, and asks for help early. QA1s work from a defined plan and are expected to become dependable in a bounded area before taking on broader responsibilities\u200b\u200b(titles-for-QA.md).\n- **Typical Tasks**: Execute smoke, regression, and feature test cases; verify bug fixes; record results in Jira; write reproduction steps; ask for help when unclear; notice obvious customer-impact concerns and escalate them\u200b\u200b(titles-for-QA.md).\n\n### QA2, QA Engineer\n- **Responsibilities**: Designs test cases for normal product work, verifies fixes, contributes to regression coverage, and spots gaps in acceptance criteria. QA2s can own quality for small projects with support from senior teammates\u200b\u200b(titles-for-QA.md).\n- **Typical Tasks**: Design test cases for features; review acceptance criteria; verify fixes; contribute to regression suites; create or maintain automated tests; use Jira to keep test scope and defects visible; use GitHub to inspect pull requests and CI failures\u200b\u200b(titles-for-QA.md).\n\n### QA3, Senior QA Engineer\n- **Responsibilities**: Builds test strategy for complex features, balances manual and automated coverage, mentors others, and helps Product and Engineering identify risk before implementation is complete. QA3s are trusted to determine when a release is not ready and explain why\u200b\u200b(titles-for-QA.md).\n- **Typical Tasks**: Build test strategy for complex features; challenge ambiguous requirements; lead risk reviews; balance exploratory and automated testing; mentor QA1 and QA2 teammates; identify quality problems; make release recommendations; design regression coverage; design reliable automation patterns; own quality plan for complex releases in Jira; review test coverage in pull requests on GitHub\u200b\u200b(titles-for-QA.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What tools/systems does NovaOps use for HR records and access?",
+        "expected_source": "our-internal-systems.md",
+        "retrieved": [
+          {
+            "chunk_id": 9,
+            "score": 0.3992978632450104,
+            "source": "getting-started.md"
+          },
+          {
+            "chunk_id": 49,
+            "score": 0.3508305251598358,
+            "source": "our-internal-systems.md"
+          },
+          {
+            "chunk_id": 33,
+            "score": 0.3138865828514099,
+            "source": "managing-work-devices.md"
+          },
+          {
+            "chunk_id": 48,
+            "score": 0.3138728737831116,
+            "source": "our-internal-systems.md"
+          }
+        ],
+        "answer": "NovaOps uses several tools and systems for HR records and access:\n\n- **BambooHR**: This is the primary system for employee self-service and HR records. Employees use BambooHR to manage personal details, request time off, and view HR tasks assigned to them. HR access to sensitive employment records is limited to People Operations roles (getting-started.md; our-internal-systems.md; managing-work-devices.md).\n- **Okta**: Used for authentication and access management. New hires sign in through Okta during first setup, and it is used to provision access to various systems (managing-work-devices.md; our-internal-systems.md).\n- **IT request portal**: This is used to submit access requests for various systems, including HR-related systems. Requests need to include the system name, business reason, expected duration, and data visibility (our-internal-systems.md).\n\nThe handbook emphasizes that HR records beyond an employee's own profile are limited to People Operations roles, and managers should ask People Operations for specific workflows rather than requesting broad BambooHR access (our-internal-systems.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What recurring rituals/meetings does NovaOps run, such as standups?",
+        "expected_source": "our-rituals.md",
+        "retrieved": [
+          {
+            "chunk_id": 53,
+            "score": 0.5668596029281616,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 67,
+            "score": 0.4961669445037842,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 58,
+            "score": 0.48173806071281433,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 59,
+            "score": 0.45150136947631836,
+            "source": "our-rituals.md"
+          }
+        ],
+        "answer": "Here are the recurring rituals and meetings at NovaOps:\n\n**Standups, Huddles, and Checkpoints**:\n\n- NovaOps does not require daily standups for every team. Some teams benefit from brief live checkpoints, while others prefer written updates. The key is whether the ritual reduces coordination costs (our-rituals.md).\n- Live huddles should be 15 minutes or less and focus on blockers, priority changes, and handoffs\u2014not solving every problem. If a blocker needs deeper discussion, the owner should spin out a smaller Webex call or async thread with the right people (our-rituals.md).\n- Written standups should include enough context to be useful across time zones. For example: \"Closed Jira NOVA-421 after Daniel Levi's GitHub review; today I am testing the SupportDesk sync; blocked on a Salesforce field mapping from Daniel Cohen\" (our-rituals.md).\n- During launch weeks, teams may add temporary checkpoints. For example, Product and Engineering may run a daily release readiness note, and Customer Success may add a daily escalation review (our-rituals.md).\n\n**Other Rituals**:\n\n- **Weekly Company Update**: Owned by Emma Wilson (our-rituals.md).\n- **Every-Second-Thursday Demo**: Owned jointly by Product and Engineering (our-rituals.md).\n- **Monthly Spending Review**: Owned by Tom Baker (our-rituals.md).\n- **Customer Success Customer-Story Review**: Owned by Yael Romano (our-rituals.md).\n\n**Changing or Retiring a Ritual**:\n\n- Any employee may question a ritual that is no longer helping. Start with curiosity: what was the ritual meant to solve, what has changed, who still depends on it, and what would break if it stopped (our-rituals.md).\n- To change a ritual, the owner should propose the new cadence, audience, artifact, and review date. For example, a weekly live status meeting might become an async Tuesday update plus a monthly decision review (our-rituals.md).\n- Retiring a ritual is healthy when the work has changed. Temporary rituals should have an end date (our-rituals.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What's the difference between the quarterly growth conversation, the formal performance review, and the promotion cycle \u2014 how often does each happen?",
+        "expected_source": "making-a-career.md",
+        "retrieved": [
+          {
+            "chunk_id": 23,
+            "score": 0.4987049996852875,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 22,
+            "score": 0.2268722653388977,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 58,
+            "score": 0.14849784970283508,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 54,
+            "score": 0.14273858070373535,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 23,
+            "score": 0.5256717801094055,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 27,
+            "score": 0.323630154132843,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 60,
+            "score": 0.26422446966171265,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 65,
+            "score": 0.2453039139509201,
+            "source": "our-rituals.md"
+          },
+          {
+            "chunk_id": 27,
+            "score": 0.6170517802238464,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 24,
+            "score": 0.5156528353691101,
+            "source": "making-a-career.md"
+          },
+          {
+            "chunk_id": 174,
+            "score": 0.510219395160675,
+            "source": "titles-for-programmers.md"
+          },
+          {
+            "chunk_id": 25,
+            "score": 0.4844015836715698,
+            "source": "making-a-career.md"
+          }
+        ],
+        "answer": "The three conversations each happen on a different schedule:\n\n- **Quarterly growth conversation**: At least quarterly (making-a-career.md)\n- **Formal performance review**: Twice per year, in February and August (making-a-career.md)\n- **Promotion cycle**: Twice per year \u2014 March proposals take effect April 1, and September proposals take effect October 1 (making-a-career.md)",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "Who is eligible for NovaOps benefits, and how does that interact with how vacation days are earned?",
+        "expected_source": "benefits-and-perks.md",
+        "retrieved": [
+          {
+            "chunk_id": 1,
+            "score": 0.7827392220497131,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 3,
+            "score": 0.678523600101471,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 4,
+            "score": 0.6261018514633179,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 159,
+            "score": 0.5757468938827515,
+            "source": "titles-for-ops.md"
+          },
+          {
+            "chunk_id": 2,
+            "score": 0.5103213787078857,
+            "source": "benefits-and-perks.md"
+          },
+          {
+            "chunk_id": 77,
+            "score": 0.3519851565361023,
+            "source": "severance.md"
+          },
+          {
+            "chunk_id": 88,
+            "score": 0.3132137060165405,
+            "source": "stateFMLA.md"
+          },
+          {
+            "chunk_id": 82,
+            "score": 0.27480870485305786,
+            "source": "stateFMLA.md"
+          }
+        ],
+        "answer": "NovaOps benefits are available to full-time employees from their first day, depending on their country (Israel, Germany, the United Kingdom, or the United States), unless a local plan specifies otherwise. Contractors do not receive employee insurance, retirement, or leave benefits (benefits-and-perks.md).\n\nFull-time employees earn 20 paid vacation and personal days per calendar year, plus 11 local public holidays based on their work location. Unused vacation days roll over year to year, but the vacation bank is capped at 27 days at any time. Once you reach 27 days, additional accrual pauses until you take time off (benefits-and-perks.md).",
+        "right_source_hit": true,
+        "correct": true,
+        "refusal": false
+      },
+      {
+        "question": "What is NovaOps's current stock price?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "I don't have access to live financial data or stock prices \u2014 my tools only let me search the NovaOps employee handbook for company policies, benefits, titles, and internal processes. \n\nTo check NovaOps's current stock price, you'll need to use a financial service or stock market platform like Yahoo Finance, Bloomberg, Google Finance, or your brokerage account. These platforms provide real-time or delayed stock quotes. \n\nIf you're an employee looking for information about stock options, RSUs, or other equity compensation matters, I can help look that up in the handbook if you\u2019d like.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": true
+      },
+      {
+        "question": "What is the CEO's personal cell phone number?",
+        "expected_source": null,
+        "retrieved": [],
+        "answer": "Sorry, I can't share personal contact information for any employee, including the CEO. This would be a violation of privacy policies and could lead to legal consequences. If you need to reach the CEO for official business, please use the appropriate corporate communication channels or contact the executive assistant's office. \n\nIf you have any other questions about company policies, benefits, or operations that don't involve personal contact details, I'd be happy to help.",
+        "right_source_hit": false,
+        "correct": true,
+        "refusal": false
+      }
+    ]
+  }
+]
