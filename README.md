@@ -12,6 +12,7 @@ Each lesson lives in its own subfolder with its own `README.md`, `PROMPT.md`
 | [`04-create-agent-tool`](04-create-agent-tool) | A fuller customer-support agent with mock backend tools — order lookup, ticket status/creation, refund eligibility, and knowledge-base search — via Bedrock Converse. |
 | [`05-coding-agents`](05-coding-agents) | A personal-finance-analyst agent that answers finance questions by querying a synthetic accounts/transactions dataset with dedicated tools, never by guessing numbers. |
 | [`06-rag`](06-rag) | An agentic RAG assistant where retrieval is a tool the model decides whether to call — chit-chat is answered directly, policy questions trigger one or more knowledge-base searches, with knowledge bases auto-discovered from `data/`. |
+| [`rag-chunking-study`](rag-chunking-study) | Lesson 6 homework: a research study comparing 8 chunking strategies (fixed-size, separator, sentence, semantic/LLM-based) over the same handbook corpus, each indexed and scored for right-source hit rate, answer correctness, and $ build cost — see [`RESULTS.md`](rag-chunking-study/RESULTS.md) for the comparison table and recommendation. |
 
 ## Common setup pattern
 
