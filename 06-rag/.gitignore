@@ -14,7 +14,6 @@ venv/
 chroma_db/
 qdrant_storage/
 *.faiss
-faiss_index*/
 
 # IDE / OS
 .vscode/
