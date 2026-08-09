@@ -1,0 +1,1 @@
+Manager playbook: manager-only guidance for NovaOps people managers — running 1:1s, giving feedback, coaching, hiring, onboarding, recognition, performance management, performance reviews, promotion, difficult conversations, underperformance, and terminations. Does not cover employee-facing policy (benefits, leave, severance amounts) — use the handbook for that.
