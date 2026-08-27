@@ -1,0 +1,21 @@
+# Your AWS / API credentials — copy .env.example to .env and fill it in. Never commit .env.
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtualenv
+.venv/
+venv/
+
+# Local vector DB stores the labs may create
+chroma_db/
+qdrant_storage/
+*.faiss
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
