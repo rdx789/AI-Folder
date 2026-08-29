@@ -1,0 +1,5 @@
+# Lesson 6 RAG — chunking research study
+boto3               # Bedrock Converse (answers) + Titan embeddings
+python-dotenv       # load the shared .env
+faiss-cpu           # local vector indexes per chunking strategy
+numpy               # vector math for FAISS
