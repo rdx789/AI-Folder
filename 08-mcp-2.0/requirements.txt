@@ -1,0 +1,7 @@
+# Lesson 8 — Model Context Protocol (MCP)
+# Standalone: everything this lab needs.
+boto3               # Bedrock (Nova for the agent, Titan for the RAG tool's embeddings)
+python-dotenv       # load the shared .env
+mcp>=2             # the Model Context Protocol SDK v2 — MCPServer (server) + high-level Client. NOTE: 2.0 removed `mcp.server.fastmcp` and renamed fields to snake_case; this lab is the 2.0 rewrite of Lesson 8.
+faiss-cpu           # local vector index for the knowledge-base tool (Exercise 3)
+numpy               # vector math for FAISS
