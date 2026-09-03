@@ -12,5 +12,4 @@ pydantic                  # structured outputs in the chain (Ex1) and the superv
 langchain                 # create_agent + LCEL chains
 langchain-aws             # ChatBedrockConverse — LangChain's wrapper over the Bedrock Converse API
 langgraph                 # StateGraph, checkpointer/interrupt, Send — the graph exercises
-langgraph-checkpoint-sqlite  # AsyncSqliteSaver — the durable approval checkpoint (homework task 3)
 langchain-mcp-adapters    # load the MCP server's tools as LangChain tools (the framework-neutral seam)
