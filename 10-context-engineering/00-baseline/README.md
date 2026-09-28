@@ -1,4 +1,4 @@
-# Stage 0 — baseline
+# Stage 00 — baseline
 
 The control implementation: no context policy at all. Everything the conversation
 has ever contained goes into every model call, alongside all ten tool schemas.

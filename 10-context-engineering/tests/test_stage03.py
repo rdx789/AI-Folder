@@ -1,6 +1,6 @@
 """Offline tests for 03-history-distillation/graph.py - no MCP server, no Bedrock.
 
-Run from SDD/:  python -m unittest discover -s tests -v
+Run from this folder:  python -m unittest discover -s tests -v
 """
 
 import importlib.util
@@ -12,8 +12,8 @@ from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from langchain_core.tools import tool
 from langgraph.errors import GraphRecursionError
 
-SDD = Path(__file__).resolve().parent.parent
-_spec = importlib.util.spec_from_file_location("stage3", SDD / "03-history-distillation" / "graph.py")
+ROOT = Path(__file__).resolve().parent.parent
+_spec = importlib.util.spec_from_file_location("stage03", ROOT / "03-history-distillation" / "graph.py")
 g = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(g)
 

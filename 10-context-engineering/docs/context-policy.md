@@ -116,7 +116,7 @@ previous plan exists.
 - The carried-forward plan keeps facts and constraints, sets the intent to `other`
   (no tool schemas) and resets `requires_tools` and `action_confirmed` to False. A
   skipped turn can therefore never call a tool or open the write gate.
-- Covered by `S9-trivial-ack` and by `tests/test_stage3.py`.
+- Covered by `S9-trivial-ack` and by `tests/test_stage03.py`.
 
 **Planner failure:** `current_intent` is a plain string, not a `Literal`, so an
 unknown value falls through to an empty group instead of failing the parse.

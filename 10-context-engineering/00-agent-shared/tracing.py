@@ -1,7 +1,7 @@
 """Watching AgentState change, one node at a time.
 
 This lesson is about what each stage puts in front of the model, and the visible half
-of that is AgentState: Stage 0 has one field, Stage 03 has seven. Run either stage
+of that is AgentState: Stage 00 has one field, Stage 03 has seven. Run either stage
 with `--trace` and every node reports the update it returned, so you can watch state
 grow, get overwritten, and — in Stage 03's rearm — shrink.
 
@@ -232,7 +232,7 @@ def context(node: str, messages: list, current: dict | None, exposed, catalogue,
             rendered: bool = False) -> None:
     """The one line worth comparing across both stages: what this call receives.
 
-    Stage 0 sends every message and every schema; Stage 03 sends a handful of each.
+    Stage 00 sends every message and every schema; Stage 03 sends a handful of each.
     Same format everywhere, so the two runs can be read side by side.
 
     `rendered=True` marks a planner or distiller call, and the distinction matters:

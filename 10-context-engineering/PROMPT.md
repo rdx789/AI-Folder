@@ -76,7 +76,6 @@ python evals/compare.py --stages 00,03 --no-judge
     you had; not deleting is cheap and bounds nothing.
 
   ── How to work ─────────────────────────────────────────────────────────────
-  - Rename CLAUDE.md-example -> CLAUDE.md so your agent reads the conventions.
   - Server in one terminal, your build in another.
   - The deliverable is ONE agent, but do not try to write it in one go. Get the
     turn-planning working and measure it; then add tool selection and measure again;
@@ -94,7 +93,6 @@ python evals/compare.py --stages 00,03 --no-judge
     more in every full run, and policies that were close on tidy input separated
     sharply on messy input - neither was assumed in advance, both showed up because
     the numbers were collected before the result was interpreted.
-  - When you are done, invoke validate-lab. It will ask for the path to this folder.
 ─────────────────────────────────────────────────────────────────────────── -->
 
 A. Shared Infrastructure (

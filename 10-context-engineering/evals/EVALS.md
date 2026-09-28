@@ -165,6 +165,6 @@ judges by default; pass `--judge` to include them.
 
 What this suite is **not**: a labelled golden set. There is no Recall@k, no MRR, no
 inter-rater agreement, no significance testing — and given the run-to-run variance
-documented in `RESULTS.md`, small differences here are not measurements. This is
+documented in `docs/context-policy.md`, small differences here are not measurements. This is
 enough evidence to tell whether a context change helped, hurt, or did nothing. Lesson
 11 is where evaluation becomes the subject rather than the instrument.

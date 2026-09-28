@@ -1,6 +1,6 @@
 # Shared agent mechanics
 
-Read this folder before Stage 0. [`agent.py`](agent.py) holds the integration seams
+Read this folder before Stage 00. [`agent.py`](agent.py) holds the integration seams
 every stage shares, unchanged between them:
 
 1. `ASSISTANT_PROMPT` — the same task prompt for every stage.
@@ -13,7 +13,7 @@ every stage shares, unchanged between them:
 
 [`tracing.py`](tracing.py) is the second module here, and it is a study aid rather
 than part of the agent. Run any stage with `--trace` and every node prints the update
-it returned, so AgentState's growth — one field at Stage 0, seven at Stage 03 — is
+it returned, so AgentState's growth — one field at Stage 00, seven at Stage 03 — is
 something you watch rather than infer:
 
 ```bash
@@ -27,7 +27,7 @@ python 03-history-distillation/graph.py --session S1 --trace
 Tracing is off unless `--trace` is passed, and `evals/compare.py` never passes it —
 so the measured graph is the untraced one.
 
-Stage 0 is provided and runnable; stage 03 is the one built on top of it.
+Stage 00 is provided and runnable; stage 03 is the one built on top of it.
 
 Context **policy** does not live here. Turn windows, transcript rendering, tool-use
 checks, planning, loadouts, routing, and memory remain in the stage folders where

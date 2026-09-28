@@ -1,4 +1,4 @@
-# Lesson 10 — Context Engineering · Spec-Driven Build (SDD)
+# Lesson 10 — Context Engineering
 
 A NovaOps IT/HR support assistant built from a spec (`PROMPT.md`) as **one agent** on
 top of a baseline, and measured against that baseline with a fixed eval harness.

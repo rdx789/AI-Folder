@@ -1,4 +1,4 @@
-"""Stage 0: one state field, one model node, every tool, full history.
+"""Stage 00: one state field, one model node, every tool, full history.
 
 Student reading order:
   1. AgentState        - what persists between turns
@@ -85,4 +85,4 @@ def build_graph(tools: list):
 
 if __name__ == "__main__":
     tracing.enable_from_argv()  # --trace: narrate every state change
-    main(build_graph, "Stage 0 - full history and all tools on every turn.")
+    main(build_graph, "Stage 00 - full history and all tools on every turn.")
