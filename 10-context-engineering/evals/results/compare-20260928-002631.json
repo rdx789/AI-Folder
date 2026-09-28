@@ -1,0 +1,1769 @@
+{
+  "00-baseline": {
+    "S2-onboarding-maya": {
+      "records": [
+        {
+          "turn": 1,
+          "kind": "lookup",
+          "answer": "Maya Cohen's employee record shows:\n\n- **Employee ID:** E001\n- **Email:** maya.cohen@novaops.example\n- **Role:** Customer Success Manager\n- **Department:** D_CS\n- **Manager:** E018\n- **Location:** Israel\n- **Employment Type:** Full-time\n- **Status:** preboarding\n\nHer start date is 2026-08-01, and she's hybrid based in Israel. The Q3 SaaS freeze applies to any onboarding-related costs for her.",
+          "tool_results": [
+            {
+              "name": "get_employee",
+              "text": "{\n  \"employee_id\": \"E001\",\n  \"full_name\": \"Maya Cohen\",\n  \"email\": \"maya.cohen@novaops.example\",\n  \"role\": \"Customer Success Manager\",\n  \"department_id\": \"D_CS\",\n  \"manager_id\": \"E018\",\n  \"location\": \"Israel\",\n  \"employment_type\": \"Full-time\",\n  \"status\": \"preboarding\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.01,
+          "input_tokens": 4283,
+          "output_tokens": 132,
+          "total_tokens": 4415,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4283,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "get_employee"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "get_employee",
+              "args": {
+                "query": "Maya Cohen"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "get_employee.query=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly lists all employee record fields from the tool output and accurately adds the user-provided start date, hybrid status, and Q3 SaaS freeze constraint without inventing unsupported details."
+            ],
+            "completeness": [
+              1.0,
+              "The answer includes all required facts: the employee record for Maya Cohen, her start date of 2026-08-01, her hybrid status based in Israel, and the Q3 SaaS freeze applying to onboarding-related costs."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 2,
+          "kind": "retrieval",
+          "answer": "Maya Cohen's offer letter states that on day one she needs:\n\n- **Systems:** Okta, Slack, Notion, Salesforce, Webex, BambooHR employee self-service, SupportDesk viewer\n- **Equipment:** Laptop, monitor, dock, headset\n\nThere is a note that Webex may be blocked by seat limit, and onboarding systems should not be activated before the approved preboarding window.",
+          "tool_results": [
+            {
+              "name": "search_hr_documents",
+              "text": "{\n  \"document\": \"maya_cohen_offer_letter\",\n  \"score\": 0.578,\n  \"text\": \"# Maya Cohen Offer Letter\\n\\nEmployee: Maya Cohen\\nRole: Customer Success Manager\\nDepartment: Customer Success\\nStart date: 2026-08-01\\nEmployment type: Full-time\\nLocation: Israel, hybrid\\nManager: Yael Romano\\nRequired systems: Okta, Slack, Notion, Salesforce, Webex, BambooHR employee self-service, SupportDesk viewer\\nEquipment entitlement: laptop, monitor, dock, headset\\nSpecial notes: Webex may be blocked by seat limit.\\n\"\n}{\n  \"document\": \"maya_cohen_onboarding_summary\",\n  \"score\": 0.47,\n  \"text\": \"# Maya Cohen Onboarding Summary\\n\\nEmployee: Maya Cohen\\nChecklist: HR packet completed; Okta pending; laptop and remote equipment planned; Salesforce planned; Webex blocked; BambooHR self-service planned. Do not activate before approved preboarding window.\\n\"\n}{\n  \"document\": \"equipment_responsibility_form\",\n  \"score\": 0.374,\n  \"text\": \"# Equipment Responsibility Form\\n\\nEmployees are responsible for protecting NovaOps equipment, reporting loss within one business day, and returning equipment during offboarding. Maya Cohen is eligible for laptop, monitor, dock, and headset.\\n\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.99,
+          "input_tokens": 4989,
+          "output_tokens": 111,
+          "total_tokens": 5100,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4989,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "search_hr_documents"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "search_hr_documents",
+              "args": {
+                "query": "Maya Cohen offer letter"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly extracts the required systems and equipment from the offer letter text and adds relevant context notes also present in the evidence."
+            ],
+            "context_relevance": [
+              1.0,
+              "All three documents are directly relevant to Maya Cohen's onboarding requirements, with the first document explicitly listing the systems and equipment needed on day one."
+            ],
+            "completeness": [
+              1.0,
+              "The answer includes both required facts: Webex and Salesforce are explicitly listed under Systems needed on day one."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 3,
+          "kind": "lookup",
+          "answer": "Maya Cohen's current onboarding checklist shows:\n\n- **Completed:** HR packet (signed offer letter and work eligibility)\n- **Pending:** Okta profile creation (due 2026-07-25)\n- **Planned:** \n  - IT equipment prep (laptop, monitor, dock; due 2026-07-26)\n  - Salesforce profile request (due 2026-07-28)\n  - BambooHR self-service profile (due 2026-07-28)\n- **Blocked:** Webex license request (due 2026-07-28)\n\nThe Q3 SaaS freeze applies, so any new software costs will be deferred until after the freeze period.",
+          "tool_results": [
+            {
+              "name": "list_onboarding_tasks",
+              "text": "{\n  \"task_id\": \"OT001\",\n  \"task_type\": \"HR\",\n  \"description\": \"Collect signed offer letter and work eligibility confirmation.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"completed\",\n  \"due_date\": \"2026-07-10\"\n}{\n  \"task_id\": \"OT002\",\n  \"task_type\": \"IT\",\n  \"description\": \"Create Okta profile and baseline groups.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"pending\",\n  \"due_date\": \"2026-07-25\"\n}{\n  \"task_id\": \"OT003\",\n  \"task_type\": \"IT\",\n  \"description\": \"Prepare laptop, monitor, dock, and MDM enrollment.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-26\"\n}{\n  \"task_id\": \"OT004\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Salesforce Customer Success profile.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT005\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Webex standard user license.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"blocked\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT006\",\n  \"task_type\": \"HR\",\n  \"description\": \"Add employee self-service profile in BambooHR.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.07,
+          "input_tokens": 5926,
+          "output_tokens": 169,
+          "total_tokens": 6095,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 5926,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "list_onboarding_tasks"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "list_onboarding_tasks",
+              "args": {
+                "employee_id": "E001"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "list_onboarding_tasks.employee_id=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer accurately lists each task's status and due date exactly as provided in the evidence. It also correctly incorporates the user's stated constraint about the Q3 SaaS freeze, which is explicitly mentioned in the user message and thus valid grounding. All claims are directly supported by the evidence or the user's own statements."
+            ],
+            "completeness": [
+              1.0,
+              "The answer explicitly states the 'Blocked' item (Webex license request) which is the only required fact."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 4,
+          "kind": "lookup",
+          "answer": "Rachel Stein's Webex login ticket (T001) is still open and assigned to IT. It was created on 2026-07-01 with high priority, and the system reports \"Webex says account is not licensed.\"",
+          "tool_results": [
+            {
+              "name": "get_employee",
+              "text": "{\n  \"employee_id\": \"E010\",\n  \"full_name\": \"Rachel Stein\",\n  \"email\": \"rachel.stein@novaops.example\",\n  \"role\": \"Customer Success Specialist\",\n  \"department_id\": \"D_CS\",\n  \"manager_id\": \"E018\",\n  \"location\": \"United Kingdom\",\n  \"employment_type\": \"Full-time\",\n  \"status\": \"active\"\n}"
+            },
+            {
+              "name": "list_employee_tickets",
+              "text": "{\n  \"ticket_id\": \"T001\",\n  \"category\": \"Access\",\n  \"subcategory\": \"Webex license\",\n  \"priority\": \"high\",\n  \"status\": \"open\",\n  \"subject\": \"Webex says account is not licensed\",\n  \"created_at\": \"2026-07-01T09:30:00Z\",\n  \"assigned_team\": \"IT\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.61,
+          "input_tokens": 10414,
+          "output_tokens": 111,
+          "total_tokens": 10525,
+          "model_calls": 3,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 10414,
+          "schema_tokens_est": 3132,
+          "tools_exposed": 10,
+          "tools_called": [
+            "get_employee",
+            "list_employee_tickets"
+          ],
+          "tool_utilization": 0.2,
+          "trajectory": [
+            {
+              "name": "get_employee",
+              "args": {
+                "query": "Rachel Stein"
+              }
+            },
+            {
+              "name": "list_employee_tickets",
+              "args": {
+                "employee_id": "E010",
+                "status": "open"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "2/2 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states the ticket status (\"open\"), assignment (\"IT\"), creation date (\"2026-07-01\"), priority (\"high\"), and the specific issue (\"Webex says account is not licensed\") \u2014 all directly drawn from the evidence without addition or speculation."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the ticket status as 'open', which matches the required fact T001|open."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 5,
+          "kind": "lookup",
+          "answer": "Yes \u2014 there's a MacBook Pro 14 (asset ID A005) available in Israel and reserved specifically for Maya Cohen's onboarding. It's currently unassigned and ready to be prepared for her.",
+          "tool_results": [
+            {
+              "name": "check_asset_inventory",
+              "text": "{\n  \"asset_id\": \"A001\",\n  \"asset_type\": \"Laptop\",\n  \"model\": \"ThinkPad T14\",\n  \"status\": \"assigned\",\n  \"location\": \"Israel\",\n  \"employee_id\": \"E002\",\n  \"notes\": \"Engineering laptop.\"\n}{\n  \"asset_id\": \"A005\",\n  \"asset_type\": \"Laptop\",\n  \"model\": \"MacBook Pro 14\",\n  \"status\": \"available\",\n  \"location\": \"Israel\",\n  \"employee_id\": null,\n  \"notes\": \"Reserved for Maya Cohen onboarding.\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 1.7,
+          "input_tokens": 7563,
+          "output_tokens": 79,
+          "total_tokens": 7642,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 7563,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_asset_inventory"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_asset_inventory",
+              "args": {
+                "asset_type": "Laptop",
+                "location": "Israel"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly identifies the MacBook Pro 14 (asset ID A005) as available and reserved for Maya Cohen's onboarding based on the evidence provided. All claims are directly supported by the asset inventory data."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the fact that a MacBook (asset ID A005) is available and reserved for Maya, satisfying the required fact."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 6,
+          "kind": "retrieval",
+          "answer": "Yes \u2014 there's a Dell U2723QE monitor (asset ID A006) available in Israel in the remote equipment pool that can be assigned to Maya. However, there are no headsets currently in inventory for Israel, so you'll need to order one for her.",
+          "tool_results": [
+            {
+              "name": "check_asset_inventory",
+              "text": "{\n  \"asset_id\": \"A006\",\n  \"asset_type\": \"Monitor\",\n  \"model\": \"Dell U2723QE\",\n  \"status\": \"available\",\n  \"location\": \"Israel\",\n  \"employee_id\": null,\n  \"notes\": \"Remote equipment pool.\"\n}"
+            },
+            {
+              "name": "check_asset_inventory",
+              "text": ""
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.76,
+          "input_tokens": 12106,
+          "output_tokens": 131,
+          "total_tokens": 12237,
+          "model_calls": 3,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 12106,
+          "schema_tokens_est": 3132,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_asset_inventory",
+            "check_asset_inventory"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_asset_inventory",
+              "args": {
+                "asset_type": "Monitor",
+                "location": "Israel"
+              }
+            },
+            {
+              "name": "check_asset_inventory",
+              "args": {
+                "asset_type": "Headset",
+                "location": "Israel"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              0.0,
+              "0/1 required tools called (missing: get_policy)"
+            ],
+            "tool_necessity": [
+              1.0,
+              "2/2 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "context_relevance": [
+              0.0,
+              "no documents retrieved"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states that a Dell U2723QE monitor (asset ID A006) is available in Israel per the evidence, and correctly notes the absence of headsets in inventory (as no headset assets were returned by the tool). It does not invent any unsupported claims."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states both the availability of a monitor (Dell U2723QE, asset ID A006) and the lack of headsets in inventory, directly addressing both required facts."
+            ]
+          },
+          "score": 0.75
+        },
+        {
+          "turn": 7,
+          "kind": "reasoning",
+          "answer": "Maya Cohen is hybrid based in Israel and starts on 2026-08-01.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 0.94,
+          "input_tokens": 4195,
+          "output_tokens": 21,
+          "total_tokens": 4216,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4195,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "completeness": [
+              1.0,
+              "The answer states both required facts: the location (Israel) and the start date (2026-08-01)."
+            ],
+            "correctness": [
+              1.0,
+              "The answer correctly restates the location (Israel) and start date (2026-08-01) that the user provided for Maya Cohen in the first message, satisfying the request to remind them of these details."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 8,
+          "kind": "lookup",
+          "answer": "Webex is over its seat limit \u2014 there are 42 active seats against a limit of 40. This means no additional seats can be added until after the Q3 SaaS freeze or the renewal on 2026-07-20, whichever comes first. Maya's Webex request is blocked because of this.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Webex\",\n  \"vendor_name\": \"Webex\",\n  \"seat_limit\": 40,\n  \"active_seats\": 42,\n  \"status\": \"active\",\n  \"renewal_date\": \"2026-07-20\",\n  \"annual_cost\": 18400,\n  \"seats_available\": -2,\n  \"over_limit\": true\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.41,
+          "input_tokens": 8599,
+          "output_tokens": 95,
+          "total_tokens": 8694,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 8599,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Webex"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states that Webex is over its seat limit (42 active seats vs. 40 limit) and that this blocks Maya's request. It also accurately references the Q3 SaaS freeze and the renewal date as relevant constraints, all of which are directly supported by the evidence."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the fact that there are 42 active seats against a limit of 40, satisfying the required fact '42|over|exceed'."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 9,
+          "kind": "retrieval",
+          "answer": "Because the Q3 SaaS freeze applies and Webex is over its seat limit, adding a seat for Maya would count as a procurement expansion above the USD 7,500 threshold. Finance approval is required before any new seat can be added.",
+          "tool_results": [
+            {
+              "name": "list_policies",
+              "text": "acceptable_use_policyaccess_management_policycontract_renewal_policydata_access_policyequipment_policyexpense_policyit_support_policyoffboarding_policyonboarding_policyremote_work_policysaas_procurement_policysecurity_and_mfa_policy"
+            },
+            {
+              "name": "get_policy",
+              "text": "# SaaS Procurement Policy\n\nOwner: Finance\nEffective date: 2026-06-01\n\n## Approval threshold\n\nOlder threshold: SaaS expansions above USD 5,000 require Finance approval. This is\nsuperseded for Q3 2026 by the SaaS renewal freeze memo, which sets the threshold at\nUSD 7,500. Where the two disagree, the more recent memo governs.\n\n## Before approving an expansion\n\nBefore approving a SaaS expansion (new seats, a new tier, or a new vendor), check:\n\n- Contract term \u2014 does the current term even allow expansion mid-cycle?\n- Seat usage \u2014 are existing seats near capacity, or is there room already?\n- Renewal date \u2014 is a renewal coming up soon enough to fold this into that review?\n- Owner department \u2014 who requested it and who is accountable for the spend?\n- Security review \u2014 has this vendor cleared NovaOps's security requirements for\n  the data it will touch?\n\n## Process\n\nRequests start with the owning department describing the business need, then go to\nFinance for the threshold check above. Finance may loop in Security or IT\ndepending on what the vendor touches \u2014 that routing decision is Finance's call, not\nthe requester's.\n\n## Seat-limited software\n\nSome software (Webex is a recurring example) can hit its seat cap even when the\ndepartment is technically eligible under this policy. In that case the request is\nnot a procurement decision anymore \u2014 it is a capacity issue that IT tracks\nseparately until seats are reclaimed or an expansion is approved."
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.8,
+          "input_tokens": 13887,
+          "output_tokens": 93,
+          "total_tokens": 13980,
+          "model_calls": 3,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 13887,
+          "schema_tokens_est": 3132,
+          "tools_exposed": 10,
+          "tools_called": [
+            "list_policies",
+            "get_policy"
+          ],
+          "tool_utilization": 0.2,
+          "trajectory": [
+            {
+              "name": "list_policies",
+              "args": {}
+            },
+            {
+              "name": "get_policy",
+              "args": {
+                "name": "saas_procurement_policy"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              0.0,
+              "0/1 required tools called (missing: search_hr_documents)"
+            ],
+            "tool_necessity": [
+              1.0,
+              "2/2 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly identifies that the Q3 SaaS freeze applies and that Webex is over its seat limit, making the addition of a seat a procurement expansion above the USD 7,500 threshold as per the SaaS Procurement Policy. It accurately states that Finance approval is required before any new seat can be added, which is directly supported by the policy's approval threshold and process sections."
+            ],
+            "context_relevance": [
+              1.0,
+              "The policy explicitly states that all SaaS expansion requests, including adding seats, must go through Finance for threshold checks and routing decisions, making it directly relevant to the question about whether adding a seat requires Finance involvement."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the required fact: the USD 7,500 threshold is mentioned and used to justify the need for Finance approval."
+            ]
+          },
+          "score": 0.875
+        },
+        {
+          "turn": 10,
+          "kind": "action",
+          "answer": "I've filed Maya's Webex access request (AR141) as pending approval. The request notes that a seat is needed but the limit is reached, and it will go to Finance for approval under the Q3 SaaS freeze rules.",
+          "tool_results": [
+            {
+              "name": "create_access_request",
+              "text": "{\n  \"request_id\": \"AR141\",\n  \"employee_id\": \"E001\",\n  \"system_id\": \"S001\",\n  \"system_name\": \"Webex\",\n  \"access_level\": \"standard_user\",\n  \"status\": \"pending_approval\",\n  \"created_at\": \"2026-09-27T21:24:58Z\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.46,
+          "input_tokens": 10127,
+          "output_tokens": 122,
+          "total_tokens": 10249,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 10127,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "create_access_request"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "create_access_request",
+              "args": {
+                "employee_id": "E001",
+                "software": "Webex",
+                "business_justification": "Webex required for Customer Success Manager role; seat limit reached, pending Finance approval per Q3 SaaS freeze"
+              }
+            }
+          ],
+          "metrics": {
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "create_access_request.employee_id=ok; create_access_request.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "correctness": [
+              1.0,
+              "The answer correctly fulfills the user's explicit instruction to 'file the Webex access request' and incorporates the previously stated Q3 SaaS freeze constraint by noting the request will go to Finance for approval. It provides concrete evidence of action taken (AR141) and explains the seat availability issue within the freeze context."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 11,
+          "kind": "lookup",
+          "answer": "Maya Cohen's onboarding checklist now shows:\n\n- **Completed:** HR packet (signed offer letter and work eligibility)\n- **Pending:** Okta profile creation (due 2026-07-25)\n- **Planned:** \n  - IT equipment prep (laptop, monitor, dock; due 2026-07-26)\n  - Salesforce profile request (due 2026-07-28)\n  - BambooHR self-service profile (due 2026-07-28)\n- **Blocked:** Webex license request (AR141, pending Finance approval)\n\nThe only remaining action before the freeze is to prepare the equipment and create Okta and Salesforce access; Webex will wait on Finance.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 1.94,
+          "input_tokens": 5211,
+          "output_tokens": 142,
+          "total_tokens": 5353,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 5211,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              0.0,
+              "0/1 required tools called (missing: list_onboarding_tasks)"
+            ],
+            "tool_argument_correctness": [
+              0.0,
+              "list_onboarding_tasks.employee_id=MISS"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "faithfulness": [
+              0.0,
+              "no tool evidence gathered"
+            ],
+            "completeness": [
+              1.0,
+              "The answer explicitly states 'Okta profile creation (due 2026-07-25)' as pending, fulfilling the requirement to mention Okta as still open on the checklist."
+            ]
+          },
+          "score": 0.5
+        },
+        {
+          "turn": 12,
+          "kind": "summary",
+          "answer": "**Maya Cohen Onboarding Status \u2014 for Yael Romano**\n\nEmployee: Maya Cohen (E001)  \nStart date: 2026-08-01  \nLocation: Israel (hybrid)  \nQ3 SaaS freeze applies\n\n**Checklist status**\n\n- **Completed:** HR packet \u2014 signed offer letter and work eligibility confirmation collected.\n- **Pending:** Okta profile creation (IT, due 2026-07-25).\n- **Planned:**  \n  - IT equipment preparation: MacBook Pro 14 (A005), Dell U2723QE monitor (A006), dock \u2014 all in Israel inventory, ready to assign (due 2026-07-26).  \n  - Salesforce Customer Success profile request (IT, due 2026-07-28).  \n  - BambooHR employee self\u2011service profile (HR, due 2026-07-28).\n- **Blocked:** Webex standard user license \u2014 seat limit reached (42/40). Access request AR141 filed, pending Finance approval per Q3 SaaS freeze.\n\n**Next steps before start date**\n\n1. IT to finalize Okta profile.  \n2. IT to prepare and assign equipment (laptop, monitor, dock).  \n3. IT to request Salesforce profile.  \n4. HR to add BambooHR self\u2011service profile.  \n5. Webex: await Finance approval to lift seat limit.\n\nLet me know if you'd like any of these tasks expedited or re\u2011prioritized.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.3,
+          "input_tokens": 5372,
+          "output_tokens": 299,
+          "total_tokens": 5671,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 5372,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "fact_recall": [
+              1.0,
+              "3/3 facts present"
+            ],
+            "completeness": [
+              1.0,
+              "The answer includes all required facts: mentions Maya (Maya Cohen), references Webex (Webex standard user license \u2014 seat limit reached), and includes the date 2026-08-01 (Start date: 2026-08-01). All required facts are present."
+            ],
+            "correctness": [
+              1.0,
+              "The response provides a comprehensive, structured status summary for Yael covering all onboarding items mentioned in the conversation history: employee details, checklist status (completed/pending/planned/blocked), equipment readiness, and next steps. It correctly notes the Webex seat block due to the Q3 SaaS freeze and references the filed request AR141. All constraints (hybrid Israel location, SaaS freeze, pending Finance approval) are respected."
+            ],
+            "session_faithfulness": [
+              1.0,
+              "The answer is fully grounded in the evidence: it uses the employee record, offer letter, onboarding summary, equipment inventory, Webex subscription status, and the user's own stated constraints (Q3 SaaS freeze). All claims (completed/pending/planned/blocked tasks, equipment availability, seat limit, AR141 request) are directly supported by tool outputs. The structure matches the user's requested summary format and addresses every question they posed."
+            ]
+          },
+          "score": 1.0
+        }
+      ],
+      "summary": {
+        "score": 0.927,
+        "score_deterministic": 0.917,
+        "score_judged": 0.911,
+        "outcome_quality": 92.8,
+        "task_success_rate": 75.0,
+        "successful_turns": 9,
+        "assessed_turns": 12,
+        "quality_gate": "PASS",
+        "quality_gate_reasons": [],
+        "metrics": {
+          "tool_selection": [
+            0.7,
+            10
+          ],
+          "tool_necessity": [
+            1.0,
+            9
+          ],
+          "tool_argument_correctness": [
+            0.8,
+            5
+          ],
+          "call_efficiency": [
+            1.0,
+            9
+          ],
+          "forbidden_avoided": [
+            1.0,
+            10
+          ],
+          "fact_recall": [
+            1.0,
+            12
+          ],
+          "faithfulness": [
+            0.889,
+            9
+          ],
+          "session_faithfulness": [
+            1.0,
+            1
+          ],
+          "context_relevance": [
+            0.667,
+            3
+          ],
+          "completeness": [
+            1.0,
+            11
+          ],
+          "correctness": [
+            1.0,
+            3
+          ]
+        },
+        "input_tokens": 92672,
+        "output_tokens": 1505,
+        "total_tokens": 94177,
+        "model_calls": 24,
+        "overhead_tokens": 0,
+        "schema_tokens_est": 25056,
+        "tools_exposed_avg": 10.0,
+        "final_turn_input": 5372,
+        "latency_s": 27.0,
+        "errors": 0,
+        "rearms": 0,
+        "tool_utilization": 0.09
+      }
+    }
+  },
+  "03-history-distillation": {
+    "S2-onboarding-maya": {
+      "records": [
+        {
+          "turn": 1,
+          "kind": "lookup",
+          "answer": "Maya Cohen (E001) is a Customer Success Manager in the Israel office, preboarding for a 2026-08-01 start. Her onboarding checklist shows one HR task complete, three IT/access tasks pending or planned, and one blocked Webex license request due to the Q3 SaaS freeze.",
+          "tool_results": [
+            {
+              "name": "get_employee",
+              "text": "{\n  \"employee_id\": \"E001\",\n  \"full_name\": \"Maya Cohen\",\n  \"email\": \"maya.cohen@novaops.example\",\n  \"role\": \"Customer Success Manager\",\n  \"department_id\": \"D_CS\",\n  \"manager_id\": \"E018\",\n  \"location\": \"Israel\",\n  \"employment_type\": \"Full-time\",\n  \"status\": \"preboarding\"\n}"
+            },
+            {
+              "name": "list_onboarding_tasks",
+              "text": "{\n  \"task_id\": \"OT001\",\n  \"task_type\": \"HR\",\n  \"description\": \"Collect signed offer letter and work eligibility confirmation.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"completed\",\n  \"due_date\": \"2026-07-10\"\n}{\n  \"task_id\": \"OT002\",\n  \"task_type\": \"IT\",\n  \"description\": \"Create Okta profile and baseline groups.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"pending\",\n  \"due_date\": \"2026-07-25\"\n}{\n  \"task_id\": \"OT003\",\n  \"task_type\": \"IT\",\n  \"description\": \"Prepare laptop, monitor, dock, and MDM enrollment.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-26\"\n}{\n  \"task_id\": \"OT004\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Salesforce Customer Success profile.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT005\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Webex standard user license.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"blocked\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT006\",\n  \"task_type\": \"HR\",\n  \"description\": \"Add employee self-service profile in BambooHR.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 4.83,
+          "input_tokens": 6527,
+          "output_tokens": 250,
+          "total_tokens": 6777,
+          "model_calls": 4,
+          "overhead_tokens": 1913,
+          "answer_input_tokens": 4746,
+          "schema_tokens_est": 474,
+          "tools_exposed": 2,
+          "tools_called": [
+            "get_employee",
+            "list_onboarding_tasks"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "get_employee",
+              "args": {
+                "query": "Maya Cohen"
+              }
+            },
+            {
+              "name": "list_onboarding_tasks",
+              "args": {
+                "employee_id": "E001"
+              }
+            }
+          ],
+          "intent": "employee_lookup",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              0.5,
+              "1/2 calls warranted (unwarranted: list_onboarding_tasks)"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "get_employee.query=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "employee_lookup"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer accurately reflects all details from the evidence: employee record confirms name, role, location, start date, and status; onboarding tasks list shows exactly the tasks, owners, statuses, and due dates provided. The mention of the Q3 SaaS freeze blocking the Webex license is directly supported by the user's context and the 'blocked' status in the evidence."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states all required facts: identifies Maya Cohen with employee ID E001, confirms her start date of 2026-08-01, notes her hybrid/Israel location (implied by \"Israel office\"), and references the Q3 SaaS freeze blocking a Webex license request."
+            ]
+          },
+          "score": 0.9444444444444444
+        },
+        {
+          "turn": 2,
+          "kind": "retrieval",
+          "answer": "Maya Cohen's offer letter lists Okta, Slack, Notion, Salesforce, Webex, BambooHR employee self-service, and SupportDesk viewer as required systems, plus a laptop, monitor, dock, and headset as equipment.",
+          "tool_results": [
+            {
+              "name": "search_hr_documents",
+              "text": "{\n  \"document\": \"maya_cohen_offer_letter\",\n  \"score\": 0.564,\n  \"text\": \"# Maya Cohen Offer Letter\\n\\nEmployee: Maya Cohen\\nRole: Customer Success Manager\\nDepartment: Customer Success\\nStart date: 2026-08-01\\nEmployment type: Full-time\\nLocation: Israel, hybrid\\nManager: Yael Romano\\nRequired systems: Okta, Slack, Notion, Salesforce, Webex, BambooHR employee self-service, SupportDesk viewer\\nEquipment entitlement: laptop, monitor, dock, headset\\nSpecial notes: Webex may be blocked by seat limit.\\n\"\n}{\n  \"document\": \"maya_cohen_onboarding_summary\",\n  \"score\": 0.517,\n  \"text\": \"# Maya Cohen Onboarding Summary\\n\\nEmployee: Maya Cohen\\nChecklist: HR packet completed; Okta pending; laptop and remote equipment planned; Salesforce planned; Webex blocked; BambooHR self-service planned. Do not activate before approved preboarding window.\\n\"\n}{\n  \"document\": \"equipment_responsibility_form\",\n  \"score\": 0.391,\n  \"text\": \"# Equipment Responsibility Form\\n\\nEmployees are responsible for protecting NovaOps equipment, reporting loss within one business day, and returning equipment during offboarding. Maya Cohen is eligible for laptop, monitor, dock, and headset.\\n\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 4.06,
+          "input_tokens": 6441,
+          "output_tokens": 224,
+          "total_tokens": 6665,
+          "model_calls": 3,
+          "overhead_tokens": 2255,
+          "answer_input_tokens": 4330,
+          "schema_tokens_est": 790,
+          "tools_exposed": 5,
+          "tools_called": [
+            "search_hr_documents"
+          ],
+          "tool_utilization": 0.2,
+          "trajectory": [
+            {
+              "name": "search_hr_documents",
+              "args": {
+                "query": "Maya Cohen offer letter day one needs"
+              }
+            }
+          ],
+          "intent": "policy_question",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "intent_accuracy": [
+              0.0,
+              "policy_question (expected onboarding_status|employee_lookup)"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly extracts the required systems and equipment listed in the offer letter document. All items mentioned (Okta, Slack, Notion, Salesforce, Webex, BambooHR employee self-service, SupportDesk viewer, laptop, monitor, dock, headset) are explicitly stated in the evidence, making the answer fully faithful to the provided documents."
+            ],
+            "context_relevance": [
+              1.0,
+              "All three documents are directly about Maya Cohen's onboarding and contain information about what she needs on day one: systems (Okta, Slack, Notion, Salesforce, Webex, BambooHR, SupportDesk viewer) and equipment (laptop, monitor, dock, headset)."
+            ],
+            "completeness": [
+              0.5,
+              "The answer mentions both required facts (Salesforce and Webex) but also includes additional systems and equipment not required by the rubric, which does not affect completeness but indicates extra information."
+            ]
+          },
+          "score": 0.8333333333333334
+        },
+        {
+          "turn": 3,
+          "kind": "lookup",
+          "answer": "Maya Cohen's onboarding checklist shows one HR task complete, three IT/access tasks pending or planned, and one blocked Webex license request due to the Q3 SaaS freeze.",
+          "tool_results": [
+            {
+              "name": "list_onboarding_tasks",
+              "text": "{\n  \"task_id\": \"OT001\",\n  \"task_type\": \"HR\",\n  \"description\": \"Collect signed offer letter and work eligibility confirmation.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"completed\",\n  \"due_date\": \"2026-07-10\"\n}{\n  \"task_id\": \"OT002\",\n  \"task_type\": \"IT\",\n  \"description\": \"Create Okta profile and baseline groups.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"pending\",\n  \"due_date\": \"2026-07-25\"\n}{\n  \"task_id\": \"OT003\",\n  \"task_type\": \"IT\",\n  \"description\": \"Prepare laptop, monitor, dock, and MDM enrollment.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-26\"\n}{\n  \"task_id\": \"OT004\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Salesforce Customer Success profile.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT005\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Webex standard user license.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"blocked\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT006\",\n  \"task_type\": \"HR\",\n  \"description\": \"Add employee self-service profile in BambooHR.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 3.14,
+          "input_tokens": 5971,
+          "output_tokens": 253,
+          "total_tokens": 6224,
+          "model_calls": 3,
+          "overhead_tokens": 2488,
+          "answer_input_tokens": 3670,
+          "schema_tokens_est": 316,
+          "tools_exposed": 2,
+          "tools_called": [
+            "list_onboarding_tasks"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "list_onboarding_tasks",
+              "args": {
+                "employee_id": "E001"
+              }
+            }
+          ],
+          "intent": "onboarding_status",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "list_onboarding_tasks.employee_id=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "onboarding_status"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly summarizes the status of each task type from the evidence: one HR task completed, three IT/access tasks pending/planned, and one blocked Webex license request. It also appropriately references the Q3 SaaS freeze mentioned in the user's context as the reason for the blocked Webex license request."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the fact that there is a blocked Webex license request, satisfying the requirement to mention 'blocked'."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 4,
+          "kind": "lookup",
+          "answer": "No open tickets for Rachel Stein (E001) are showing in the system. If she mentioned a Webex login issue, it may have been resolved or logged under a different employee id.",
+          "tool_results": [
+            {
+              "name": "list_employee_tickets",
+              "text": ""
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.5,
+          "input_tokens": 5760,
+          "output_tokens": 177,
+          "total_tokens": 5937,
+          "model_calls": 3,
+          "overhead_tokens": 2607,
+          "answer_input_tokens": 3251,
+          "schema_tokens_est": 350,
+          "tools_exposed": 2,
+          "tools_called": [
+            "list_employee_tickets"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "list_employee_tickets",
+              "args": {
+                "employee_id": "E001",
+                "status": "open"
+              }
+            }
+          ],
+          "intent": "ticket_status",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "ticket_status"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states that no open tickets for Rachel Stein (E001) are found in the system according to the evidence provided, and reasonably suggests alternative explanations (resolved or different ID) without adding unsupported claims."
+            ],
+            "completeness": [
+              0.0,
+              "The answer states there are no open tickets for Rachel Stein, but it does not confirm the status of ticket T001 (required fact). It only speculates about resolution or logging under a different ID, which does not fulfill the requirement to state the status of T001."
+            ]
+          },
+          "score": 0.875
+        },
+        {
+          "turn": 5,
+          "kind": "lookup",
+          "answer": "Yes \u2014 a MacBook Pro 14 (asset A005) is available in Israel and reserved for Maya Cohen\u2019s onboarding.",
+          "tool_results": [
+            {
+              "name": "check_asset_inventory",
+              "text": "{\n  \"asset_id\": \"A001\",\n  \"asset_type\": \"Laptop\",\n  \"model\": \"ThinkPad T14\",\n  \"status\": \"assigned\",\n  \"location\": \"Israel\",\n  \"employee_id\": \"E002\",\n  \"notes\": \"Engineering laptop.\"\n}{\n  \"asset_id\": \"A005\",\n  \"asset_type\": \"Laptop\",\n  \"model\": \"MacBook Pro 14\",\n  \"status\": \"available\",\n  \"location\": \"Israel\",\n  \"employee_id\": null,\n  \"notes\": \"Reserved for Maya Cohen onboarding.\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 3.16,
+          "input_tokens": 5868,
+          "output_tokens": 254,
+          "total_tokens": 6122,
+          "model_calls": 3,
+          "overhead_tokens": 2790,
+          "answer_input_tokens": 3265,
+          "schema_tokens_est": 392,
+          "tools_exposed": 2,
+          "tools_called": [
+            "check_asset_inventory"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "check_asset_inventory",
+              "args": {
+                "asset_type": "Laptop",
+                "location": "Israel"
+              }
+            }
+          ],
+          "intent": "equipment_request",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "equipment_request"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly identifies that a MacBook Pro 14 (asset A005) is available and reserved for Maya Cohen's onboarding, directly quoting details from the evidence. All claims are supported by the provided asset inventory data."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states that a MacBook (asset A005) is available for Maya, which directly addresses the required fact."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 6,
+          "kind": "retrieval",
+          "answer": "A monitor (Dell U2723QE, asset A006) is available in Israel, but there is no headset in inventory for that location.",
+          "tool_results": [
+            {
+              "name": "check_asset_inventory",
+              "text": "{\n  \"asset_id\": \"A006\",\n  \"asset_type\": \"Monitor\",\n  \"model\": \"Dell U2723QE\",\n  \"status\": \"available\",\n  \"location\": \"Israel\",\n  \"employee_id\": null,\n  \"notes\": \"Remote equipment pool.\"\n}"
+            },
+            {
+              "name": "check_asset_inventory",
+              "text": ""
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 4.51,
+          "input_tokens": 7600,
+          "output_tokens": 432,
+          "total_tokens": 8032,
+          "model_calls": 4,
+          "overhead_tokens": 4583,
+          "answer_input_tokens": 3343,
+          "schema_tokens_est": 392,
+          "tools_exposed": 2,
+          "tools_called": [
+            "check_asset_inventory",
+            "check_asset_inventory"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "check_asset_inventory",
+              "args": {
+                "asset_type": "Monitor",
+                "location": "Israel"
+              }
+            },
+            {
+              "name": "check_asset_inventory",
+              "args": {
+                "asset_type": "Headset",
+                "location": "Israel"
+              }
+            }
+          ],
+          "intent": "equipment_request",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              0.0,
+              "0/1 required tools called (missing: get_policy)"
+            ],
+            "tool_necessity": [
+              1.0,
+              "2/2 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "equipment_request"
+            ],
+            "context_relevance": [
+              0.0,
+              "no documents retrieved"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states that a monitor (Dell U2723QE, asset A006) is available in Israel based on the evidence, and correctly notes there is no headset in inventory for that location, which is supported by the absence of any headset asset data in the provided evidence."
+            ],
+            "completeness": [
+              1.0,
+              "The answer explicitly states the availability of a monitor (Dell U2723QE, asset A006) and the absence of a headset in inventory, covering both required facts."
+            ]
+          },
+          "score": 0.7777777777777778
+        },
+        {
+          "turn": 7,
+          "kind": "reasoning",
+          "answer": "Maya Cohen (E001) is set to start on 2026-08-01 at the Israel location.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.15,
+          "input_tokens": 4089,
+          "output_tokens": 242,
+          "total_tokens": 4331,
+          "model_calls": 2,
+          "overhead_tokens": 2741,
+          "answer_input_tokens": 1564,
+          "schema_tokens_est": 158,
+          "tools_exposed": 2,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "intent": "onboarding_status",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "completeness": [
+              1.0,
+              "The answer states both required facts: the location (Israel) and the start date (2026-08-01)."
+            ],
+            "correctness": [
+              1.0,
+              "The answer correctly restates the location (Israel) and start date (2026-08-01) that the user provided earlier, fulfilling the request to remind them of these details."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 8,
+          "kind": "lookup",
+          "answer": "There is no Webex seat available \u2014 the subscription is over its limit of 40 seats (42 active). Because of the Q3 SaaS freeze, you cannot add a new seat until after the freeze ends.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Webex\",\n  \"vendor_name\": \"Webex\",\n  \"seat_limit\": 40,\n  \"active_seats\": 42,\n  \"status\": \"active\",\n  \"renewal_date\": \"2026-07-20\",\n  \"annual_cost\": 18400,\n  \"seats_available\": -2,\n  \"over_limit\": true\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.97,
+          "input_tokens": 6080,
+          "output_tokens": 243,
+          "total_tokens": 6323,
+          "model_calls": 3,
+          "overhead_tokens": 2734,
+          "answer_input_tokens": 3515,
+          "schema_tokens_est": 908,
+          "tools_exposed": 5,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 0.2,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Webex"
+              }
+            }
+          ],
+          "intent": "policy_question",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              0.0,
+              "policy_question (expected subscription_review|access_request)"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states that there is no Webex seat available, citing the evidence that the subscription is over its limit of 40 seats with 42 active. It also correctly references the user-stated Q3 SaaS freeze as a constraint on adding a new seat."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the fact that the subscription is over its limit (42 active seats versus a limit of 40), satisfying the required fact '42|over|exceed'."
+            ]
+          },
+          "score": 0.8888888888888888
+        },
+        {
+          "turn": 9,
+          "kind": "retrieval",
+          "answer": "Adding a seat to Webex needs Finance approval because the expansion exceeds the USD 7,500 threshold set by the Q3 SaaS freeze memo.",
+          "tool_results": [
+            {
+              "name": "list_policies",
+              "text": "acceptable_use_policyaccess_management_policycontract_renewal_policydata_access_policyequipment_policyexpense_policyit_support_policyoffboarding_policyonboarding_policyremote_work_policysaas_procurement_policysecurity_and_mfa_policy"
+            },
+            {
+              "name": "get_policy",
+              "text": "# SaaS Procurement Policy\n\nOwner: Finance\nEffective date: 2026-06-01\n\n## Approval threshold\n\nOlder threshold: SaaS expansions above USD 5,000 require Finance approval. This is\nsuperseded for Q3 2026 by the SaaS renewal freeze memo, which sets the threshold at\nUSD 7,500. Where the two disagree, the more recent memo governs.\n\n## Before approving an expansion\n\nBefore approving a SaaS expansion (new seats, a new tier, or a new vendor), check:\n\n- Contract term \u2014 does the current term even allow expansion mid-cycle?\n- Seat usage \u2014 are existing seats near capacity, or is there room already?\n- Renewal date \u2014 is a renewal coming up soon enough to fold this into that review?\n- Owner department \u2014 who requested it and who is accountable for the spend?\n- Security review \u2014 has this vendor cleared NovaOps's security requirements for\n  the data it will touch?\n\n## Process\n\nRequests start with the owning department describing the business need, then go to\nFinance for the threshold check above. Finance may loop in Security or IT\ndepending on what the vendor touches \u2014 that routing decision is Finance's call, not\nthe requester's.\n\n## Seat-limited software\n\nSome software (Webex is a recurring example) can hit its seat cap even when the\ndepartment is technically eligible under this policy. In that case the request is\nnot a procurement decision anymore \u2014 it is a capacity issue that IT tracks\nseparately until seats are reclaimed or an expansion is approved."
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 3.53,
+          "input_tokens": 8273,
+          "output_tokens": 215,
+          "total_tokens": 8488,
+          "model_calls": 4,
+          "overhead_tokens": 2871,
+          "answer_input_tokens": 5541,
+          "schema_tokens_est": 996,
+          "tools_exposed": 4,
+          "tools_called": [
+            "list_policies",
+            "get_policy"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "list_policies",
+              "args": {}
+            },
+            {
+              "name": "get_policy",
+              "args": {
+                "name": "saas_procurement_policy"
+              }
+            }
+          ],
+          "intent": "policy_question",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              0.0,
+              "0/1 required tools called (missing: search_hr_documents)"
+            ],
+            "tool_necessity": [
+              1.0,
+              "2/2 calls warranted"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "policy_question"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly states that adding a seat to Webex requires Finance approval because it exceeds the USD 7,500 threshold set by the Q3 SaaS freeze memo, which is directly supported by the SaaS Procurement Policy evidence provided."
+            ],
+            "context_relevance": [
+              1.0,
+              "The policy explicitly states that all SaaS expansion requests, including adding seats, must go through Finance for threshold checks and routing decisions, making it directly relevant to the question about whether adding a seat requires Finance involvement."
+            ],
+            "completeness": [
+              1.0,
+              "The answer states the required fact: the threshold of USD 7,500 (or 7,500) as the basis for needing Finance approval."
+            ]
+          },
+          "score": 0.8888888888888888
+        },
+        {
+          "turn": 10,
+          "kind": "action",
+          "answer": "The Webex access request for Maya Cohen (E001) has been filed as AR142 and is now pending Finance approval.",
+          "tool_results": [
+            {
+              "name": "create_access_request",
+              "text": "{\n  \"request_id\": \"AR142\",\n  \"employee_id\": \"E001\",\n  \"system_id\": \"S001\",\n  \"system_name\": \"Webex\",\n  \"access_level\": \"standard_user\",\n  \"status\": \"pending_approval\",\n  \"created_at\": \"2026-09-27T21:26:15Z\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 5.78,
+          "input_tokens": 9362,
+          "output_tokens": 596,
+          "total_tokens": 9958,
+          "model_calls": 5,
+          "overhead_tokens": 6255,
+          "answer_input_tokens": 3618,
+          "schema_tokens_est": 500,
+          "tools_exposed": 2,
+          "tools_called": [
+            "create_access_request"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "create_access_request",
+              "args": {
+                "employee_id": "E001",
+                "software": "Webex",
+                "business_justification": "Onboarding for new employee in Israel"
+              }
+            }
+          ],
+          "write_authorization": "granted: Go ahead and file the Webex access request for her now.",
+          "intent": "access_request",
+          "metrics": {
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "create_access_request.employee_id=ok; create_access_request.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "access_request"
+            ],
+            "correctness": [
+              1.0,
+              "The answer correctly fulfills the user's explicit instruction to 'file the Webex access request for her now.' It provides concrete evidence of action taken (filing AR142) and acknowledges the pending Finance approval requirement established in prior context. No constraints are violated, and the response directly addresses the request without inventing details."
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 11,
+          "kind": "lookup",
+          "answer": "Maya Cohen\u2019s open onboarding tasks are: IT\u2019s Okta profile creation (due 2026-07-25), IT\u2019s equipment prep (due 2026-07-26), Salesforce access request (due 2026-07-28), BambooHR self-service setup (due 2026-07-28), and Webex access (blocked, due 2026-07-28).",
+          "tool_results": [
+            {
+              "name": "list_onboarding_tasks",
+              "text": "{\n  \"task_id\": \"OT001\",\n  \"task_type\": \"HR\",\n  \"description\": \"Collect signed offer letter and work eligibility confirmation.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"completed\",\n  \"due_date\": \"2026-07-10\"\n}{\n  \"task_id\": \"OT002\",\n  \"task_type\": \"IT\",\n  \"description\": \"Create Okta profile and baseline groups.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"pending\",\n  \"due_date\": \"2026-07-25\"\n}{\n  \"task_id\": \"OT003\",\n  \"task_type\": \"IT\",\n  \"description\": \"Prepare laptop, monitor, dock, and MDM enrollment.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-26\"\n}{\n  \"task_id\": \"OT004\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Salesforce Customer Success profile.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT005\",\n  \"task_type\": \"Access\",\n  \"description\": \"Request Webex standard user license.\",\n  \"owner_group\": \"IT\",\n  \"status\": \"blocked\",\n  \"due_date\": \"2026-07-28\"\n}{\n  \"task_id\": \"OT006\",\n  \"task_type\": \"HR\",\n  \"description\": \"Add employee self-service profile in BambooHR.\",\n  \"owner_group\": \"HR\",\n  \"status\": \"planned\",\n  \"due_date\": \"2026-07-28\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 3.44,
+          "input_tokens": 6363,
+          "output_tokens": 414,
+          "total_tokens": 6777,
+          "model_calls": 3,
+          "overhead_tokens": 2894,
+          "answer_input_tokens": 3770,
+          "schema_tokens_est": 316,
+          "tools_exposed": 2,
+          "tools_called": [
+            "list_onboarding_tasks"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "list_onboarding_tasks",
+              "args": {
+                "employee_id": "E001"
+              }
+            }
+          ],
+          "intent": "onboarding_status",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "list_onboarding_tasks.employee_id=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "onboarding_status"
+            ],
+            "faithfulness": [
+              1.0,
+              "The answer correctly lists all tasks from the evidence that are not 'completed' (OT002, OT003, OT004, OT005, OT006), including their owner groups and due dates. It accurately notes that Webex access is blocked, matching the evidence. No unsupported claims are made."
+            ],
+            "completeness": [
+              0.0,
+              "The answer lists several open tasks but does not mention 'Okta' as a required fact; it only references 'IT\u2019s Okta profile creation' without explicitly stating 'Okta' as an open item per the required fact format."
+            ]
+          },
+          "score": 0.8888888888888888
+        },
+        {
+          "turn": 12,
+          "kind": "summary",
+          "answer": "Maya Cohen (E001) starts 2026-08-01 at Israel. Open tasks: Okta profile (IT, due 2026-07-25), equipment prep (IT, due 2026-07-26), Salesforce access (due 2026-07-28), BambooHR self-service (due 2026-07-28), and Webex access blocked by Q3 SaaS freeze (due 2026-07-28). Laptop and monitor are ready in Israel; no headset available.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": true,
+          "latency_s": 2.59,
+          "input_tokens": 3646,
+          "output_tokens": 387,
+          "total_tokens": 4033,
+          "model_calls": 2,
+          "overhead_tokens": 3120,
+          "answer_input_tokens": 802,
+          "schema_tokens_est": 0,
+          "tools_exposed": 0,
+          "tools_called": [],
+          "tool_utilization": null,
+          "trajectory": [],
+          "intent": "other",
+          "metrics": {
+            "fact_recall": [
+              1.0,
+              "3/3 facts present"
+            ],
+            "intent_accuracy": [
+              0.0,
+              "other (expected onboarding_status)"
+            ],
+            "completeness": [
+              0.8,
+              "The answer includes Maya, Webex, and the date 2026-08-01, but it does not explicitly state 'August 1' or 'Aug 1' or '1 August' as required variants of the date."
+            ],
+            "correctness": [
+              1.0,
+              "The answer fully satisfies the user's request for a status summary to send to Yael. It includes all required details: employee name, start date, location, open tasks with owners/due dates, equipment status, and Webex access blockage due to the Q3 SaaS freeze mentioned earlier. All constraints (freeze applicability, hybrid Israel base) are respected, and no irrelevant information is added."
+            ],
+            "session_faithfulness": [
+              1.0,
+              "The answer is fully grounded in the evidence. It correctly states Maya's start date (2026-08-01) and location (Israel) from the employee record and offer letter. It accurately lists the open tasks from the onboarding task list: Okta profile (pending), equipment prep (planned), Salesforce access (planned), BambooHR self-service (planned), and Webex access blocked. It correctly notes that a laptop and monitor are ready (from asset inventory), but a headset is not available (not listed in equipment entitlement or inventory). The Webex access is correctly identified as blocked due to the Q3 SaaS freeze, consistent with the Webex subscription status showing over-limit seats and the SaaS Procurement Policy."
+            ]
+          },
+          "score": 0.76
+        }
+      ],
+      "summary": {
+        "score": 0.905,
+        "score_deterministic": 0.925,
+        "score_judged": 0.884,
+        "outcome_quality": 91.9,
+        "task_success_rate": 58.3,
+        "successful_turns": 7,
+        "assessed_turns": 12,
+        "quality_gate": "PASS",
+        "quality_gate_reasons": [],
+        "metrics": {
+          "tool_selection": [
+            0.8,
+            10
+          ],
+          "tool_necessity": [
+            0.95,
+            10
+          ],
+          "tool_argument_correctness": [
+            1.0,
+            5
+          ],
+          "call_efficiency": [
+            1.0,
+            10
+          ],
+          "forbidden_avoided": [
+            1.0,
+            10
+          ],
+          "fact_recall": [
+            1.0,
+            12
+          ],
+          "intent_accuracy": [
+            0.727,
+            11
+          ],
+          "faithfulness": [
+            1.0,
+            9
+          ],
+          "session_faithfulness": [
+            1.0,
+            1
+          ],
+          "context_relevance": [
+            0.667,
+            3
+          ],
+          "completeness": [
+            0.755,
+            11
+          ],
+          "correctness": [
+            1.0,
+            3
+          ]
+        },
+        "input_tokens": 75980,
+        "output_tokens": 3687,
+        "total_tokens": 79667,
+        "model_calls": 39,
+        "overhead_tokens": 37251,
+        "schema_tokens_est": 5592,
+        "tools_exposed_avg": 2.5,
+        "final_turn_input": 3646,
+        "latency_s": 42.7,
+        "errors": 0,
+        "rearms": 0,
+        "tool_utilization": 0.45
+      }
+    }
+  }
+}

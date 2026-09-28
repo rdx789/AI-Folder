@@ -1,0 +1,428 @@
+{
+  "00-baseline": {
+    "S9-trivial-ack": {
+      "records": [
+        {
+          "turn": 1,
+          "kind": "lookup",
+          "answer": "Omar Weiss is employee E008, a full-time Systems Administrator in IT based in the United States, reporting to E006. His status is active.",
+          "tool_results": [
+            {
+              "name": "get_employee",
+              "text": "{\n  \"employee_id\": \"E008\",\n  \"full_name\": \"Omar Weiss\",\n  \"email\": \"omar.weiss@novaops.example\",\n  \"role\": \"Systems Administrator\",\n  \"department_id\": \"D_IT\",\n  \"manager_id\": \"E006\",\n  \"location\": \"United States\",\n  \"employment_type\": \"Full-time\",\n  \"status\": \"active\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.08,
+          "input_tokens": 4237,
+          "output_tokens": 59,
+          "total_tokens": 4296,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4237,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "get_employee"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "get_employee",
+              "args": {
+                "query": "Omar Weiss"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "get_employee.query=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 2,
+          "kind": "trivial",
+          "answer": "You're welcome! Let me know when you're ready to proceed with the access request or if you need anything else.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 0.9,
+          "input_tokens": 2223,
+          "output_tokens": 25,
+          "total_tokens": 2248,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 2223,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 3,
+          "kind": "action",
+          "answer": "The Webex access request for Omar Weiss (E008) has been filed as request AR146 and is now pending approval.",
+          "tool_results": [
+            {
+              "name": "create_access_request",
+              "text": "{\n  \"request_id\": \"AR146\",\n  \"employee_id\": \"E008\",\n  \"system_id\": \"S001\",\n  \"system_name\": \"Webex\",\n  \"access_level\": \"standard_user\",\n  \"status\": \"pending_approval\",\n  \"created_at\": \"2026-09-27T21:55:22Z\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.54,
+          "input_tokens": 4690,
+          "output_tokens": 91,
+          "total_tokens": 4781,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4690,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "create_access_request"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "create_access_request",
+              "args": {
+                "employee_id": "E008",
+                "software": "Webex",
+                "business_justification": "Omar needs Webex for remote system administration tasks and client meetings."
+              }
+            }
+          ],
+          "metrics": {
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "create_access_request.employee_id=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        }
+      ],
+      "summary": {
+        "score": 1.0,
+        "score_deterministic": 1.0,
+        "score_judged": null,
+        "outcome_quality": null,
+        "task_success_rate": null,
+        "successful_turns": null,
+        "assessed_turns": null,
+        "quality_gate": "PARTIAL",
+        "quality_gate_reasons": [
+          "LLM judges were disabled"
+        ],
+        "metrics": {
+          "tool_selection": [
+            1.0,
+            2
+          ],
+          "tool_necessity": [
+            1.0,
+            2
+          ],
+          "tool_argument_correctness": [
+            1.0,
+            2
+          ],
+          "call_efficiency": [
+            1.0,
+            2
+          ],
+          "forbidden_avoided": [
+            1.0,
+            2
+          ],
+          "fact_recall": [
+            1.0,
+            2
+          ]
+        },
+        "input_tokens": 11150,
+        "output_tokens": 175,
+        "total_tokens": 11325,
+        "model_calls": 5,
+        "overhead_tokens": 0,
+        "schema_tokens_est": 5220,
+        "tools_exposed_avg": 10.0,
+        "final_turn_input": 4690,
+        "latency_s": 4.5,
+        "errors": 0,
+        "rearms": 0,
+        "tool_utilization": 0.07
+      }
+    }
+  },
+  "03-history-distillation": {
+    "S9-trivial-ack": {
+      "records": [
+        {
+          "turn": 1,
+          "kind": "lookup",
+          "answer": "Omar Weiss is employee E008, a full-time Systems Administrator in the IT department, reporting to manager E006, and is currently active. Do you want to proceed with an access request now, or wait for your explicit \u201cgo ahead\u201d?",
+          "tool_results": [
+            {
+              "name": "get_employee",
+              "text": "{\n  \"employee_id\": \"E008\",\n  \"full_name\": \"Omar Weiss\",\n  \"email\": \"omar.weiss@novaops.example\",\n  \"role\": \"Systems Administrator\",\n  \"department_id\": \"D_IT\",\n  \"manager_id\": \"E006\",\n  \"location\": \"United States\",\n  \"employment_type\": \"Full-time\",\n  \"status\": \"active\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.98,
+          "input_tokens": 4321,
+          "output_tokens": 182,
+          "total_tokens": 4503,
+          "model_calls": 3,
+          "overhead_tokens": 1863,
+          "answer_input_tokens": 2563,
+          "schema_tokens_est": 126,
+          "tools_exposed": 1,
+          "tools_called": [
+            "get_employee"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "get_employee",
+              "args": {
+                "query": "Omar Weiss"
+              }
+            }
+          ],
+          "intent": "employee_lookup",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "get_employee.query=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "employee_lookup"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 2,
+          "kind": "trivial",
+          "answer": "You're welcome! Just let me know when you're ready for the access request.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 0.86,
+          "input_tokens": 462,
+          "output_tokens": 16,
+          "total_tokens": 478,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 462,
+          "schema_tokens_est": 0,
+          "tools_exposed": 0,
+          "tools_called": [],
+          "tool_utilization": null,
+          "trajectory": [],
+          "intent": "other",
+          "skip_reason": "trivial_ack",
+          "plans_skipped": 1,
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 3,
+          "kind": "action",
+          "answer": "The Webex access request for Omar Weiss (E008) has been filed as request AR147 and is now pending approval.",
+          "tool_results": [
+            {
+              "name": "create_access_request",
+              "text": "{\n  \"request_id\": \"AR147\",\n  \"employee_id\": \"E008\",\n  \"system_id\": \"S001\",\n  \"system_name\": \"Webex\",\n  \"access_level\": \"standard_user\",\n  \"status\": \"pending_approval\",\n  \"created_at\": \"2026-09-27T21:55:30Z\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 3.75,
+          "input_tokens": 6156,
+          "output_tokens": 262,
+          "total_tokens": 6418,
+          "model_calls": 4,
+          "overhead_tokens": 3301,
+          "answer_input_tokens": 3028,
+          "schema_tokens_est": 500,
+          "tools_exposed": 2,
+          "tools_called": [
+            "create_access_request"
+          ],
+          "tool_utilization": 0.5,
+          "trajectory": [
+            {
+              "name": "create_access_request",
+              "args": {
+                "employee_id": "E008",
+                "software": "Webex",
+                "business_justification": "Systems Administrator needs Webex for remote support and meetings"
+              }
+            }
+          ],
+          "write_authorization": "granted: Now go ahead and file the Webex access request for him.",
+          "intent": "access_request",
+          "metrics": {
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "create_access_request.employee_id=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "access_request"
+            ]
+          },
+          "score": 1.0
+        }
+      ],
+      "summary": {
+        "score": 1.0,
+        "score_deterministic": 1.0,
+        "score_judged": null,
+        "outcome_quality": null,
+        "task_success_rate": null,
+        "successful_turns": null,
+        "assessed_turns": null,
+        "quality_gate": "PARTIAL",
+        "quality_gate_reasons": [
+          "LLM judges were disabled"
+        ],
+        "metrics": {
+          "tool_selection": [
+            1.0,
+            2
+          ],
+          "tool_necessity": [
+            1.0,
+            2
+          ],
+          "tool_argument_correctness": [
+            1.0,
+            2
+          ],
+          "call_efficiency": [
+            1.0,
+            2
+          ],
+          "forbidden_avoided": [
+            1.0,
+            2
+          ],
+          "fact_recall": [
+            1.0,
+            2
+          ],
+          "intent_accuracy": [
+            1.0,
+            2
+          ]
+        },
+        "input_tokens": 10939,
+        "output_tokens": 460,
+        "total_tokens": 11399,
+        "model_calls": 8,
+        "overhead_tokens": 5164,
+        "schema_tokens_est": 626,
+        "tools_exposed_avg": 1.0,
+        "final_turn_input": 6156,
+        "latency_s": 7.6,
+        "errors": 0,
+        "rearms": 0,
+        "tool_utilization": 0.75
+      }
+    }
+  }
+}

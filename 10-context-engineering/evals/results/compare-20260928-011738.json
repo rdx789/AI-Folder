@@ -1,0 +1,1003 @@
+{
+  "00-baseline": {
+    "S4-constraint-carry": {
+      "records": [
+        {
+          "turn": 1,
+          "kind": "trivial",
+          "answer": "Got it \u2014 any SaaS expansion above $7,500 a year needs Finance sign-off under the Q3 freeze, and I won't file anything until you explicitly say so.",
+          "tool_results": [
+            {
+              "name": "list_policies",
+              "text": "acceptable_use_policyaccess_management_policycontract_renewal_policydata_access_policyequipment_policyexpense_policyit_support_policyoffboarding_policyonboarding_policyremote_work_policysaas_procurement_policysecurity_and_mfa_policy"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.95,
+          "input_tokens": 4224,
+          "output_tokens": 53,
+          "total_tokens": 4277,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4224,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "list_policies"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "list_policies",
+              "args": {}
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 2,
+          "kind": "lookup",
+          "answer": "Webex is an active subscription with an annual cost of $18,400, renewing on 2026-07-20. It has a seat limit of 40, but there are currently 42 active seats \u2014 meaning it's over limit by 2 seats.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Webex\",\n  \"vendor_name\": \"Webex\",\n  \"seat_limit\": 40,\n  \"active_seats\": 42,\n  \"status\": \"active\",\n  \"renewal_date\": \"2026-07-20\",\n  \"annual_cost\": 18400,\n  \"seats_available\": -2,\n  \"over_limit\": true\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.52,
+          "input_tokens": 4549,
+          "output_tokens": 84,
+          "total_tokens": 4633,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4549,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Webex"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 3,
+          "kind": "lookup",
+          "answer": "Miro is an active subscription with an annual cost of $7,200, renewing on 2027-05-14. It has a seat limit of 25 and 21 active seats, leaving 4 seats available \u2014 it is not over limit.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Miro\",\n  \"vendor_name\": \"Miro\",\n  \"seat_limit\": 25,\n  \"active_seats\": 21,\n  \"status\": \"active\",\n  \"renewal_date\": \"2027-05-14\",\n  \"annual_cost\": 7200,\n  \"seats_available\": 4,\n  \"over_limit\": false\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.45,
+          "input_tokens": 4947,
+          "output_tokens": 83,
+          "total_tokens": 5030,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 4947,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Miro"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 4,
+          "kind": "lookup",
+          "answer": "Figma is an active subscription with an annual cost of $9,600, renewing on 2027-04-30. It has a seat limit of 20 and 17 active seats, leaving 3 seats available \u2014 it is not over limit.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Figma\",\n  \"vendor_name\": \"Figma\",\n  \"seat_limit\": 20,\n  \"active_seats\": 17,\n  \"status\": \"active\",\n  \"renewal_date\": \"2027-04-30\",\n  \"annual_cost\": 9600,\n  \"seats_available\": 3,\n  \"over_limit\": false\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.57,
+          "input_tokens": 5343,
+          "output_tokens": 83,
+          "total_tokens": 5426,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 5343,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Figma"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 5,
+          "kind": "reasoning",
+          "answer": "Webex and Figma would each need Finance sign-off \u2014 their annual costs ($18,400 and $9,600 respectively) are both above the $7,500 threshold. Miro's annual cost of $7,200 is below the threshold, so it does not require Finance sign-off under the rule you gave me.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 0.99,
+          "input_tokens": 2812,
+          "output_tokens": 68,
+          "total_tokens": 2880,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 2812,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "fact_recall": [
+              1.0,
+              "3/3 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 6,
+          "kind": "lookup",
+          "answer": "ZoomInfo is an active subscription with an annual cost of $33,000, well above the $7,500 threshold \u2014 it would need Finance sign-off under the rule you gave me. It has a seat limit of 15 and 12 active seats, leaving 3 seats available, and is not over limit.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"ZoomInfo\",\n  \"vendor_name\": \"ZoomInfo\",\n  \"seat_limit\": 15,\n  \"active_seats\": 12,\n  \"status\": \"active\",\n  \"renewal_date\": \"2027-03-31\",\n  \"annual_cost\": 33000,\n  \"seats_available\": 3,\n  \"over_limit\": false\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.58,
+          "input_tokens": 5916,
+          "output_tokens": 94,
+          "total_tokens": 6010,
+          "model_calls": 2,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 5916,
+          "schema_tokens_est": 2088,
+          "tools_exposed": 10,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 0.1,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "ZoomInfo"
+              }
+            }
+          ],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 7,
+          "kind": "reasoning",
+          "answer": "You told me: any SaaS expansion above $7,500 a year needs Finance sign-off under the Q3 freeze, and I should not file anything until you explicitly say so.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.32,
+          "input_tokens": 3110,
+          "output_tokens": 40,
+          "total_tokens": 3150,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 3110,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 8,
+          "kind": "action",
+          "answer": "To proceed, I need Rachel Stein's employee ID. Could you please provide it? Once I have that, I'll file the Webex access request for her.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 0.94,
+          "input_tokens": 3168,
+          "output_tokens": 35,
+          "total_tokens": 3203,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 3168,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "tool_selection": [
+              0.0,
+              "0/1 required tools called (missing: create_access_request)"
+            ],
+            "tool_argument_correctness": [
+              0.0,
+              "create_access_request.employee_id=MISS"
+            ],
+            "fact_recall": [
+              0.0,
+              "0/1 facts present (missing: AR0|pending|filed)"
+            ]
+          },
+          "score": 0.0
+        },
+        {
+          "turn": 9,
+          "kind": "summary",
+          "answer": "Webex costs $18,400 annually and is over its seat limit (42 active seats vs. a 40-seat limit); Figma costs $9,600 annually and is not over limit (17 active seats vs. a 20-seat limit); Miro costs $7,200 annually and is not over limit (21 active seats vs. a 25-seat limit); and ZoomInfo costs $33,000 annually and is not over limit (12 active seats vs. a 15-seat limit). Under your rule, Webex and Figma (both above $7,500) would need Finance sign-off before any expansion, while Miro and ZoomInfo are either below the threshold or already approved and do not require additional Finance sign-off for current usage.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.28,
+          "input_tokens": 3222,
+          "output_tokens": 155,
+          "total_tokens": 3377,
+          "model_calls": 1,
+          "overhead_tokens": 0,
+          "answer_input_tokens": 3222,
+          "schema_tokens_est": 1044,
+          "tools_exposed": 10,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "metrics": {
+            "fact_recall": [
+              1.0,
+              "4/4 facts present"
+            ]
+          },
+          "score": 1.0
+        }
+      ],
+      "summary": {
+        "score": 0.889,
+        "score_deterministic": 0.912,
+        "score_judged": null,
+        "outcome_quality": null,
+        "task_success_rate": null,
+        "successful_turns": null,
+        "assessed_turns": null,
+        "quality_gate": "PARTIAL",
+        "quality_gate_reasons": [
+          "LLM judges were disabled"
+        ],
+        "metrics": {
+          "tool_selection": [
+            0.8,
+            5
+          ],
+          "tool_necessity": [
+            1.0,
+            4
+          ],
+          "tool_argument_correctness": [
+            0.8,
+            5
+          ],
+          "call_efficiency": [
+            1.0,
+            4
+          ],
+          "forbidden_avoided": [
+            1.0,
+            7
+          ],
+          "fact_recall": [
+            0.875,
+            8
+          ]
+        },
+        "input_tokens": 37291,
+        "output_tokens": 695,
+        "total_tokens": 37986,
+        "model_calls": 14,
+        "overhead_tokens": 0,
+        "schema_tokens_est": 14616,
+        "tools_exposed_avg": 10.0,
+        "final_turn_input": 3222,
+        "latency_s": 13.6,
+        "errors": 0,
+        "rearms": 0,
+        "tool_utilization": 0.06
+      }
+    }
+  },
+  "03-history-distillation": {
+    "S4-constraint-carry": {
+      "records": [
+        {
+          "turn": 1,
+          "kind": "trivial",
+          "answer": "Got it. I\u2019ll hold off on any SaaS expansion filings above 7,500 a year until you give the explicit go-ahead from Finance under the Q3 freeze. No actions will be taken until you say so.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.26,
+          "input_tokens": 2103,
+          "output_tokens": 129,
+          "total_tokens": 2232,
+          "model_calls": 2,
+          "overhead_tokens": 1859,
+          "answer_input_tokens": 325,
+          "schema_tokens_est": 0,
+          "tools_exposed": 0,
+          "tools_called": [],
+          "tool_utilization": null,
+          "trajectory": [],
+          "intent": "other",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 2,
+          "kind": "lookup",
+          "answer": "Webex is costing us $18,400 annually and its subscription is over its seat limit \u2014 it has 42 active seats against a limit of 40, so it\u2019s -2 seats available. Its renewal date is July 20, 2026.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Webex\",\n  \"vendor_name\": \"Webex\",\n  \"seat_limit\": 40,\n  \"active_seats\": 42,\n  \"status\": \"active\",\n  \"renewal_date\": \"2026-07-20\",\n  \"annual_cost\": 18400,\n  \"seats_available\": -2,\n  \"over_limit\": true\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 3.27,
+          "input_tokens": 4682,
+          "output_tokens": 201,
+          "total_tokens": 4883,
+          "model_calls": 3,
+          "overhead_tokens": 1959,
+          "answer_input_tokens": 2841,
+          "schema_tokens_est": 244,
+          "tools_exposed": 1,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Webex"
+              }
+            }
+          ],
+          "intent": "subscription_review",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "2/2 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "subscription_review"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 3,
+          "kind": "lookup",
+          "answer": "Miro costs $7,200 annually and has 21 active seats against a limit of 25, so it has 4 seats available. Its renewal date is May 14, 2027.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Miro\",\n  \"vendor_name\": \"Miro\",\n  \"seat_limit\": 25,\n  \"active_seats\": 21,\n  \"status\": \"active\",\n  \"renewal_date\": \"2027-05-14\",\n  \"annual_cost\": 7200,\n  \"seats_available\": 4,\n  \"over_limit\": false\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.56,
+          "input_tokens": 5106,
+          "output_tokens": 242,
+          "total_tokens": 5348,
+          "model_calls": 3,
+          "overhead_tokens": 2175,
+          "answer_input_tokens": 3101,
+          "schema_tokens_est": 244,
+          "tools_exposed": 1,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Miro"
+              }
+            }
+          ],
+          "intent": "subscription_review",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "subscription_review"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 4,
+          "kind": "lookup",
+          "answer": "Figma costs $9,600 annually and has 17 active seats against a limit of 20, so it has 3 seats available. Its renewal date is April 30, 2027.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"Figma\",\n  \"vendor_name\": \"Figma\",\n  \"seat_limit\": 20,\n  \"active_seats\": 17,\n  \"status\": \"active\",\n  \"renewal_date\": \"2027-04-30\",\n  \"annual_cost\": 9600,\n  \"seats_available\": 3,\n  \"over_limit\": false\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 3.09,
+          "input_tokens": 5278,
+          "output_tokens": 272,
+          "total_tokens": 5550,
+          "model_calls": 3,
+          "overhead_tokens": 2357,
+          "answer_input_tokens": 3121,
+          "schema_tokens_est": 244,
+          "tools_exposed": 1,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "Figma"
+              }
+            }
+          ],
+          "intent": "subscription_review",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "subscription_review"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 5,
+          "kind": "reasoning",
+          "answer": "Only Figma would need Finance sign-off, because it costs $9,600 a year and exceeds the $7,500 threshold. Webex ($18,400) and Miro ($7,200) also exceed the threshold, but they were already stated in your earlier facts and do not require rechecking under the Q3 freeze rule.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.22,
+          "input_tokens": 3765,
+          "output_tokens": 231,
+          "total_tokens": 3996,
+          "model_calls": 2,
+          "overhead_tokens": 2481,
+          "answer_input_tokens": 1444,
+          "schema_tokens_est": 122,
+          "tools_exposed": 1,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "intent": "subscription_review",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "fact_recall": [
+              1.0,
+              "3/3 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "subscription_review"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 6,
+          "kind": "lookup",
+          "answer": "ZoomInfo costs $33,000 a year, which is well above the $7,500 threshold, so it needs Finance sign-off under the Q3 freeze rule.",
+          "tool_results": [
+            {
+              "name": "check_software_subscription",
+              "text": "{\n  \"system_name\": \"ZoomInfo\",\n  \"vendor_name\": \"ZoomInfo\",\n  \"seat_limit\": 15,\n  \"active_seats\": 12,\n  \"status\": \"active\",\n  \"renewal_date\": \"2027-03-31\",\n  \"annual_cost\": 33000,\n  \"seats_available\": 3,\n  \"over_limit\": false\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 2.62,
+          "input_tokens": 5366,
+          "output_tokens": 256,
+          "total_tokens": 5622,
+          "model_calls": 3,
+          "overhead_tokens": 2590,
+          "answer_input_tokens": 2966,
+          "schema_tokens_est": 244,
+          "tools_exposed": 1,
+          "tools_called": [
+            "check_software_subscription"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "check_software_subscription",
+              "args": {
+                "software": "ZoomInfo"
+              }
+            }
+          ],
+          "intent": "subscription_review",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "1/1 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "check_software_subscription.software=ok"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "subscription_review"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 7,
+          "kind": "reasoning",
+          "answer": "You said not to file anything until you say so explicitly.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 1.64,
+          "input_tokens": 2994,
+          "output_tokens": 98,
+          "total_tokens": 3092,
+          "model_calls": 2,
+          "overhead_tokens": 2639,
+          "answer_input_tokens": 438,
+          "schema_tokens_est": 0,
+          "tools_exposed": 0,
+          "tools_called": [],
+          "tool_utilization": null,
+          "trajectory": [],
+          "intent": "other",
+          "metrics": {
+            "forbidden_avoided": [
+              1.0,
+              "none called"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 8,
+          "kind": "action",
+          "answer": "The Webex access request for Rachel Stein (E010) has been filed as request AR152 and is pending approval.",
+          "tool_results": [
+            {
+              "name": "get_employee",
+              "text": "{\n  \"employee_id\": \"E010\",\n  \"full_name\": \"Rachel Stein\",\n  \"email\": \"rachel.stein@novaops.example\",\n  \"role\": \"Customer Success Specialist\",\n  \"department_id\": \"D_CS\",\n  \"manager_id\": \"E018\",\n  \"location\": \"United Kingdom\",\n  \"employment_type\": \"Full-time\",\n  \"status\": \"active\"\n}"
+            },
+            {
+              "name": "create_access_request",
+              "text": "{\n  \"request_id\": \"AR152\",\n  \"employee_id\": \"E010\",\n  \"system_id\": \"S001\",\n  \"system_name\": \"Webex\",\n  \"access_level\": \"standard_user\",\n  \"status\": \"pending_approval\",\n  \"created_at\": \"2026-09-27T22:17:33Z\"\n}"
+            }
+          ],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 4.57,
+          "input_tokens": 8609,
+          "output_tokens": 308,
+          "total_tokens": 8917,
+          "model_calls": 5,
+          "overhead_tokens": 3970,
+          "answer_input_tokens": 4838,
+          "schema_tokens_est": 750,
+          "tools_exposed": 2,
+          "tools_called": [
+            "get_employee",
+            "create_access_request"
+          ],
+          "tool_utilization": 1.0,
+          "trajectory": [
+            {
+              "name": "get_employee",
+              "args": {
+                "query": "Rachel Stein"
+              }
+            },
+            {
+              "name": "create_access_request",
+              "args": {
+                "employee_id": "E010",
+                "software": "Webex",
+                "business_justification": "Required for customer meetings and support"
+              }
+            }
+          ],
+          "write_authorization": "granted: file the Webex access request for Rachel Stein",
+          "intent": "access_request",
+          "metrics": {
+            "tool_selection": [
+              1.0,
+              "1/1 required tools called"
+            ],
+            "tool_necessity": [
+              1.0,
+              "2/2 calls warranted"
+            ],
+            "tool_argument_correctness": [
+              1.0,
+              "create_access_request.employee_id=ok"
+            ],
+            "tool_sequence": [
+              1.0,
+              "1/1 ordered pairs correct"
+            ],
+            "call_efficiency": [
+              1.0,
+              "no repeated calls"
+            ],
+            "fact_recall": [
+              1.0,
+              "1/1 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "access_request"
+            ]
+          },
+          "score": 1.0
+        },
+        {
+          "turn": 9,
+          "kind": "summary",
+          "answer": "Webex is at 42 seats against a 40-seat limit, Miro is at 21 seats against a 25-seat limit, Figma is at 17 seats against a 20-seat limit, and ZoomInfo is at 12 seats against a 15-seat limit. None of these subscriptions currently need Finance sign-off because none exceed the $7,500 annual expansion threshold under the Q3 freeze rule.",
+          "tool_results": [],
+          "error": null,
+          "judges_enabled": false,
+          "latency_s": 4.17,
+          "input_tokens": 6133,
+          "output_tokens": 695,
+          "total_tokens": 6828,
+          "model_calls": 3,
+          "overhead_tokens": 5026,
+          "answer_input_tokens": 1716,
+          "schema_tokens_est": 122,
+          "tools_exposed": 1,
+          "tools_called": [],
+          "tool_utilization": 0.0,
+          "trajectory": [],
+          "intent": "subscription_review",
+          "metrics": {
+            "fact_recall": [
+              1.0,
+              "4/4 facts present"
+            ],
+            "intent_accuracy": [
+              1.0,
+              "subscription_review"
+            ]
+          },
+          "score": 1.0
+        }
+      ],
+      "summary": {
+        "score": 1.0,
+        "score_deterministic": 1.0,
+        "score_judged": null,
+        "outcome_quality": null,
+        "task_success_rate": null,
+        "successful_turns": null,
+        "assessed_turns": null,
+        "quality_gate": "PARTIAL",
+        "quality_gate_reasons": [
+          "LLM judges were disabled"
+        ],
+        "metrics": {
+          "tool_selection": [
+            1.0,
+            5
+          ],
+          "tool_necessity": [
+            1.0,
+            5
+          ],
+          "tool_argument_correctness": [
+            1.0,
+            5
+          ],
+          "tool_sequence": [
+            1.0,
+            1
+          ],
+          "call_efficiency": [
+            1.0,
+            5
+          ],
+          "forbidden_avoided": [
+            1.0,
+            7
+          ],
+          "fact_recall": [
+            1.0,
+            8
+          ],
+          "intent_accuracy": [
+            1.0,
+            7
+          ]
+        },
+        "input_tokens": 44036,
+        "output_tokens": 2432,
+        "total_tokens": 46468,
+        "model_calls": 26,
+        "overhead_tokens": 25056,
+        "schema_tokens_est": 1970,
+        "tools_exposed_avg": 0.9,
+        "final_turn_input": 6133,
+        "latency_s": 26.4,
+        "errors": 0,
+        "rearms": 0,
+        "tool_utilization": 0.71
+      }
+    }
+  }
+}
