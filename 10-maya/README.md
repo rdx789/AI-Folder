@@ -150,7 +150,7 @@ Temporary logs: `/tmp/maya-stage00-trace.log`, `/tmp/maya-stage03-trace.log`, an
 | `code/evals/capture.py`, `code/evals/offline.py` | Dependency records and offline corpus/record-backed model/search doubles |
 | `code/evals/metering.py` | Per-call Bedrock token/latency meter used by the live runners |
 | `code/evals/replay/` | Prompt-replay experiments for the answer-selection call |
-| `graph.py` | Executable LangGraph, checkpoint ownership, recursion bound and one rearm |
+| `graph.py` | Executable LangGraph, checkpoint ownership, recursion bound and one rearm; diagram of nodes and routes in [`GRAPH_MODEL.md`](GRAPH_MODEL.md) |
 | `retrieval.py` | Retriever protocol, OpenSearch adapter, runtime-config node and bounded refinement |
 | `access.py` | Hard access filter, subject authorization and safe denial |
 | `ingestion.py`, `ingest.py` | Allowlisted chunk ingestion and index creation CLI |
