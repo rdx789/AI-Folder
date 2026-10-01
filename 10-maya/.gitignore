@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.idea/
+# Run outputs: reports, logs, request captures, replay cases. Regenerate with maya-eval,
+# code/evals/live*.py, code/graph.py; replay cases with code/evals/replay/build_cases.py.
+results/
+# Unit tests stay local (not versioned); setup.sh skips them when absent.
+code/tests/
+# Local review log (summarised in README).
+REVIEW_FINDINGS.md

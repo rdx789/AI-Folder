@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novaops-maya"
+version = "0.2.0"
+description = "Caller-safe NovaOps onboarding evidence workflow"
+requires-python = ">=3.10"
+dependencies = [
+  "boto3>=1.35,<2",
+  "opensearch-py>=2.7,<4",
+  "python-dotenv>=1.0,<2",
+  "mcp>=1.12,<2",
+  "langgraph>=1.0,<2",
+  "pydantic>=2.11,<3",
+]
+
+[project.scripts]
+maya-ingest = "maya.ingest:main"
+maya-server = "maya.server.server:main"
+maya-eval = "maya.evals.runner:main"
+maya-live = "maya.graph:main"
+
+[tool.setuptools]
+packages = ["maya", "maya.server", "maya.evals", "maya.evals.replay"]
+package-dir = {maya = "code"}
+
+[tool.setuptools.package-data]
+# The NovaOps dataset is external (DATA_PATH, default maya/data), not package data.
+maya = ["access_manifest.json", "evals/data/*.json"]

@@ -1,0 +1,427 @@
+{
+  "employment/ben_walker_offer_letter.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E019",
+    "self_service": true,
+    "allowed_employee_ids": [
+      "E019"
+    ]
+  },
+  "employment/ben_walker_preboarding_summary.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E019",
+    "self_service": true,
+    "allowed_employee_ids": [
+      "E019"
+    ]
+  },
+  "employment/contractor_access_addendum.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "employment/equipment_responsibility_form.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E001",
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "employment/maya_cohen_offer_letter.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E001",
+    "self_service": true,
+    "allowed_employee_ids": [
+      "E001"
+    ]
+  },
+  "employment/maya_cohen_onboarding_summary.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E001",
+    "self_service": true,
+    "allowed_employee_ids": [
+      "E001"
+    ]
+  },
+  "employment/noam_sharon_remote_work_addendum.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E003",
+    "self_service": true,
+    "allowed_employee_ids": [
+      "E003"
+    ]
+  },
+  "employment/rachel_stein_customer_success_access_profile.md": {
+    "audience": [
+      "UG_HR"
+    ],
+    "sensitivity": "restricted",
+    "subject_employee_id": "E010",
+    "self_service": true,
+    "allowed_employee_ids": [
+      "E010"
+    ]
+  },
+  "policies/acceptable_use_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/access_management_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/contract_renewal_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/data_access_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/equipment_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/expense_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/it_support_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/offboarding_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/onboarding_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/remote_work_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/saas_procurement_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "policies/security_and_mfa_policy.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/aws_console_access.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/datadog_access.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/email_security_alert.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/github_access_for_contractors.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/jira_project_access.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/laptop_provisioning.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/mfa_reset.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/notion_access.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/okta_device_change.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/password_reset.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/salesforce_access_request.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/slack_onboarding.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/vpn_access.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/webex_license_assignment.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "it_kb/webex_login_issue.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "memos/new_salesforce_access_rules.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "memos/remote_equipment_budget_update.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "memos/saas_renewal_freeze_q3.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  },
+  "memos/webex_license_cleanup_memo.md": {
+    "audience": [
+      "UG_HR",
+      "UG_IT",
+      "UG_REGULAR"
+    ],
+    "sensitivity": "internal",
+    "subject_employee_id": null,
+    "self_service": false,
+    "allowed_employee_ids": []
+  }
+}

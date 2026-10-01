@@ -1,0 +1,293 @@
+{
+  "_readme": "Manual copy of Lesson 10 code/evals/data/sessions.json S2. The supplied final-project session file was not found. Only turn 10 acceptance changes and session caller fields differ from the original. Search-tool expectations on other turns are retained verbatim; Maya maps those to injected evidence retrieval at runtime.",
+  "sessions": [
+    {
+      "id": "S2-onboarding-maya",
+      "persona": "Sara Ben-David (E004, People Operations Lead) \u2014 coordinating Maya Cohen's 2026-08-01 start.",
+      "focus": "The hero session. Twelve turns: constraints stated on turn 1 and needed on turn 9, a dead branch on turn 4, three no-tool turns, records + RAG + a gated write. This is where engineered context should pull ahead.",
+      "turns": [
+        {
+          "n": 1,
+          "user": "I'm coordinating Maya Cohen's onboarding. She starts 2026-08-01, she's hybrid based in Israel, and the Q3 SaaS freeze applies to anything this costs us. Pull up her employee record.",
+          "note": "THE CONSTRAINT TURN. Start date, location and the Q3 freeze are stated here and needed on turns 7, 9 and 12 \u2014 twenty-plus messages later.",
+          "expected_intent": "employee_lookup",
+          "should_use_tools": true,
+          "expected_tools": [
+            "get_employee"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "E001"
+          ],
+          "kind": "lookup",
+          "arg_checks": [
+            {
+              "tool": "get_employee",
+              "arg": "query",
+              "contains": "maya"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "user": "What does her offer letter say she needs on day one?",
+          "note": "RAG as one context source among several \u2014 the offer letter lists required systems and equipment. An offer letter is arguably either a joiner question or a person lookup, so both classifications are accepted.",
+          "expected_intent": "onboarding_status|employee_lookup",
+          "should_use_tools": true,
+          "expected_tools": [
+            "search_hr_documents"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "Webex",
+            "Salesforce"
+          ],
+          "kind": "retrieval",
+          "optional_tools": [
+            "get_employee",
+            "list_onboarding_tasks"
+          ]
+        },
+        {
+          "n": 3,
+          "user": "And what's actually on her onboarding checklist right now?",
+          "note": "Structured records. The checklist is the system of record; one task is blocked.",
+          "expected_intent": "onboarding_status",
+          "should_use_tools": true,
+          "expected_tools": [
+            "list_onboarding_tasks"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "blocked"
+          ],
+          "kind": "lookup",
+          "optional_tools": [
+            "get_employee",
+            "search_hr_documents"
+          ],
+          "arg_checks": [
+            {
+              "tool": "list_onboarding_tasks",
+              "arg": "employee_id",
+              "equals": "E001"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "user": "Quick tangent \u2014 Rachel Stein pinged me about her Webex login ticket. What's its status?",
+          "note": "THE DEAD BRANCH. Answered here, closed on turn 5, and irrelevant for the remaining seven turns \u2014 but the baseline keeps replaying its tool output forever.",
+          "expected_intent": "ticket_status",
+          "should_use_tools": true,
+          "expected_tools": [
+            "list_employee_tickets"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "T001|open"
+          ],
+          "kind": "lookup"
+        },
+        {
+          "n": 5,
+          "user": "Fine, IT has that one \u2014 drop it. Back to Maya: is there a laptop ready for her?",
+          "note": "Intent snaps back. The branch is explicitly closed; from here on Rachel's ticket is noise.",
+          "expected_intent": "equipment_request|onboarding_status",
+          "should_use_tools": true,
+          "expected_tools": [
+            "check_asset_inventory"
+          ],
+          "forbidden_tools": [
+            "list_employee_tickets",
+            "create_access_request"
+          ],
+          "required_facts": [
+            "A005|MacBook"
+          ],
+          "kind": "lookup",
+          "optional_tools": [
+            "get_employee",
+            "list_onboarding_tasks"
+          ]
+        },
+        {
+          "n": 6,
+          "user": "Does she get a monitor and a headset as well?",
+          "note": "Policy reasoning over the constraints from turn 1 \u2014 hybrid gets a monitor, a CSM gets a headset.",
+          "expected_intent": "equipment_request|policy_question",
+          "should_use_tools": true,
+          "expected_tools": [
+            "get_policy"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "monitor",
+            "headset"
+          ],
+          "kind": "retrieval",
+          "optional_tools": [
+            "check_asset_inventory",
+            "search_hr_documents"
+          ]
+        },
+        {
+          "n": 7,
+          "user": "Before I forget \u2014 remind me which location and start date I gave you for her.",
+          "note": "EARLY-FACT RETENTION at six turns' distance, with zero tools. A well-engineered context still has these; a distilled one must have kept them.",
+          "expected_intent": null,
+          "should_use_tools": false,
+          "expected_tools": [],
+          "forbidden_tools": [
+            "get_employee",
+            "search_hr_documents",
+            "list_onboarding_tasks"
+          ],
+          "required_facts": [
+            "Israel",
+            "2026-08-01|August 1|Aug 1|1 August"
+          ],
+          "kind": "reasoning"
+        },
+        {
+          "n": 8,
+          "user": "Now the Webex seat \u2014 is one actually available for her?",
+          "note": "The blocked checklist task, explained. Seats are 42 of 40.",
+          "expected_intent": "subscription_review|access_request",
+          "should_use_tools": true,
+          "expected_tools": [
+            "check_software_subscription"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "42|over|exceed"
+          ],
+          "kind": "lookup",
+          "optional_tools": [
+            "search_hr_documents",
+            "get_policy"
+          ],
+          "arg_checks": [
+            {
+              "tool": "check_software_subscription",
+              "arg": "software",
+              "contains": "webex"
+            }
+          ]
+        },
+        {
+          "n": 9,
+          "user": "Given the freeze I mentioned at the start, does adding a seat need Finance?",
+          "note": "THE CONSTRAINT PAYOFF. Requires turn 1's freeze mention AND the memo's 7,500 threshold AND Webex's 18,400 annual cost. Baseline has all of it buried; distillation must have kept it.",
+          "expected_intent": "subscription_review|policy_question",
+          "should_use_tools": true,
+          "expected_tools": [
+            "search_hr_documents"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "7,500|7500"
+          ],
+          "kind": "retrieval",
+          "optional_tools": [
+            "get_policy",
+            "check_software_subscription"
+          ]
+        },
+        {
+          "n": 10,
+          "user": "Understood, I'll route it to Tom. Go ahead and file the Webex access request for her now.",
+          "note": "PROJECT ACCEPTANCE CHANGE: hand off one typed webex_access request to the injected workflow; report pending, never granted; replay makes no second call. create_access_request is forbidden.",
+          "expected_intent": "access_request",
+          "should_use_tools": false,
+          "expected_tools": [],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "pending"
+          ],
+          "kind": "action",
+          "optional_tools": [
+            "check_software_subscription",
+            "search_hr_documents"
+          ],
+          "arg_checks": [],
+          "expected_handoffs": [
+            {
+              "kind": "webex_access",
+              "employee_id": "E001",
+              "system": "Webex",
+              "status": "pending",
+              "count": 1
+            }
+          ],
+          "handoff_caller": {
+            "employee_id": "E004",
+            "user_group": "UG_HR"
+          }
+        },
+        {
+          "n": 11,
+          "user": "What's still open on her checklist after that?",
+          "note": "Back to records. Okta is still pending.",
+          "expected_intent": "onboarding_status",
+          "should_use_tools": true,
+          "expected_tools": [
+            "list_onboarding_tasks"
+          ],
+          "forbidden_tools": [
+            "create_access_request"
+          ],
+          "required_facts": [
+            "Okta"
+          ],
+          "kind": "lookup",
+          "optional_tools": [
+            "search_hr_documents"
+          ],
+          "arg_checks": [
+            {
+              "tool": "list_onboarding_tasks",
+              "arg": "employee_id",
+              "equals": "E001"
+            }
+          ]
+        },
+        {
+          "n": 12,
+          "user": "Perfect. Write me the full status summary I can send to Yael.",
+          "note": "THE FINAL EXAM. Needs turn 1's date and location, turn 9's Finance requirement, and turn 10's filed request \u2014 and should not mention Rachel's ticket.",
+          "expected_intent": "onboarding_status",
+          "should_use_tools": false,
+          "expected_tools": [],
+          "forbidden_tools": [],
+          "required_facts": [
+            "Maya",
+            "Webex",
+            "2026-08-01|August 1|Aug 1|1 August"
+          ],
+          "kind": "summary"
+        }
+      ],
+      "caller": {
+        "employee_id": "E004",
+        "user_group": "UG_HR"
+      }
+    }
+  ]
+}
