@@ -14,7 +14,11 @@ dist/
 # Run outputs: reports, logs, request captures, replay cases. Regenerate with maya-eval,
 # code/evals/live*.py, code/graph.py; replay cases with code/evals/replay/build_cases.py.
 results/
-# Unit tests stay local (not versioned); setup.sh skips them when absent.
-code/tests/
+# Unit tests stay local, except the ones the homework requires to be committed:
+# permission (test_retrieval), handoff (test_maya_handoff) and graph/tool matrix (test_graph).
+code/tests/*
+!code/tests/test_retrieval.py
+!code/tests/test_maya_handoff.py
+!code/tests/test_graph.py
 # Local review log (summarised in README).
 REVIEW_FINDINGS.md

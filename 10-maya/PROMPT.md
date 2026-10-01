@@ -318,7 +318,7 @@ fails its turn instead of aborting the run; the report is always written.
   responses, missing configuration and a failing reranker never crash a turn — they fail
   closed or degrade with a clear message.
 
-<!-- What this prompt does not include: the unit tests (kept outside version control in
-     the original), its replay experiments' captured inputs (results/ is regenerated), and
+<!-- What this prompt does not include: most unit tests (only the permission, handoff and
+     graph/tool-matrix tests are versioned, in code/tests/), its replay experiments' captured inputs (results/ is regenerated), and
      a real Webex approval workflow (out of scope; tests use a recording fake that returns
      a deterministic pending id). Expect live numbers to move a few percent between runs. -->

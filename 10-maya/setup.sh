@@ -37,7 +37,7 @@ fi
 if [[ -d code/tests ]]; then
   .venv/bin/python -m unittest discover -s code/tests -q
 else
-  printf 'code/tests/ not present (tests are not in git); skipping unit tests.\n'
+  printf 'code/tests/ not present; skipping unit tests.\n'
 fi
 .venv/bin/python -m maya.ingest
 printf '\nSetup complete. Activate with: source .venv/bin/activate\n'
